@@ -1,0 +1,16 @@
+Commit: 2da8aa176ae9ffb64603f208c436584152ab0741
+Score: 18/20
+Grader: Kanika Rana
+
+...comments...
+1. No condition in json tests to check worker and/or building is placed on the same spot ("staying put").
+
+Suggestions : Please update the readme of /. Currently only has till week 2.
+Warning: 
+As per your readme,the following is the distribution of files:
+Admin -- Holds code related to the "administrator" of the game
+Common -- All code that both administrative components and player components need to access 
+However, you have placed your RuleChecker in Admin, implying Player does not
+have access to it. If the players don’t know the rules and can’t inspect them,
+they can’t produce a move/component. Please investigate carefully the placement
+of files.

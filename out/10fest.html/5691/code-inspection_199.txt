@@ -1,0 +1,11 @@
+Commit: eb98fc4e4d29209656b523efdf444e7a3bbc0cf1
+Score: 58/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+observer implementation not  in the Observer directory
+strategy, tree generator placed in COMMON instead of PLAYER DIRECTORY
+PLAYER INTERFACE not placed in common directory
+
+No method in observer to observer misbehavior by one of the players
+

@@ -1,0 +1,11 @@
+Commit: 7caabf098f361017c9b48bb74121be3bafbaf58f
+Score: 7/10
+Grader: Kanika Rana
+
+************************************************************
+1. Refree component expected validating the moves.
+2. Worker component expected.
+3. Building component expected.
+
+
+

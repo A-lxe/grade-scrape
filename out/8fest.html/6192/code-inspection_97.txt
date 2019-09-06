@@ -1,0 +1,9 @@
+Commit: 3d776b82d9bc873c607854f147b68868e7a9b6f2
+Score: 23/30
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+Unit test cases for strategy missing for following scenarios,
+(a) No unit test case found for movePiece 
+(b) cover several "depths" (searching beyond tree depth of 2 and 3)

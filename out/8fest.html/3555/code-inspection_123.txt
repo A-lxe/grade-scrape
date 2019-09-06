@@ -1,0 +1,8 @@
+Commit: 3297c284ba5601318b8cf04e7a6b91e82425d9cf
+Score: 17/30
+Grader: Kanika Rana
+
+...comments...
+1. Refree design should specify a "run a game" method. (-3)
+2. No unit test to cover several depths (>3) in the tree search.(-5)
+3. No unit test to look for canStayAlive functionality. (-5)

@@ -1,0 +1,14 @@
+Commit: e5af2be6c05445093d1ca9d028068eadab0ea35a
+Score: 10/30
+Grader: Kanika Rana
+
+...comments...
+1. Your interface is overcorwded. Functions like moveWorker, builLevel etc
+   should not be a part of the referee as they are already implemented by the
+   RuleChecker. Referee should be able to use rulechecker to implement this. (-2)
+2. Interface expects the terms in signatures to be defined. ex -
+   placeWorker(playerName, x, y) the terms are not defined. (-3)
+3. No unit tests found. (-15)
+
+Suggestions:
+Please consider abstraction and reusability.

@@ -1,0 +1,483 @@
+(testing /home/types/4500/github/7156/7/rules-tests-0/1-in.json /home/types/4500/github/7156/7/rules-tests-0/1-out.json)
+main: ill-formed board specification given: '(("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:418:15: parse-loop41
+   /home/types/4500/18SwDev/Code/7/xrules:43:0: main
+(testing /home/types/4500/18SwDev/Code/7/xrules)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("EAST" "PUT"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("EAST" "SOUTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("PUT" "SOUTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("WEST" "SOUTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("WEST" "PUT"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("WEST" "NORTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("PUT" "NORTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("EAST" "NORTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p12" ("EAST" "PUT"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p12" ("EAST" "SOUTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p12" ("PUT" "SOUTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p12" ("WEST" "SOUTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p12" ("WEST" "PUT"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p12" ("WEST" "NORTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p12" ("PUT" "NORTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p12" ("EAST" "NORTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p21" ("EAST" "PUT"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p21" ("EAST" "SOUTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p21" ("PUT" "SOUTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p21" ("WEST" "SOUTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p21" ("WEST" "PUT"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p21" ("WEST" "NORTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p21" ("PUT" "NORTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p21" ("EAST" "NORTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p22" ("EAST" "PUT"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p22" ("EAST" "SOUTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p22" ("PUT" "SOUTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p22" ("WEST" "SOUTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p22" ("WEST" "PUT"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p22" ("WEST" "NORTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p22" ("PUT" "NORTH"))
+  (("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p22" ("EAST" "NORTH"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p22" ("EAST" "PUT"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p22" ("EAST" "SOUTH"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p22" ("PUT" "SOUTH"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p22" ("WEST" "SOUTH"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p22" ("WEST" "PUT"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p22" ("WEST" "NORTH"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p22" ("PUT" "NORTH"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p22" ("EAST" "NORTH"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p11" ("EAST" "PUT"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p11" ("EAST" "SOUTH"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p11" ("PUT" "SOUTH"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p11" ("WEST" "SOUTH"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p11" ("WEST" "PUT"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p11" ("WEST" "NORTH"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p11" ("PUT" "NORTH"))
+  ((0 0 "0p11" 0 0 "0p12") (0) (0) (0) ("0p21" 0 0 "0p22" 0 0) (0))
+  ("move" "p11" ("EAST" "NORTH")))
+(*** expected)
+'("yes"
+  "yes"
+  "yes"
+  "no"
+  "no"
+  "no"
+  "no"
+  "no"
+  "no"
+  "no"
+  "yes"
+  "yes"
+  "yes"
+  "no"
+  "no"
+  "no"
+  "yes"
+  "no"
+  "no"
+  "no"
+  "no"
+  "no"
+  "yes"
+  "yes"
+  "no"
+  "no"
+  "no"
+  "no"
+  "yes"
+  "yes"
+  "yes"
+  "no"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "no"
+  "no"
+  "no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/types/4500/github/7156/7/rules-tests-0/1-in.json)
+(tested /home/types/4500/18SwDev/Code/7/xrules successfully on 0 cases out of 1)
+(testing /home/types/4500/github/7156/7/rules-tests-1/2-in.json /home/types/4500/github/7156/7/rules-tests-1/2-out.json)
+main: ill-formed board specification given: '((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:418:15: parse-loop41
+   /home/types/4500/18SwDev/Code/7/xrules:43:0: main
+(testing /home/types/4500/18SwDev/Code/7/xrules)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p11" ("EAST" "PUT"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p11" ("EAST" "SOUTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p11" ("PUT" "SOUTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p11" ("WEST" "SOUTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p11" ("WEST" "PUT"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p11" ("WEST" "NORTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p11" ("PUT" "NORTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p11" ("EAST" "NORTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p12" ("EAST" "PUT"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p12" ("EAST" "SOUTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p12" ("PUT" "SOUTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p12" ("WEST" "SOUTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p12" ("WEST" "PUT"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p12" ("WEST" "NORTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p12" ("PUT" "NORTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p12" ("EAST" "NORTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p21" ("EAST" "PUT"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p21" ("EAST" "SOUTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p21" ("PUT" "SOUTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p21" ("WEST" "SOUTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p21" ("WEST" "PUT"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p21" ("WEST" "NORTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p21" ("PUT" "NORTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p21" ("EAST" "NORTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p22" ("EAST" "PUT"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p22" ("EAST" "SOUTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p22" ("PUT" "SOUTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p22" ("WEST" "SOUTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p22" ("WEST" "PUT"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p22" ("WEST" "NORTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p22" ("PUT" "NORTH"))
+  ((0) (0) (0 0 "0p11" "0p12" 0 0) (0 0 "0p21" "0p22" 0 0) (0) (0))
+  ("move" "p22" ("EAST" "NORTH")))
+(*** expected)
+'("no"
+  "no"
+  "no"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "no"
+  "no"
+  "no"
+  "yes"
+  "yes"
+  "yes"
+  "no"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "no"
+  "no"
+  "yes"
+  "yes"
+  "yes"
+  "yes"
+  "no"
+  "no"
+  "no"
+  "yes")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/types/4500/github/7156/7/rules-tests-1/2-in.json)
+(tested /home/types/4500/18SwDev/Code/7/xrules successfully on 0 cases out of 1)
+(testing /home/types/4500/github/7156/7/rules-tests-2/3-in.json /home/types/4500/github/7156/7/rules-tests-2/3-out.json)
+main: ill-formed board specification given: '(("0p11" 0 1 0 2 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:418:15: parse-loop41
+   /home/types/4500/18SwDev/Code/7/xrules:43:0: main
+(testing /home/types/4500/18SwDev/Code/7/xrules)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("0p11" 0 1 0 2 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("EAST" "PUT"))
+  ("+build" ("PUT" "SOUTH"))
+  (("0p11" 1 1 0 2 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("EAST" "PUT"))
+  ("+build" ("PUT" "SOUTH"))
+  (("0p11" 2 1 0 2 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("EAST" "PUT"))
+  ("+build" ("PUT" "SOUTH"))
+  (("1p11" 2 0 0 2 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("EAST" "PUT"))
+  ("+build" ("PUT" "SOUTH"))
+  ((3 "2p11" 0 0 2 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("WEST" "PUT"))
+  ("+build" ("PUT" "SOUTH"))
+  ((3 "0p11" 0 0 2 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("WEST" "PUT"))
+  ("+build" ("PUT" "SOUTH")))
+(*** expected)
+'("yes" "yes" "no" "yes" "yes" "no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/types/4500/github/7156/7/rules-tests-2/3-in.json)
+(tested /home/types/4500/18SwDev/Code/7/xrules successfully on 0 cases out of 1)
+(testing /home/types/4500/github/7156/7/rules-tests-3/4-in.json /home/types/4500/github/7156/7/rules-tests-3/4-out.json)
+main: ill-formed board specification given: '(("0p11" 3 0 0 2 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:418:15: parse-loop41
+   /home/types/4500/18SwDev/Code/7/xrules:43:0: main
+(testing /home/types/4500/18SwDev/Code/7/xrules)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("0p11" 3 0 0 2 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("EAST" "SOUTH"))
+  ("+build" ("PUT" "NORTH"))
+  (("0p11" 4 0 0 2 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("EAST" "SOUTH"))
+  ("+build" ("PUT" "NORTH"))
+  (("0p11" 3 0 0 2 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("EAST" "SOUTH"))
+  ("+build" ("PUT" "NORTH"))
+  (("0p11" 3 0 0 2 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p21" ("EAST" "NORTH"))
+  ("+build" ("PUT" "SOUTH"))
+  (("0p11" 3 0 0 2 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p21" ("EAST" "NORTH"))
+  ("+build" ("PUT" "SOUTH"))
+  (("0p11" 3 0 0 2 "0p12") (1 2 0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("PUT" "SOUTH"))
+  ("+build" ("PUT" "NORTH"))
+  (("0p11" 3 0 0 2 "0p12") (1 2 0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("PUT" "SOUTH"))
+  ("+build" ("EAST" "NORTH"))
+  (("0p11" 3 0 0 2 "0p12") (1 2 0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("move" "p11" ("PUT" "SOUTH"))
+  ("+build" ("EAST" "PUT")))
+(*** expected)
+'("yes" "no" "yes" "yes" "yes" "yes" "yes" "yes")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/types/4500/github/7156/7/rules-tests-3/4-in.json)
+(tested /home/types/4500/18SwDev/Code/7/xrules successfully on 0 cases out of 1)
+(testing /home/types/4500/github/7156/7/rules-tests-4/5-in.json /home/types/4500/github/7156/7/rules-tests-4/5-out.json)
+main: ill-formed board specification given: '(("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:418:15: parse-loop41
+   /home/types/4500/18SwDev/Code/7/xrules:43:0: main
+(testing /home/types/4500/18SwDev/Code/7/xrules)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p11" ("EAST" "PUT"))
+  ("+build" ("PUT" "SOUTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p11" ("EAST" "PUT"))
+  ("+build" ("EAST" "SOUTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p11" ("EAST" "PUT"))
+  ("+build" ("EAST" "PUT"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p11" ("EAST" "PUT"))
+  ("+build" ("EAST" "NORTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p11" ("EAST" "PUT"))
+  ("+build" ("PUT" "NORTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p11" ("EAST" "PUT"))
+  ("+build" ("WEST" "NORTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p11" ("EAST" "PUT"))
+  ("+build" ("WEST" "PUT"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p11" ("EAST" "PUT"))
+  ("+build" ("WEST" "SOUTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p12" ("WEST" "PUT"))
+  ("+build" ("PUT" "SOUTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p12" ("WEST" "PUT"))
+  ("+build" ("EAST" "SOUTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p12" ("WEST" "PUT"))
+  ("+build" ("EAST" "PUT"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p12" ("WEST" "PUT"))
+  ("+build" ("EAST" "NORTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p12" ("WEST" "PUT"))
+  ("+build" ("PUT" "NORTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p12" ("WEST" "PUT"))
+  ("+build" ("WEST" "NORTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p12" ("WEST" "PUT"))
+  ("+build" ("WEST" "PUT"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p12" ("WEST" "PUT"))
+  ("+build" ("WEST" "SOUTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p21" ("PUT" "NORTH"))
+  ("+build" ("PUT" "SOUTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p21" ("PUT" "NORTH"))
+  ("+build" ("EAST" "SOUTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p21" ("PUT" "NORTH"))
+  ("+build" ("EAST" "PUT"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p21" ("PUT" "NORTH"))
+  ("+build" ("EAST" "NORTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p21" ("PUT" "NORTH"))
+  ("+build" ("PUT" "NORTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p21" ("PUT" "NORTH"))
+  ("+build" ("WEST" "NORTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p21" ("PUT" "NORTH"))
+  ("+build" ("WEST" "PUT"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p21" ("PUT" "NORTH"))
+  ("+build" ("WEST" "SOUTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p22" ("PUT" "NORTH"))
+  ("+build" ("PUT" "SOUTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p22" ("PUT" "NORTH"))
+  ("+build" ("EAST" "SOUTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p22" ("PUT" "NORTH"))
+  ("+build" ("EAST" "PUT"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p22" ("PUT" "NORTH"))
+  ("+build" ("EAST" "NORTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p22" ("PUT" "NORTH"))
+  ("+build" ("PUT" "NORTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p22" ("PUT" "NORTH"))
+  ("+build" ("WEST" "NORTH"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p22" ("PUT" "NORTH"))
+  ("+build" ("WEST" "PUT"))
+  (("0p11" 0 4 4 0 "0p12") (3 4 4 4 4 3) (0) (0) (0) ("0p21" 4 0 0 4 "0p22"))
+  ("move" "p22" ("PUT" "NORTH"))
+  ("+build" ("WEST" "SOUTH")))
+(*** expected)
+'("no"
+  "no"
+  "no"
+  "no"
+  "no"
+  "no"
+  "yes"
+  "yes"
+  "no"
+  "yes"
+  "yes"
+  "no"
+  "no"
+  "no"
+  "no"
+  "no"
+  "yes"
+  "no"
+  "yes"
+  "yes"
+  "yes"
+  "no"
+  "no"
+  "no"
+  "yes"
+  "no"
+  "no"
+  "no"
+  "yes"
+  "yes"
+  "yes"
+  "no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/types/4500/github/7156/7/rules-tests-4/5-in.json)
+(tested /home/types/4500/18SwDev/Code/7/xrules successfully on 0 cases out of 1)
+

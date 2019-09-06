@@ -1,0 +1,12 @@
+Commit: 45470d5dcc3feb59792dfb95d5bc41632fb5630e
+Score: 47/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+Player interface should be places in COMMON directory.
+
+Does not specify what to do with player who cheated in current game.
+Does not specify how to past handle games which were won by the player who cheated in current game.
+Does not specify how the tournament result is reported. 
+Literal constant 5 used in viewmodelboard
+Literal constant 3 used in rules engine

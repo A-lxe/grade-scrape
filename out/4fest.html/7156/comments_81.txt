@@ -1,0 +1,10 @@
+Commit: 13010cb0dfd74edfbc9f51580cd17eb88b4b7a60
+Score: 9/10
+Grader: Kanika Rana
+
+************************************************************
+1. Building component expected.
+
+
+
+

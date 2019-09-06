@@ -1,0 +1,89 @@
+main: ill-formed board specification given: '((("0player11") ("0player21") () () () ()) ("neighbors" "player11" ("PUT" "NORTH")) ("neighbors" "player11" ("WEST" "SOUTH")) ("occupied?" "player21" ("WEST" "PUT")) ("build" "player11" ("PUT" "NORTH")) ("move" "player11" ("PUT" "NORTH")) ("occupied?" ...
+  context...:
+   parse-loop22
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+main: ill-formed board specification given: '((("0player11") () ("0player21") () () ()) ("occupied?" "player11" ("EAST" "PUT")) ("move" "player21" ("WEST" "PUT")) ("occupied?" "player11" ("EAST" "PUT")))
+  context...:
+   parse-loop22
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+main: ill-formed board specification given: '((("0player11") () ("0player21") () () ()) ("build" "player11" ("EAST" "PUT")) ("move" "player11" ("EAST" "PUT")) ("height" "player21" ("WEST" "PUT")) ("build" "player21" ("WEST" "PUT")) ("height" "player21" ("WEST" "PUT")))
+  context...:
+   parse-loop22
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+main: ill-formed board specification given: '((("0player11") ("0player21") () () () ()) ("build" "player11" ("EAST" "SOUTH")) ("height" "player11" ("EAST" "SOUTH")) ("build" "player21" ("PUT" "SOUTH")) ("height" "player21" ("PUT" "SOUTH")) ("build" "player11" ("PUT" "SOUTH")) ("height" "player11"...
+  context...:
+   parse-loop10
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+(testing ../../../18SwDev/Code/6/xboard)
+(board-tests/1-out.json is not a JSON file)
+(board-tests/2-out.json is not a JSON file)
+(board-tests/4-out.json is not a JSON file)
+(testing board-tests/1-in.json board-tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("0player11") ("0player21") () () () ())
+   ("neighbors" "player11" ("PUT" "NORTH"))
+   ("neighbors" "player11" ("WEST" "SOUTH"))
+   ("occupied?" "player21" ("WEST" "PUT"))
+   ("build" "player11" ("PUT" "NORTH"))
+   ("move" "player11" ("PUT" "NORTH"))
+   ("occupied?" "player21" ("WEST" "PUT"))))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/1-in.json)
+(testing board-tests/2-in.json board-tests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("0player11") () ("0player21") () () ())
+   ("occupied?" "player11" ("EAST" "PUT"))
+   ("move" "player21" ("WEST" "PUT"))
+   ("occupied?" "player11" ("EAST" "PUT"))))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/2-in.json)
+(testing board-tests/3-in.json board-tests/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("0player11") () ("0player21") () () ())
+   ("build" "player11" ("EAST" "PUT"))
+   ("move" "player11" ("EAST" "PUT"))
+   ("height" "player21" ("WEST" "PUT"))
+   ("build" "player21" ("WEST" "PUT"))
+   ("height" "player21" ("WEST" "PUT"))))
+(*** expected)
+'(1 1)
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/3-in.json)
+(testing board-tests/4-in.json board-tests/4-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((("0player11") ("0player21") () () () ())
+   ("build" "player11" ("EAST" "SOUTH"))
+   ("height" "player11" ("EAST" "SOUTH"))
+   ("build" "player21" ("PUT" "SOUTH"))
+   ("height" "player21" ("PUT" "SOUTH"))
+   ("build" "player11" ("PUT" "SOUTH"))
+   ("height" "player11" ("PUT" "SOUTH"))
+   ("occupied?" "player11" ("PUT" "SOUTH"))
+   ("move" "player21" ("WEST" "SOUTH"))
+   ("occupied?" "player11" ("PUT" "SOUTH"))
+   ("occupied?" "player21" ("PUT" "NORTH"))
+   ("move" "player11" ("EAST" "SOUTH"))
+   ("occupied?" "player11" ("EAST" "SOUTH"))
+   ("occupied?" "player21" ("PUT" "NORTH"))))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/4-in.json)
+(tested ../../../18SwDev/Code/6/xboard successfully on 0 cases out of 4)
+

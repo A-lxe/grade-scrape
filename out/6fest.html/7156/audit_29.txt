@@ -1,0 +1,316 @@
+main: ill-formed board specification given: '((4 2 3) ("0player11") (1 2 "0player12" 0) ("0player21" "2player22" 1))
+  context...:
+   parse-loop10
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+main: ill-formed board specification given: '((0 0 0 0 0 0) (0 0 0 0 0 0) (0 0 0 0 0 0) (0 0 0 0 0 0) (0 0 0 0 0 0) (0 0 "0p11" "0p21" "0p12" "0p22"))
+  context...:
+   parse-loop10
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+main: ill-formed board specification given: '(("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  context...:
+   parse-loop10
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+(testing ../../../18SwDev/Code/6/xboard)
+(board-tests/1-out.json is not a JSON file)
+(board-tests/2-out.json is not a JSON file)
+(board-tests/3-out.json is not a JSON file)
+(board-tests/5-out.json is not a JSON file)
+(testing board-tests/1-in.json board-tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((4 2 3) ("0player11") (1 2 "0player12" 0) ("0player21" "2player22" 1))
+  ("neighbors" "player11" ("WEST" "PUT"))
+  ("neighbors" "player11" ("WEST" "NORTH"))
+  ("neighbors" "player11" ("EAST" "PUT"))
+  ("neighbors" "player12" ("WEST" "SOUTH"))
+  ("occupied?" "player21" ("EAST" "PUT"))
+  ("occupied?" "player22" ("WEST" "PUT"))
+  ("occupied?" "player22" ("EAST" "PUT"))
+  ("height" "player11" ("PUT" "NORTH"))
+  ("height" "player22" ("PUT" "PUT"))
+  ("height" "player21" ("PUT" "PUT"))
+  ("height" "player21" ("PUT" "NORTH"))
+  ("height" "player22" ("EAST" "NORTH"))
+  ("height" "player22" ("EAST" "PUT"))
+  ("height" "player12" ("PUT" "SOUTH")))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/1-in.json)
+(testing board-tests/2-in.json board-tests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((0 0 0 0 0 0)
+   (0 0 0 0 0 0)
+   (0 0 0 0 0 0)
+   (0 0 0 0 0 0)
+   (0 0 0 0 0 0)
+   (0 0 "0p11" "0p21" "0p12" "0p22"))
+  ("neighbors" "p11" ("PUT" "NORTH"))
+  ("occupied?" "p11" ("PUT" "NORTH"))
+  ("height" "p11" ("PUT" "NORTH"))
+  ("move" "p11" ("PUT" "NORTH"))
+  ("neighbors" "p11" ("PUT" "NORTH"))
+  ("occupied?" "p11" ("PUT" "NORTH"))
+  ("height" "p11" ("PUT" "NORTH"))
+  ("build" "p11" ("PUT" "NORTH"))
+  ("height" "p11" ("PUT" "NORTH"))
+  ("neighbors" "p21" ("WEST" "NORTH"))
+  ("occupied?" "p21" ("WEST" "NORTH"))
+  ("neighbors" "p21" ("WEST" "PUT"))
+  ("occupied?" "p21" ("WEST" "PUT"))
+  ("height" "p21" ("WEST" "PUT"))
+  ("move" "p21" ("WEST" "PUT"))
+  ("neighbors" "p21" ("PUT" "NORTH"))
+  ("occupied?" "p21" ("PUT" "NORTH"))
+  ("neighbors" "p21" ("WEST" "PUT"))
+  ("occupied?" "p21" ("WEST" "PUT"))
+  ("height" "p21" ("WEST" "PUT"))
+  ("build" "p21" ("WEST" "PUT"))
+  ("height" "p21" ("WEST" "PUT"))
+  ("neighbors" "p11" ("PUT" "NORTH"))
+  ("occupied?" "p11" ("PUT" "NORTH"))
+  ("height" "p11" ("PUT" "NORTH"))
+  ("move" "p11" ("PUT" "NORTH"))
+  ("neighbors" "p11" ("PUT" "SOUTH"))
+  ("occupied?" "p11" ("PUT" "SOUTH"))
+  ("height" "p11" ("PUT" "SOUTH"))
+  ("build" "p11" ("PUT" "SOUTH"))
+  ("height" "p11" ("PUT" "SOUTH"))
+  ("neighbors" "p21" ("PUT" "NORTH"))
+  ("occupied?" "p21" ("PUT" "NORTH"))
+  ("height" "p21" ("PUT" "NORTH"))
+  ("move" "p21" ("PUT" "NORTH"))
+  ("neighbors" "p21" ("PUT" "NORTH"))
+  ("occupied?" "p21" ("PUT" "NORTH"))
+  ("neighbors" "p21" ("WEST" "SOUTH"))
+  ("occupied?" "p21" ("WEST" "SOUTH"))
+  ("height" "p21" ("WEST" "SOUTH"))
+  ("build" "p21" ("WEST" "SOUTH"))
+  ("height" "p21" ("WEST" "SOUTH")))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/2-in.json)
+(testing board-tests/3-in.json board-tests/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("0p11" 0 0 0 0 "0p12") (0) (0) (0) (0) ("0p21" 0 0 0 0 "0p22"))
+  ("neighbors" "p11" ("PUT" "NORTH"))
+  ("neighbors" "p11" ("EAST" "NORTH"))
+  ("neighbors" "p11" ("EAST" "PUT"))
+  ("neighbors" "p11" ("EAST" "SOUTH"))
+  ("neighbors" "p11" ("PUT" "SOUTH"))
+  ("neighbors" "p11" ("WEST" "SOUTH"))
+  ("neighbors" "p11" ("WEST" "PUT"))
+  ("neighbors" "p11" ("WEST" "NORTH"))
+  ("neighbors" "p12" ("PUT" "NORTH"))
+  ("neighbors" "p12" ("EAST" "NORTH"))
+  ("neighbors" "p12" ("EAST" "PUT"))
+  ("neighbors" "p12" ("EAST" "SOUTH"))
+  ("neighbors" "p12" ("PUT" "SOUTH"))
+  ("neighbors" "p12" ("WEST" "SOUTH"))
+  ("neighbors" "p12" ("WEST" "PUT"))
+  ("neighbors" "p12" ("WEST" "NORTH"))
+  ("neighbors" "p21" ("PUT" "NORTH"))
+  ("neighbors" "p21" ("EAST" "NORTH"))
+  ("neighbors" "p21" ("EAST" "PUT"))
+  ("neighbors" "p21" ("EAST" "SOUTH"))
+  ("neighbors" "p21" ("PUT" "SOUTH"))
+  ("neighbors" "p21" ("WEST" "SOUTH"))
+  ("neighbors" "p21" ("WEST" "PUT"))
+  ("neighbors" "p21" ("WEST" "NORTH"))
+  ("neighbors" "p22" ("PUT" main: ill-formed board specification given: '((1 0 1 4 3 1) (2 "0p11" 2 2 "0p12" 4) (3 4 3 0 2 1) (1 4 4 0 1 2) (1 "0p21" 3 1 "0p22" 3) (2 2 3 2 3 4))
+  context...:
+   parse-loop10
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+main: ill-formed board specification given: '(("0p11" "0p12") ("0p21" "0p22"))
+  context...:
+   parse-loop10
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+"NORTH"))
+  ("neighbors" "p22" ("EAST" "NORTH"))
+  ("neighbors" "p22" ("EAST" "PUT"))
+  ("neighbors" "p22" ("EAST" "SOUTH"))
+  ("neighbors" "p22" ("PUT" "SOUTH"))
+  ("neighbors" "p22" ("WEST" "SOUTH"))
+  ("neighbors" "p22" ("WEST" "PUT"))
+  ("neighbors" "p22" ("WEST" "NORTH"))
+  ("move" "p22" ("WEST" "NORTH"))
+  ("neighbors" "p22" ("PUT" "NORTH"))
+  ("neighbors" "p22" ("EAST" "NORTH"))
+  ("neighbors" "p22" ("EAST" "PUT"))
+  ("neighbors" "p22" ("EAST" "SOUTH"))
+  ("neighbors" "p22" ("PUT" "SOUTH"))
+  ("neighbors" "p22" ("WEST" "SOUTH"))
+  ("neighbors" "p22" ("WEST" "PUT"))
+  ("neighbors" "p22" ("WEST" "NORTH")))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/3-in.json)
+(testing board-tests/4-in.json board-tests/4-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((1 0 1 4 3 1)
+   (2 "0p11" 2 2 "0p12" 4)
+   (3 4 3 0 2 1)
+   (1 4 4 0 1 2)
+   (1 "0p21" 3 1 "0p22" 3)
+   (2 2 3 2 3 4))
+  ("height" "p11" ("PUT" "NORTH"))
+  ("height" "p11" ("EAST" "NORTH"))
+  ("height" "p11" ("EAST" "PUT"))
+  ("height" "p11" ("EAST" "SOUTH"))
+  ("height" "p11" ("PUT" "SOUTH"))
+  ("height" "p11" ("WEST" "SOUTH"))
+  ("height" "p11" ("WEST" "PUT"))
+  ("height" "p11" ("WEST" "NORTH"))
+  ("height" "p12" ("PUT" "NORTH"))
+  ("height" "p12" ("EAST" "NORTH"))
+  ("height" "p12" ("EAST" "PUT"))
+  ("height" "p12" ("EAST" "SOUTH"))
+  ("height" "p12" ("PUT" "SOUTH"))
+  ("height" "p12" ("WEST" "SOUTH"))
+  ("height" "p12" ("WEST" "PUT"))
+  ("height" "p12" ("WEST" "NORTH"))
+  ("height" "p21" ("PUT" "NORTH"))
+  ("height" "p21" ("EAST" "NORTH"))
+  ("height" "p21" ("EAST" "PUT"))
+  ("height" "p21" ("EAST" "SOUTH"))
+  ("height" "p21" ("PUT" "SOUTH"))
+  ("height" "p21" ("WEST" "SOUTH"))
+  ("height" "p21" ("WEST" "PUT"))
+  ("height" "p21" ("WEST" "NORTH"))
+  ("height" "p22" ("PUT" "NORTH"))
+  ("height" "p22" ("EAST" "NORTH"))
+  ("height" "p22" ("EAST" "PUT"))
+  ("height" "p22" ("EAST" "SOUTH"))
+  ("height" "p22" ("PUT" "SOUTH"))
+  ("height" "p22" ("WEST" "SOUTH"))
+  ("height" "p22" ("WEST" "PUT"))
+  ("height" "p22" ("WEST" "NORTH"))
+  ("build" "p22" ("PUT" "NORTH"))
+  ("build" "p22" ("EAST" "NORTH"))
+  ("build" "p22" ("EAST" "PUT"))
+  ("build" "p22" ("PUT" "SOUTH"))
+  ("build" "p22" ("WEST" "SOUTH"))
+  ("build" "p22" ("WEST" "PUT"))
+  ("build" "p22" ("WEST" "NORTH"))
+  ("height" "p22" ("PUT" "NORTH"))
+  ("height" "p22" ("EAST" "NORTH"))
+  ("height" "p22" ("EAST" "PUT"))
+  ("height" "p22" ("PUT" "SOUTH"))
+  ("height" "p22" ("WEST" "SOUTH"))
+  ("height" "p22" ("WEST" "PUT"))
+  ("height" "p22" ("WEST" "NORTH")))
+(*** expected)
+'(0
+  1
+  2
+  3
+  4
+  3
+  2
+  1
+  3
+  1
+  4
+  1
+  2
+  0
+  2
+  4
+  4
+  4
+  3
+  3
+  2
+  2
+  1
+  1
+  1
+  2
+  3
+  4
+  3
+  2
+  1
+  0
+  ()
+  ()
+  ()
+  ()
+  ()
+  ()
+  ()
+  2
+  3
+  4
+  4
+  3
+  2
+  1)
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/4-in.json)
+(testing board-tests/5-in.json board-tests/5-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("0p11" "0p12") ("0p21" "0p22"))
+  ("occupied?" "p11" ("EAST" "PUT"))
+  ("occupied?" "p11" ("EAST" "SOUTH"))
+  ("occupied?" "p11" ("PUT" "SOUTH"))
+  ("occupied?" "p12" ("WEST" "PUT"))
+  ("occupied?" "p12" ("WEST" "SOUTH"))
+  ("occupied?" "p12" ("PUT" "SOUTH"))
+  ("occupied?" "p12" ("EAST" "SOUTH"))
+  ("occupied?" "p12" ("EAST" "PUT"))
+  ("occupied?" "p21" ("PUT" "NORTH"))
+  ("occupied?" "p21" ("EAST" "NORTH"))
+  ("occupied?" "p21" ("EAST" "PUT"))
+  ("occupied?" "p21" ("EAST" "SOUTH"))
+  ("occupied?" "p21" ("PUT" "SOUTH"))
+  ("occupied?" "p22" ("PUT" "NORTH"))
+  ("occupied?" "p22" ("EAST" "NORTH"))
+  ("occupied?" "p22" ("EAST" "PUT"))
+  ("occupied?" "p22" ("EAST" "SOUTH"))
+  ("occupied?" "p22" ("PUT" "SOUTH"))
+  ("occupied?" "p22" ("WEST" "SOUTH"))
+  ("occupied?" "p22" ("WEST" "PUT"))
+  ("occupied?" "p22" ("WEST" "NORTH"))
+  ("move" "p22" ("WEST" "SOUTH"))
+  ("move" "p11" ("EAST" "SOUTH"))
+  ("move" "p21" ("EAST" "SOUTH"))
+  ("move" "p12" ("WEST" "SOUTH"))
+  ("occupied?" "p12" ("PUT" "SOUTH"))
+  ("occupied?" "p22" ("PUT" "SOUTH"))
+  ("move" "p22" ("PUT" "SOUTH"))
+  ("occupied?" "p12" ("PUT" "SOUTH"))
+  ("move" "p12" ("PUT" "SOUTH"))
+  ("occupied?" "p22" ("PUT" "NORTH"))
+  ("occupied?" "p21" ("PUT" "NORTH"))
+  ("occupied?" "p11" ("PUT" "SOUTH"))
+  ("occupied?" "p11" ("EAST" "SOUTH"))
+  ("move" "p11" ("EAST" "SOUTH"))
+  ("occupied?" "p21" ("PUT" "NORTH"))
+  ("occupied?" "p21" ("EAST" "PUT"))
+  ("occupied?" "p11" ("WEST" "SOUTH"))
+  ("move" "p11" ("WEST" "SOUTH"))
+  ("occupied?" "p21" ("EAST" "PUT"))
+  ("occupied?" "p21" ("PUT" "SOUTH")))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/5-in.json)
+(tested ../../../18SwDev/Code/6/xboard successfully on 0 cases out of 5)
+

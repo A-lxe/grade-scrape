@@ -1,0 +1,7 @@
+  File "/home/types/4500/github/brre-wita/3/3", line 9
+    async def handle_echo(reader, writer):
+            ^
+SyntaxError: invalid syntax
+'(no connection after 10 tries)
+(testing 3)
+(testing ../../../18SwDev/Code/2/Tests/1-in.json ../../../18SwDev/Code/2/Tests/1-out.json)

@@ -1,0 +1,21 @@
+Commit: 843fab6c72e7584ccbd0117bf3b0210f414c0ce4
+Score: 63/79
+Grader: Alex Knauth
+
+It would be cleaner if the Referee, Strategy, and Player interfaces dealt with some 
+type for "the actions that a player can take on a turn", which is a combination of a 
+move and a build, instead of dealing with Moves and Builds separately.
+
+This also applies to the events that the Observer deals with. A turn event could be
+a *combination* of a move and a build, not a _one-of_ that might be either a move or a 
+build.
+
+The Observer should be able to observe events where the Referee has detected
+"erroneous behavior" by a player.
+
+You should have a player method for a player taking a turn. If you have a type
+for "the actions that a player can take on a turn", this method should return
+that type. This would be a replacement for the currently separate `get_move`
+and `get_build` methods.
+
+I can't find any unit tests for Player or LocalStrategyPlayer.

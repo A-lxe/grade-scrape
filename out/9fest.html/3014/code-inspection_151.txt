@@ -1,0 +1,17 @@
+Commit: c634acc5e0971ebbc89a6741a727339d66d33cc1
+Score: 46/79
+Grader: Kanika Rana
+
+...comments...
+1. referee implementation expected in Admin directory. (-5)
+2. Function to observe a placement action is expected in Observer. (-4)
+3. Function to observe a turn action is expected in observer. (-4)
+4. Function to observe any erroneous behavior by a player is expected in observer. (-4)
+5. Unit tests of run() and setBestOfN() not found. (-10)
+6. Test cases for Player are commented. (-10)
+
+
+Bonus:
+a player that breaks a placement rule (+2)
+a player that breaks a rule taking its turn (+2)
+

@@ -1,0 +1,6 @@
+Commit: 97c99e10a973684ac6cbc328a154af9f7a922c1c
+Score: 8/10
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) Part 2 does not describe about stages of implementation. You should describe about how you  proceed implementing the software using bottom up approach.i.e from building a prototype to a full-fledged system.

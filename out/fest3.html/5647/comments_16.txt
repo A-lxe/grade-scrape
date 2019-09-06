@@ -1,0 +1,6 @@
+Commit: 4e04806d17c254473318000de637e10376472898
+Score: 4/5
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) Purpose statement not written for client.

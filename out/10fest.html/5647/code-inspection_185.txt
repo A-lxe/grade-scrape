@@ -1,0 +1,50 @@
+Commit: e02ea78b871dcb83e1413d292ae8d9d69338764f
+Score: 41/70
+Grader: Alex Knauth
+
+The observer implementation should be in a new Observer directory, not in 
+Player. This is because observers can be implemented by people who are not the  
+Players / don't have access to the Player code. The Observer should not be a type
+of player.
+
+The strategy implementation should be in the Player directory, not in Common.
+
+  --
+
+You don't specify how the TournamentManager design reports the result of the 
+tournament, except to the winner. How are other people (the other players, the
+caller of the TournamentManager, and so on) going to know the result of the
+tournament?
+
+You also don't specify a return type for run_tournament.
+
+  --
+
+As I said above, the Observer should not be a type of player; it should be a 
+separate component with _it's own Interface_.
+
+The Observer should have multiple methods for receiving different types of
+structured data. It should have one method that consumes a Board state, another
+that consumes the set of actions a player can make on a turn, and another that
+consumes error messages when the Referee detects misbehavior by a player.
+
+As it is, the interface for an Observer only includes the `send` and `receive`
+methods, which take `msg` arguments that don't have an obvious structure or Data
+Definition.
+
+The Observer class has two extra methods `handle_game_state` and `handle_events`,
+but these don't have good purpose statements or Data Definitions either.
+
+  --
+
+You have multiple occurrences of the "magic number" 6 in your code. You should 
+factor this out into a named constant. This is repeated in:
+ - `xboard`
+ - `xrules`
+ - `Referee.py`
+ - `Board.py` (3 times)
+ - `Converter.py` (2 times)
+ - `Posn.py` (2 times, both on line 43)
+For Posn.py, you have the named constant definitions X_DIMENSION and Y_DIMENSION, 
+but you don't use them enough. In the same file there are two `6`s that could have
+been replaced with one of those named constants.

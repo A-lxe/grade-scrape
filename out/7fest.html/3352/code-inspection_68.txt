@@ -1,0 +1,10 @@
+Commit: 77779671f1bf3d9f5ddbd4fc62befe2b846eaf10
+Score: 20/20
+Grader: Kanika Rana
+
+...comments...
+Good Job, very well documented.
+
+Suggestion - Please have a separate readme for each week. It is mentioned on the course website as well :
+		"Add a README.{txt|md} file to the weekly project directory."
+

@@ -1,0 +1,14 @@
+Commit: e6f2141091cc89f9b1c79fae800c2542837ac48c
+Score: 67/70
+Grader: Kanika Rana
+
+...comments...
+1. There are two Rule checkers - one in common one in Admin- it should be in Common only. (-1)
+2. Signature of notify_end_game is not defined. Purpose statements incorrect. (-2)
+
+Suggestions:
+Think about how you will calculate the result if you are nullifying the games
+in which broken player has played, and the player has broken at the last game.
+And what about the opponent.
+
+

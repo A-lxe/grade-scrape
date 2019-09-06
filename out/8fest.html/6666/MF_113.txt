@@ -1,0 +1,170 @@
+(testing /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/1-in.json /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/1-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f18/ta/github/6666/8/xstrategy", line 62, in <module>
+    JsonParser.JsonParser.parse_line(strat_check)
+  File "../Santorini/Lib/jsonParser.py", line 27, in parse_line
+    with sys.stdin as f:
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/course/cs4500f18/ta/github/6666/8/xstrategy", line 64, in <module>
+    validity_check()
+  File "/course/cs4500f18/ta/github/6666/8/xstrategy", line 47, in validity_check
+    invalid = Strat.Strategy.will_lose_in_n_turns(turns, board, player, worker, move_dir, build_dir)
+  File "../Santorini/Common/strategy.py", line 96, in will_lose_in_n_turns
+    Strategy.generate_game_tree(False, board, turns, player, player_turn)
+  File "../Santorini/Common/strategy.py", line 75, in generate_game_tree
+    Strategy.game_tree = GameTree(minimax, player == player_turn, board, turns, player, player_turn)
+  File "../Santorini/Common/strategy.py", line 120, in __init__
+    for player, workers in board.workers.items():
+AttributeError: 'NoneType' object has no attribute 'workers'
+(testing /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/2-in.json /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/2-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f18/ta/github/6666/8/xstrategy", line 62, in <module>
+    JsonParser.JsonParser.parse_line(strat_check)
+  File "../Santorini/Lib/jsonParser.py", line 27, in parse_line
+    with sys.stdin as f:
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/course/cs4500f18/ta/github/6666/8/xstrategy", line 64, in <module>
+    validity_check()
+  File "/course/cs4500f18/ta/github/6666/8/xstrategy", line 47, in validity_check
+    invalid = Strat.Strategy.will_lose_in_n_turns(turns, board, player, worker, move_dir, build_dir)
+  File "../Santorini/Common/strategy.py", line 96, in will_lose_in_n_turns
+    Strategy.generate_game_tree(False, board, turns, player, player_turn)
+  File "../Santorini/Common/strategy.py", line 75, in generate_game_tree
+    Strategy.game_tree = GameTree(minimax, player == player_turn, board, turns, player, player_turn)
+  File "../Santorini/Common/strategy.py", line 120, in __init__
+    for player, workers in board.workers.items():
+AttributeError: 'NoneType' object has no attribute 'workers'
+(testing /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/3-in.json /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/3-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f18/ta/github/6666/8/xstrategy", line 62, in <module>
+    JsonParser.JsonParser.parse_line(strat_check)
+  File "../Santorini/Lib/jsonParser.py", line 27, in parse_line
+    with sys.stdin as f:
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/course/cs4500f18/ta/github/6666/8/xstrategy", line 64, in <module>
+    validity_check()
+  File "/course/cs4500f18/ta/github/6666/8/xstrategy", line 47, in validity_check
+    invalid = Strat.Strategy.will_lose_in_n_turns(turns, board, player, worker, move_dir, build_dir)
+  File "../Santorini/Common/strategy.py", line 96, in will_lose_in_n_turns
+    Strategy.generate_game_tree(False, board, turns, player, player_turn)
+  File "../Santorini/Common/strategy.py", line 75, in generate_game_tree
+    Strategy.game_tree = GameTree(minimax, player == player_turn, board, turns, player, player_turn)
+  File "../Santorini/Common/strategy.py", line 120, in __init__
+    for player, workers in board.workers.items():
+AttributeError: 'NoneType' object has no attribute 'workers'
+(testing /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/4-in.json /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/4-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f18/ta/github/6666/8/xstrategy", line 62, in <module>
+    JsonParser.JsonParser.parse_line(strat_check)
+  File "../Santorini/Lib/jsonParser.py", line 27, in parse_line
+    with sys.stdin as f:
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/course/cs4500f18/ta/github/6666/8/xstrategy", line 64, in <module>
+    validity_check()
+  File "/course/cs4500f18/ta/github/6666/8/xstrategy", line 47, in validity_check
+    invalid = Strat.Strategy.will_lose_in_n_turns(turns, board, player, worker, move_dir, build_dir)
+  File "../Santorini/Common/strategy.py", line 96, in will_lose_in_n_turns
+    Strategy.generate_game_tree(False, board, turns, player, player_turn)
+  File "../Santorini/Common/strategy.py", line 75, in generate_game_tree
+    Strategy.game_tree = GameTree(minimax, player == player_turn, board, turns, player, player_turn)
+  File "../Santorini/Common/strategy.py", line 120, in __init__
+    for player, workers in board.workers.items():
+AttributeError: 'NoneType' object has no attribute 'workers'
+(testing /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/5-in.json /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/5-out.json)
+Traceback (most recent call last):
+  File "/course/cs4500f18/ta/github/6666/8/xstrategy", line 62, in <module>
+    JsonParser.JsonParser.parse_line(strat_check)
+  File "../Santorini/Lib/jsonParser.py", line 27, in parse_line
+    with sys.stdin as f:
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/course/cs4500f18/ta/github/6666/8/xstrategy", line 64, in <module>
+    validity_check()
+  File "/course/cs4500f18/ta/github/6666/8/xstrategy", line 47, in validity_check
+    invalid = Strat.Strategy.will_lose_in_n_turns(turns, board, player, worker, move_dir, build_dir)
+  File "../Santorini/Common/strategy.py", line 96, in will_lose_in_n_turns
+    Strategy.generate_game_tree(False, board, turns, player, player_turn)
+  File "../Santorini/Common/strategy.py", line 75, in generate_game_tree
+    Strategy.game_tree = GameTree(minimax, player == player_turn, board, turns, player, player_turn)
+  File "../Santorini/Common/strategy.py", line 120, in __init__
+    for player, workers in board.workers.items():
+AttributeError: 'NoneType' object has no attribute 'workers'
+(testing /course/cs4500f18/ta/github/6666/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("a"
+  (("0a1" "1a2" 3 "2b1") (0 "2b2" 3))
+  2
+  ("move" "a2" ("WEST" "SOUTH"))
+  ("+build" ("PUT" "SOUTH")))
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/1-in.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'("a" (("2a1" "0a2" "1b1" "2b2") (0 3 1 3)) 1 ("move" "a1" ("EAST" "SOUTH")))
+(*** expected)
+'("yes")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/2-in.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'("a"
+  (("2a1" "1a2" "1b1" "2b2") (2 2))
+  1
+  ("move" "a1" ("EAST" "SOUTH"))
+  ("+build" ("WEST" "NORTH")))
+(*** expected)
+'("yes")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/3-in.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'("a" (("1a1" "2a2" "2b1") (4 4 "2b2") (0 0 3)) 0)
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/4-in.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'("a"
+  (("0a2" "0a1" 4) ("0b2" "0b1") (4 0 4))
+  3
+  ("move" "a1" ("EAST" "SOUTH"))
+  ("+build" ("WEST" "NORTH")))
+(*** expected)
+'("yes")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/5-in.json)
+(tested /course/cs4500f18/ta/github/6666/8/xstrategy successfully on 0 cases out of 5)
+

@@ -1,0 +1,11 @@
+Commit: 21910c9a711f5fd4d70b46f5711621f8bcf9a3ba
+Score: 10/30
+Grader: Kanika Rana
+
+...comments...
+Your Referee class is overcrowded. It should not have functions like tryMoveWorker, actionCheck, tryPlaceWorker etc  which should be a part of rulechecker and your referee should use that instead. (-2)
+The referee does not specify a "run a game" method (-3)
+No unit tests found (-15)
+
+Suggestion:
+Think about what all components need to be common folder.

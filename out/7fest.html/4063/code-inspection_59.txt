@@ -1,0 +1,12 @@
+Commit: ddbe3672af9678b360e9486f4dc5aae1599e8574
+Score: 8/20
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+No unit test cases found for following methods also no statement of purpose 
+  check whether a move is according to the rules	
+  check whether adding a floor to a building follows the rules
+
+JSON test for following scenario not found
+	an action request is rejected because the worker and/or building is placed on the same spot

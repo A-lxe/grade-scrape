@@ -1,0 +1,9 @@
+Commit: 4e1a064dbc28eb0b7ea55a5b19623d34025d36e7
+Score: 19.5/20
+Grader: Alex Knauth
+
+In general, your n-{in,out}.json tests would benefit from having newlines (to
+put commands on their own lines) and other whitespace (to make the boards look
+more like grids) to make them more human-readable.
+
+Other than that it looks great.

@@ -1,0 +1,10 @@
+Commit: 17d7d71d1bc8fedb21b8530bcf4142f04db1d30a
+Score: 59/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+observer implementation not  in the Observer directory 
+Literal constant 6 used in Board
+Literal constant 3 used in package common.rule
+
+

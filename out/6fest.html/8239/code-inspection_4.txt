@@ -1,0 +1,12 @@
+Commit: fd3bcf4ded271638cebc7a728b2524437868eb0a
+Score: 10/13
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) README does not tell about where to start reading the code base.
+
+2) Following functions/methods not found,
+	somehow find neighboring squares
+
+3) Test or worked examples for following methods/functions not found,
+	somehow find neighboring squares (Method is not testing but implementing the functionality)

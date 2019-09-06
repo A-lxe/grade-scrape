@@ -1,0 +1,18 @@
+Commit: f5fa889d6f8010ba63782c50bac38e63bca7ce43
+Score: 19/30
+Grader: Alex Knauth
+
+The SantoriniReferee needs some way to "run a game," possibly with another
+method. You say in the purpose statement for the file: "intended to start a
+thread that runs the game", but I don't see any method declaration for that.
+Your existing methods don't mention that in their purpose statements.
+
+Your purpose statements for the SantoriniStrategy interface look good.
+
+You don't have any unit tests for the "choice of action" methods,
+recommendWorkerPlacement and recommendWorkerAction. If you're worried about
+"randomness" or "arbitrariness" in choosing from multiple valid options, you
+can still test properties of the actions produced.
+
+Your unit tests for canStayAlive should test with depths greater than 3.
+

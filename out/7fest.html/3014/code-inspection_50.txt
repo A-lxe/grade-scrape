@@ -1,0 +1,10 @@
+Commit: 9e084e0e31051538a10b81212907138e77462240
+Score: 18/20
+Grader: Raghavendra Venkatesh
+
+...comments...
+JSON test for following scenario not found
+	an action request is rejected because the worker and/or building is placed on the same spot
+
+Suggestions:
+Don't write interface and its implementation in the same file. 

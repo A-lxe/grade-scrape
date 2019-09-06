@@ -1,0 +1,8 @@
+Commit: d047b3a3a5d96d65db26056aaf6a0f9aefc9f88c
+Score: 15/20
+Grader: Kanika Rana
+
+...comments...
+1. readme should exist in all folders, and be more helpful in navigating the code.
+2. No case in json tests to check worker and/or building is placed on the same spot ("staying put").
+3. No unit tests found.

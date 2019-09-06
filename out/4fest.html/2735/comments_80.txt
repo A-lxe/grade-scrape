@@ -1,0 +1,10 @@
+Commit: 0e3304d0e39c12e4b5a3b35285f4dd4ab7542950
+Score: 8/10
+Grader: Kanika Rana
+
+************************************************************
+1. Refree component expected validating the moves.
+2. Tournamane manager expected.
+
+
+

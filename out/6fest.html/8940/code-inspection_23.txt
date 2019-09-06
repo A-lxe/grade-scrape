@@ -1,0 +1,15 @@
+Commit: 4233085a00b0a874dabf1178cd77b0261a0d269b
+Score: 7/13
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) TESTME does not exist.
+
+2) TESTME does not have instructions on how run test cases
+
+4) Unit tests or worked examples for following methods/functions not found,
+	build
+	move
+	height of a field/square whatever
+	is a field occupied by a player
+	somehow find neighboring squares

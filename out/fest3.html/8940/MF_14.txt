@@ -1,0 +1,9 @@
+[30077] Failed to execute script 3
+Traceback (most recent call last):
+  File "3.py", line 2, in <module>
+  File "/usr/local/lib/python3.5/dist-packages/PyInstaller/loader/pyimod03_importers.py", line 631, in exec_module
+  File "two.py", line 3, in <module>
+ImportError: No module named 'splitstream'
+'(no connection after 10 tries)
+(testing 3)
+(testing ../../../18SwDev/Code/2/Tests/1-in.json ../../../18SwDev/Code/2/Tests/1-out.json)

@@ -1,0 +1,8 @@
+Commit: 87bce5ad2929fe23989c1844eadc673c36ea5eb1
+Score: 1/5
+Grader: Kanika Rana
+
+************************************************************
+1. Description of the Client script functionality is expected.
+2. Purpose statements for functions are expected.
+3. Source code is expected in 3/client instead of .jar file location.

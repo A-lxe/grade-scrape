@@ -1,0 +1,14 @@
+Commit: a2d4ed6b21a5dfd6107c6a40e08c474c40406184
+Score: 52/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+observer implementation not  in the Observer directory
+
+
+No unit test cases written for methods of the observer
+Literal constant 3 used in rules, strategy
+Literal constant 3 repeated across different files
+
+

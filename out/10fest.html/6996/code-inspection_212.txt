@@ -1,0 +1,18 @@
+Commit: 5dfe1a77e0c945e1c4d59df9878a11a2f9136650
+Score: 52/70
+Grader: Kanika Rana
+
+...comments...
+1. No Observer directory. Observer implementation should be placed in Observer directory. (-5)
+2. Strategy should be in Player directory. (-1)
+3. Tournament manager is expected to know what to do with players that break
+   the rules/diverge/misbehave specifically, it must say what to do with the
+   current game (-5) and the games this player has won before the current one (-5)
+4. Medthods in Observer have incomplete Signature definition - message is
+   undefined in updateMisbehavior, playerMapCopy is undefined in updateRequest and
+   updateModification. (-2)
+
+----------------------------------------------------------------
+Suggestions:
+What is pretty observer?
+

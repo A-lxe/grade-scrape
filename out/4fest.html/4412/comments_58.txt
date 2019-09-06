@@ -1,0 +1,10 @@
+Commit: 8c28c2dc5811dcfe68bbca7d4713b5a87e468359
+Score: 8/10
+Grader: Kanika Rana
+
+************************************************************
+1. Tournament manager expected for multiplayer approach of full fledged system
+good job.
+
+
+

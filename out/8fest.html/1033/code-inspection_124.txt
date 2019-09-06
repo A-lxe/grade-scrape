@@ -1,0 +1,18 @@
+Commit: 90f1157a1dc60407b686d539123f44f8552d3c6f
+Score: 13/30
+Grader: Alex Knauth
+
+A turn should use a combination of a move and a build. A turn cannot be just a
+move or just a build. Your data definition for a TurnSpecification instead only
+allows it to be only one or the other by itself, not the combination. This
+means that TurnStategy.strategize method can't produce a full turn.
+
+In the main phase of the game (after start-up), the Strategy should deal with
+"turns" or "actions" that are a combination of a move and a build.
+
+I can't find any unit tests for the Strategy or any of its methods. You have
+the strategy-tests/*-{in,out}.json files as _integration_ tests for the system
+as a whole, but you're missing unit tests that would test specific methods and
+components by themselves, like IStrategy.place, IStrategy.move,
+IStrategy.build, or TurnStrategy.strategize.
+

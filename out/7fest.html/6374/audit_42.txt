@@ -1,0 +1,79 @@
+(testing /home/types/4500/github/6374/7/rules-tests-0/1-in.json /home/types/4500/github/6374/7/rules-tests-0/1-out.json)
+main: ill-formed board specification given: '((1 2 3 "1will1") ("0will2" 0 0 1 1 0))
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:418:15: parse-loop41
+   /home/types/4500/18SwDev/Code/7/xrules:43:0: main
+(testing /home/types/4500/18SwDev/Code/7/xrules)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((1 2 3 "1will1") ("0will2" 0 0 1 1 0)) ("move" "will2" ("WEST" "SOUTH")))
+(*** expected)
+'(("no"))
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/types/4500/github/6374/7/rules-tests-0/1-in.json)
+(tested /home/types/4500/18SwDev/Code/7/xrules successfully on 0 cases out of 1)
+(testing /home/types/4500/github/6374/7/rules-tests-1/2-in.json /home/types/4500/github/6374/7/rules-tests-1/2-out.json)
+main: ill-formed board specification given: '(("1will1" 0 4))
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:418:15: parse-loop53
+   /home/types/4500/18SwDev/Code/7/xrules:43:0: main
+(testing /home/types/4500/18SwDev/Code/7/xrules)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("1will1" 0 4)) ("move" "will1" ("EAST" "PUT")) ("+build" ("EAST" "PUT")))
+(*** expected)
+'(("no"))
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/types/4500/github/6374/7/rules-tests-1/2-in.json)
+(tested /home/types/4500/18SwDev/Code/7/xrules successfully on 0 cases out of 1)
+(testing /home/types/4500/github/6374/7/rules-tests-2/3-in.json /home/types/4500/github/6374/7/rules-tests-2/3-out.json)
+(testing /home/types/4500/18SwDev/Code/7/xrules)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((1 2 3 "1will1" 0 0) ("0will2" 0 0 1 1 0) (0 0 0 "0joe1" "0joe2" 0))
+  ("move" "will1" ("EAST" "SOUTH"))
+  ("+build" ("PUT" "SOUTH")))
+(*** expected)
+'(("no"))
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ("no")))
+(FAILED /home/types/4500/github/6374/7/rules-tests-2/3-in.json)
+(tested /home/types/4500/18SwDev/Code/7/xrules successfully on 0 cases out of 1)
+(testing /home/types/4500/github/6374/7/rules-tests-3/4-in.json /home/types/4500/github/6374/7/rules-tests-3/4-out.json)
+main: ill-formed board specification given: '(("0joe1" 2))
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:418:15: parse-loop41
+   /home/types/4500/18SwDev/Code/7/xrules:43:0: main
+(testing /home/types/4500/18SwDev/Code/7/xrules)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("0joe1" 2)) ("move" "joe1" ("EAST" "PUT")))
+(*** expected)
+'(("no"))
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/types/4500/github/6374/7/rules-tests-3/4-in.json)
+(tested /home/types/4500/18SwDev/Code/7/xrules successfully on 0 cases out of 1)
+(testing /home/types/4500/github/6374/7/rules-tests-4/5-in.json /home/types/4500/github/6374/7/rules-tests-4/5-out.json)
+main: ill-formed board specification given: '(("2will1" 0 3))
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:418:15: parse-loop53
+   /home/types/4500/18SwDev/Code/7/xrules:43:0: main
+(testing /home/types/4500/18SwDev/Code/7/xrules)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("2will1" 0 3)) ("move" "will1" ("EAST" "PUT")) ("+build" ("EAST" "PUT")))
+(*** expected)
+'(("yes"))
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/types/4500/github/6374/7/rules-tests-4/5-in.json)
+(tested /home/types/4500/18SwDev/Code/7/xrules successfully on 0 cases out of 1)
+

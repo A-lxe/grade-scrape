@@ -1,0 +1,10 @@
+Commit: 2dc168c0ecffcc598a20fd94e2e20986505d7607
+Score: 58/70
+Grader: Kanika Rana
+
+...comments...
+1. Referee should be in Admin Folder. (-1)
+2. Observer is placed in Common as well as Observer Directory, please have only one. (-1)
+2. Strategy and tree generator should be in Player Folder. (-2)
+3. Tournament manager needs to know what to do with games this player has won before the current one when the player breaks. (-5)
+4. Unit tests not found for Observer. (-3)

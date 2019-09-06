@@ -1,0 +1,7 @@
+Commit: 4a69fefc6c7fff9e25b323dd904385530cdfc09c
+Score: 9/13
+Grader: Alex Knauth
+
+Your README file doesn't specify key things like how the code-base is organized and where to start reading it. You don't specify how to run the tests either in a "TESTME" file or the README.
+
+You should have either unit tests or worked examples for individual board methods. You do have one "integration" test for the whole board system in board-tests/{1-in.json,1-out.json}, but a unit test should show one component or one method by itself.

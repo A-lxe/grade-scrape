@@ -1,0 +1,4 @@
+/home/types/4500/github/gija-emmi/3/3: line 3: ./Aux/three/dist/3/3: cannot execute binary file
+'(no connection after 10 tries)
+(testing 3)
+(testing ../../../18SwDev/Code/2/Tests/1-in.json ../../../18SwDev/Code/2/Tests/1-out.json)

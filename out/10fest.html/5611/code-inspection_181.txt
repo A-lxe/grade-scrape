@@ -1,0 +1,7 @@
+Commit: 9fb437ccf95921f2a159a61032da009d77f5d263
+Score: 64/70
+Grader: Kanika Rana
+
+...comments...
+1. Numeric constant used in Rule Checker at line 33 and StayAliveStrategy at line 39. (-4)
+2. Numeric constant used in Rule Checker at line 152. (-2)

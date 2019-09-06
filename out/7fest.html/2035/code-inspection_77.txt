@@ -1,0 +1,10 @@
+Commit: cd3276ed05b2d09e89cf35c4f644844f3fc75c53
+Score: 20/20
+Grader: Kanika Rana
+
+...comments...
+Well done.
+
+Suggestions : 
+1. Please keep the readme concise. The Readme is updated to reflect changes of week7 but does not stand out with the file names. (Ex read me of Santorini, is more like plan.pdf instead.)
+2. Purpose statements on unit tests can be improved.

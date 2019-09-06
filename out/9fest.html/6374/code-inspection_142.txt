@@ -1,0 +1,16 @@
+Commit: 30d725a04b23e35ae9ce2c88bcbfdef2b04ae995
+Score: 44/79
+Grader: Kanika Rana
+
+...comments...
+1. referee implementation is expected to be in Admin directory. (-5)
+2. Method to observe a placement action is expected in Observer. (-4)
+3. Method to observe a turn action is expected in Observer. (-4)
+4. Method to observe any erroneous behavior by a player is expected in Observer. (-4)
+5. Unit tests of Referee are missing. (-10)
+6. Unit tests of Player are missing. (-10)
+
+
+Bonus:
+a player that breaks a placement rule(+2)
+

@@ -1,0 +1,17 @@
+Commit: fd31056f2e7b0cd0fc191192ca435c127e06f359
+Score: 15/20
+Grader: Alex Knauth
+
+Your xrules startReadFromClient method seems to be delegating to the Player
+(this.dummyPlayer) rather than a RuleChecker. The player "happens" to delegate
+to AbstractReferee static methods to check moves and builds. However, the
+`xrules` test harness, and other components later on, should not be trusting
+the player with this; it should be using the RuleChecker (or AbstractReferee
+static methods) directly.
+
+You have two unit tests for the `canMove` method of the rule checker in
+TestReferee, but I can't find any unit tests the `canBuild` method (the tests
+in TestXRules don't directly test the rule checker `canMove` or `canBuild`
+methods). There should be more unit tests in TestReferee, for both `canMove`
+and `canBuild`.
+

@@ -1,0 +1,14 @@
+Commit: eed76b5d2363ed304dafcb01914ab88120c7f9d6
+Score: 17/30
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+Missing functionality for next turn 
+
+Unit test cases for strategy missing for following scenarios,
+(a) Missing unit test for get next turn
+(b) cover several "depths" (searching beyond tree depth of 2 and 3) 
+
+Suggestion:
+Names used for methods confusing. Come up with better names.

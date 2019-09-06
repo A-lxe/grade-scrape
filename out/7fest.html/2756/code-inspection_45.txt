@@ -1,0 +1,7 @@
+Commit: b275d5d213d59896e722313554083649b6ce6ac9
+Score: 17/20
+Grader: Kanika Rana
+
+...comments...
+1. Readme should be included in every Base folder.
+2. No case in json tests to check worker and/or building is placed on the same spot ("staying put").

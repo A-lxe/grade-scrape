@@ -1,0 +1,6 @@
+Commit: e5af3643642e7df62bc43f612df11fb66a892989
+Score: 4/5
+Grader: Kanika Rana
+
+************************************************************
+1. Purpose statement for the exported function is missing (3/Client.js - line 194)

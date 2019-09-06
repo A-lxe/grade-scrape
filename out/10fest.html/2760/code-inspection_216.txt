@@ -1,0 +1,10 @@
+Commit: 4e3c3481b4c1ec1c1ae06e363a423434af07d643
+Score: 48/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+observer implementation not  in the Observer directory
+
+Does not specify how to handle games which were won by the player who cheated in current game 
+Observer implementation not found 
+

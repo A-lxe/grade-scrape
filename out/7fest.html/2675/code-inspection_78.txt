@@ -1,0 +1,8 @@
+Commit: 4a3d6e973f16929eabb373c739abf070b7fe1436
+Score: 14/20
+Grader: Kanika Rana
+
+...comments...
+1. Purpose Statements expected in RuleChecker.
+2. Readme should be present in every BaseFolder and updated with every assignment to reflect the changes and aid code navigation.
+3. No test case in json tests to check worker and/or building is placed on the same spot ("staying put").

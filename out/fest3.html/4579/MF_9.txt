@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/types/4500/github/grza-maza/3/3", line 26, in <module>
+    s.listen()
+TypeError: listen() takes exactly one argument (0 given)
+'(no connection after 10 tries)
+(testing 3)
+(testing ../../../18SwDev/Code/2/Tests/1-in.json ../../../18SwDev/Code/2/Tests/1-out.json)

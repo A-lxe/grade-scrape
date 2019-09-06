@@ -1,0 +1,13 @@
+Commit: 2e837b781de4b487d76b6c9c40e36ead65041b6d
+Score: 18/30
+Grader: Kanika Rana
+
+...comments...
+1. Expecting referee interface to specify a run a game method. (-3)
+2. Expecting referee interface to specify how the ref gets to know the players. (-3)
+3. Expecting referee interface to defined method signatures. (-3)
+4. No test cases to check tree strategies for depth greater than 3. (-3)
+
+Suggestions:
+1. Please consider the structure of your code placement.
+

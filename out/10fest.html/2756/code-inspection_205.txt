@@ -1,0 +1,9 @@
+Commit: dd86230e0c4f25836e6bf5da845ebc469535b03a
+Score: 57/70
+Grader: Kanika Rana
+
+...comments...
+1. Observer folder should not be inside Common, it should be a separate folder in Santorini. (-4)
+2. Test cases not found for Observer to consume acion, board and string. (-3)
+3. Numeric constant 6 has been used in BoardParser at lines 26,28, 29 and in XBoard at 79,81,82. (-4)
+4. Numeric constant used in StandardSantoriniRulesEngine at lines 85 and 195. (-2)

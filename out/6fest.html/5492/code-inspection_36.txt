@@ -1,0 +1,13 @@
+Commit: ef54445fbecb83fb62d90b4a0ff5a0d879e92e8a
+Score: 9/13
+Grader: Raghavendra Venkatesh
+
+...comments...
+3) TESTME does not exist.
+
+5) Following functions/methods not found,
+	somehow find neighboring squares
+
+6) Test or worked examples for following methods/functions not found,
+	height of a field/square whatever
+	somehow find neighboring squares

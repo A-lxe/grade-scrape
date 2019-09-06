@@ -1,0 +1,74 @@
+(testing /course/cs4500f18/ta/github/2355/8/strategy-tests-0/1-in.json /course/cs4500f18/ta/github/2355/8/strategy-tests-0/1-out.json)
+error: contract violation
+  expected: (or/c string? symbol?)
+  given: #<procedure:string->e-w>
+  argument position: 1st
+  other arguments...:
+   "EAST or WEST or PUT expected, given ~e"
+   "SOUTH"
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/contract/private/arrow-val-first.rkt:357:18
+   /home/samc/sw-dev/18SwDev/Code/8/xstrategy:104:0: conversion
+   /home/samc/sw-dev/18SwDev/Code/8/xstrategy:49:0: main
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("one"
+  (("2one1" "1one2" 3 "2two1") (3 "2two2" 3 4))
+  0
+  ("move" "one1" ("SOUTH" "PUT")))
+(*** expected)
+'("yes")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /course/cs4500f18/ta/github/2355/8/strategy-tests-0/1-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+(testing /course/cs4500f18/ta/github/2355/8/strategy-tests-1/2-in.json /course/cs4500f18/ta/github/2355/8/strategy-tests-1/2-out.json)
+main: ill-formed board specification given: '(("2one1" "2two1" 3) ("0one1" "2two2" 3))
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:418:15: parse-loop36
+   /home/samc/sw-dev/18SwDev/Code/8/xstrategy:49:0: main
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("one"
+  (("2one1" "2two1" 3) ("0one1" "2two2" 3))
+  2
+  ("move" "one1" ("SOUTH" "PUT")))
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /course/cs4500f18/ta/github/2355/8/strategy-tests-1/2-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+(testing /course/cs4500f18/ta/github/2355/8/strategy-tests-2/3-in.json /course/cs4500f18/ta/github/2355/8/strategy-tests-2/3-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+(PASSED /course/cs4500f18/ta/github/2355/8/strategy-tests-2/3-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 1 cases out of 1)
+(testing /course/cs4500f18/ta/github/2355/8/strategy-tests-3/4-in.json /course/cs4500f18/ta/github/2355/8/strategy-tests-3/4-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("two" ((3 "2one2") ("0one1" 4) ("0two1" "0two2")) 3)
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ("yes")))
+(FAILED /course/cs4500f18/ta/github/2355/8/strategy-tests-3/4-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+(testing /course/cs4500f18/ta/github/2355/8/strategy-tests-4/5-in.json /course/cs4500f18/ta/github/2355/8/strategy-tests-4/5-out.json)
+match: no matching clause for #f
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/runtime.rkt:24:0: match:error
+   /home/samc/sw-dev/18SwDev/Code/Harness/xmain:158:10: for-loop
+   /home/samc/sw-dev/18SwDev/Code/Harness/xmain:158:10: for-loop
+   /home/samc/sw-dev/18SwDev/Code/Harness/xmain:158:10: for-loop
+   /home/samc/sw-dev/18SwDev/Code/Harness/xmain:158:10: for-loop
+   /home/samc/sw-dev/18SwDev/Code/Harness/xmain:154:6: for-loop
+   /home/samc/sw-dev/18SwDev/Code/Harness/xmain:139:0: work-horse
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+(/course/cs4500f18/ta/github/2355/8/strategy-tests-4/5-in.json is not a JSON file)
+

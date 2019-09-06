@@ -1,0 +1,9 @@
+Commit: 71830494f2831684d9090c368aab97834e189075
+Score: 84/79
+Grader: Kanika Rana
+
+...comments...
+1. Observer not seeing any erroneous behavior by a player(-4)
+2. Bonus points for turn cases(+5)
+3. Bonus points for illegal placement test(+2)
+4. Bonus points for illegal turn test(+2)

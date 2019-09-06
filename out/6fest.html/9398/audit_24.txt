@@ -1,0 +1,27 @@
+main: ill-formed board specification given: '(("0φ1") (3 "1φ2" "1π1" "1π2"))
+  context...:
+   parse-loop22
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+(testing ../../../18SwDev/Code/6/xboard)
+(testing board-tests/2-in.json board-tests/2-out.json)
+(PASSED board-tests/2-in.json)
+(testing board-tests/3-in.json board-tests/3-out.json)
+(PASSED board-tests/3-in.json)
+(testing board-tests/4-in.json board-tests/4-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("0φ1") (3 "1φ2" "1π1" "1π2"))
+  ("neighbors" "π1" ("PUT" "NORTH"))
+  ("move" "φ1" ("PUT" "SOUTH"))
+  ("neighbors" "φ1" ("WEST" "PUT"))
+  ("neighbors" "π1" ("WEST" "NORTH")))
+(*** expected)
+'("yes" () "no" "yes")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/4-in.json)
+(testing board-tests/5-in.json board-tests/5-out.json)
+(PASSED board-tests/5-in.json)
+(tested ../../../18SwDev/Code/6/xboard successfully on 3 cases out of 4)
+

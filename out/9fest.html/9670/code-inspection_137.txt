@@ -1,0 +1,13 @@
+Commit: 87c3fda8f65b0cc8eb7df6447e208e27b6fa6afa
+Score: 53/79
+Grader: Raghavendra Venkatesh
+
+...comments...
+The observer does not have methods to observer following event
+	a placement action
+	a turn action, and
+	any erroneous behavior by a player
+
+Method to place the first two initial workers not found in Player implementation.
+
+Unit test cases for player not found

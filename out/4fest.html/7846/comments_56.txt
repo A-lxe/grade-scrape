@@ -1,0 +1,10 @@
+Commit: d1c07d2603d4182e1dc11393151fac6300f7473c
+Score: 7/10
+Grader: Alex Knauth
+
+Your plan describes how Games are played and managed by the Server with a GameBoard object, but it does not show how it would support tournaments between AI players.
+
+Your plan should include at least two phases:
+ 1. A prototype with minimal functionality, and 
+ 2. A full-fledged system that supports running automated tournaments.
+

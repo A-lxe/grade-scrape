@@ -1,0 +1,12 @@
+Commit: 7a29f80288ebe17846794eec4850ad9a6015fb3f
+Score: 5/10
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) File not placed as per the requirement.
+2) Following components missing:
+buildings
+tournament manager
+3) Part 2 does not describe about stages of implementation. You should describe
+about how you  proceed implementing the software using bottom up approach.i.e
+from building a prototype to a full-fledged system.

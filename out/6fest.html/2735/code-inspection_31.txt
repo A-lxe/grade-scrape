@@ -1,0 +1,12 @@
+Commit: 91eaa757e0c57212492032289f315c15d33a7223
+Score: 8/13
+Grader: Kanika Rana
+
+************************************************************
+1. testme.txt expected in Santorini/
+2. Does not find neighboring squares.
+3. does not check if the square is already occupied by other worker.
+
+
+
+

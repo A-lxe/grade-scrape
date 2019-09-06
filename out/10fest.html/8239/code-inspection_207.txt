@@ -1,0 +1,14 @@
+Commit: b030f333424c6c6ae251acf4d55e801f24f92724
+Score: 46/70
+Grader: Kanika Rana
+
+...comments...
+1. Observer implementation should be placed into the Observer directory. (-5)
+2. Strategy should be in Player directory (-1)
+3. The tournament manager is expected to know what to do when the players break
+   rules/diverge/misbehave, specifically, it must say what to do with the current
+   game [-5] and the games this player has won before the current one [-5]
+4. Board uses constants - 6 at line 137. (-2)
+5. StrategyAI uses constants - 4 at line 17 and in rule checker at line 47. (-4)
+6. Rule checker uses constants - 3 at line 146. (-2)
+-------------------------------------------------------------

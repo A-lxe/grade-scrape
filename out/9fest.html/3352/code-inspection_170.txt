@@ -1,0 +1,10 @@
+Commit: 6be891fad37f46ee1b8c58d8418df5035bfb95c0
+Score: 65/79
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+Observer has no method to know the following,
+   any erroneous behavior by a player
+
+playGame and startSeries not tested in unit test.

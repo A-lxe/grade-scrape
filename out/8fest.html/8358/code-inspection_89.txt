@@ -1,0 +1,11 @@
+Commit: 1892f96ee325fc55b5d2132ad9472ce6acff9399
+Score: 15/30
+Grader: Kanika Rana
+
+...comments...
+1. Cannot find unit test for strategies. (-15)
+
+Suggestions:
+Please update readme even if not mentioned explicitly in the assignment.
+Improve the structure of your code placement, think carefully about the dependence of the component and which component goes in which folder and update the readme with the same.
+

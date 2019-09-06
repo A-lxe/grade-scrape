@@ -1,0 +1,17 @@
+Commit: 4336c5cd0d1ef950844dc61b9b3f0ebec5415636
+Score: 63.5/70
+Grader: Alex Knauth
+
+Normal points: 63.5
+Bonus points: 
+
+It's not obvious/easy for the caller of run_tournament to tell the winners
+of the tournament, even though it's possible. You could fix this either by
+changing the return type or adding a helper function.
+
+I can't find any Unit tests for the Observer or any of its methods.
+
+The observer should be able to observe events where the Referee has detected
+misbehavior by one of the players.
+
+Good that you use named constants like BOARD_HEIGHT and BOARD_WIDTH.

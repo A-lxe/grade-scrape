@@ -1,0 +1,19 @@
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module '../../Santorini/Observer/Observer'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/course/cs4500f18/ta/github/6374/10/Aux/xobserve.js:6:18)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+(running /course/cs4500f18/ta/github/6374/10/xobserve)
+0
+(ran /course/cs4500f18/ta/github/6374/10/xobserve successfully ((plain fast with-newline plain-unicode)) and received 0 JSON values)
+

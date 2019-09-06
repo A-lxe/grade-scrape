@@ -1,0 +1,8 @@
+Commit: 56a637be66ef120a7e42c5a7ef758a1c6c9dcd4c
+Score: 2/5
+Grader: Kanika Rana
+
+************************************************************
+1. Description of the client script's functionality is missing.
+2. Purpose statement for function need to be better framed and descriptive.
+3. Purpose staments missing for instances in Lib.hs

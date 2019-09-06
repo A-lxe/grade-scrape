@@ -1,0 +1,78 @@
+(testing /course/cs4500f18/ta/github/6996/8/strategy-tests-0/1-in.json /course/cs4500f18/ta/github/6996/8/strategy-tests-0/1-out.json)
+main: valid move+build specification expected, given (list [["0kyle1" "1kyle2" 3      "2alex1"]
+ [0      "2alex2" 3     ]]
+ (worker "kyle1") 1 0 1 1)
+  context...:
+   /home/samc/sw-dev/18SwDev/Code/8/xstrategy:49:0: main
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("kyle"
+  (("0kyle1" "1kyle2" 3 "2alex1") (0 "2alex2" 3))
+  1
+  ("move" "kyle1" ("EAST" "PUT"))
+  ("+build" ("EAST" "SOUTH")))
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /course/cs4500f18/ta/github/6996/8/strategy-tests-0/1-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+(testing /course/cs4500f18/ta/github/6996/8/strategy-tests-1/2-in.json /course/cs4500f18/ta/github/6996/8/strategy-tests-1/2-out.json)
+main: valid move+build specification expected, given (list [["0kyle1" "1kyle2" 3      "2alex1"]
+ [0      "2alex2" 3     ]]
+ (worker "kyle1") 1 0 1 1)
+  context...:
+   /home/samc/sw-dev/18SwDev/Code/8/xstrategy:49:0: main
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("kyle"
+  (("0kyle1" "1kyle2" 3 "2alex1") (0 "2alex2" 3))
+  0
+  ("move" "kyle1" ("EAST" "PUT"))
+  ("+build" ("EAST" "SOUTH")))
+(*** expected)
+'("yes")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /course/cs4500f18/ta/github/6996/8/strategy-tests-1/2-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+(testing /course/cs4500f18/ta/github/6996/8/strategy-tests-2/3-in.json /course/cs4500f18/ta/github/6996/8/strategy-tests-2/3-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("kyle"
+  (("0alex1" "0alex2") ("0kyle1" "0kyle2"))
+  2
+  ("move" "kyle2" ("EAST" "SOUTH"))
+  ("+build" ("EAST" "SOUTH")))
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ("yes")))
+(FAILED /course/cs4500f18/ta/github/6996/8/strategy-tests-2/3-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+(testing /course/cs4500f18/ta/github/6996/8/strategy-tests-3/4-in.json /course/cs4500f18/ta/github/6996/8/strategy-tests-3/4-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+(PASSED /course/cs4500f18/ta/github/6996/8/strategy-tests-3/4-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 1 cases out of 1)
+(testing /course/cs4500f18/ta/github/6996/8/strategy-tests-4/5-in.json /course/cs4500f18/ta/github/6996/8/strategy-tests-4/5-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("henry"
+  (("0henry1" 0 0 0 0 "0brad1") () () () () ("0brad2" 0 0 0 0 "0henry2"))
+  1
+  ("move" "henry1" ("PUT" "SOUTH")))
+(*** expected)
+'("yes")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ("no")))
+(FAILED /course/cs4500f18/ta/github/6996/8/strategy-tests-4/5-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+

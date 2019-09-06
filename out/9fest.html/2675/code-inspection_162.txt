@@ -1,0 +1,10 @@
+Commit: 513ba1938267b73bd83f92b2b16b8ac1ad0fb5fe
+Score: 66/79
+Grader: Kanika Rana
+
+...comments...
+1. Method to observe a placement action is expected in Observer. (-4)
+3. Method to observe a turn action is expected in Observer. (-4)
+4. Method to observe any erroneous behavior by a player is expected in Observer. (-4)
+5. Purpose statement expected instead of comments for playNGames. (-1)
+

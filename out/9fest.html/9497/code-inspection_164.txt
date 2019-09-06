@@ -1,0 +1,11 @@
+Commit: c2af94999baea0160bac0b446c089c2d45dc0c6a
+Score: 66/79
+Grader: Raghavendra Venkatesh
+
+...comments...
+The observer does not have methods to observer following event
+	a placement action
+	a turn action, and
+	any erroneous behavior by a player
+
+Opponent parameter not explained for getTurn method

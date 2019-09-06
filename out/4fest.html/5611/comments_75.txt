@@ -1,0 +1,6 @@
+Commit: da085066428adc32714f98f8d58c343eff8f0e0d
+Score: 9/10
+Grader: Alex Knauth
+
+You don't specify a good player-interface through which players can make decisions about which moves to make. You say that they communicate "over TCP using stringified JSON", but never define what actions they can send, and that's not good enough to specify the interface.
+

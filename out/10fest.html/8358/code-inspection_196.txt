@@ -1,0 +1,14 @@
+Commit: f758c05d1a1c69189359f0a4019a5f67f190d773
+Score: 60/70
+Grader: Kanika Rana
+
+...comments...
+1. observer implementation should be placed into the Observer directory. (-5)
+2. Numeric constant - 5 is used in ViewModelBoard at line 60,61. (-2)
+3. The reportResults is not private as mentioned in the comments. (-1)
+4. Checking when player is broken -  etc. is vague, it is the description of the function that you are writing. (-2)
+ 
+
+Suggestions:
+Do you really want to print in your functions of observer?
+

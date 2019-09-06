@@ -1,0 +1,7 @@
+Commit: a5f872cfea78774814f4b9b5c2bf10ca409149f0
+Score: 18/20
+Grader: Kanika Rana
+
+...comments...
+1. Purpose statements missing for isValidBuild in RuleCheck.
+2. Read me to aid navigation of code.

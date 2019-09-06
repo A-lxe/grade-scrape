@@ -1,0 +1,6 @@
+Commit: 4711014244ec160d66be5b8371cc64f312212b50
+Score: 2/5
+Grader: Kanika Rana
+
+************************************************************
+1. Purpose statements for functions are expected.

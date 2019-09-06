@@ -1,0 +1,132 @@
+main: ill-formed board specification given: '((3 2 1 0 0 1) (0 2 0 "2player12" 0 0) (0 0 0 0 0 "3player11") (0 0 0 0 "1player21" 0) (0 0 "1player22" 0 0 0) (0 0 0 0 0 0))
+  context...:
+   parse-loop10
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+main: ill-formed board specification given: '((3 2 1 0 0 1) (0 "2player12" 0 0 0 0) (2 "1player21" 0 0 0 "3player11") (0 0 0 0 0 0) (0 0 "1player22") (0 0 0 0 0 0))
+  context...:
+   parse-loop22
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+main: ill-formed board specification given: '((3 2 1 0 0 1) (0 "2player12" 0 0 0 0) (2 0 0 0 0 "3player11") ("1player21" 0 0 0 0 0) ("1player22" 0 0 0 0 0) (0 0 0 0 0 0))
+  context...:
+   parse-loop10
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+main: ill-formed board specification given: '((3 2 1 0 0 1) (0 "2player12" "3player11" 0 0 0) (2 "1player21" 0 0 0 0) (0 0 0 0 0 0) (0 0 "1player22" 0 0 0) (0 0 0 0 0 0))
+  context...:
+   parse-loop10
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+main: ill-formed board specification given: '((3 2 1 0 0 1) (0 "2player12" "3player11" 0 0 0) (2 "1player21" 0 0 0 0) (0 0 0 0 0 0) (0 0 "1player22" 0 0 0) (0 0 0 0 0 0))
+  context...:
+   parse-loop10
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+(testing ../../../18SwDev/Code/6/xboard)
+(board-tests/1-out.json is not a JSON file)
+(board-tests/2-out.json is not a JSON file)
+(board-tests/3-out.json is not a JSON file)
+(board-tests/4-out.json is not a JSON file)
+(testing board-tests/1-in.json board-tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((3 2 1 0 0 1)
+   (0 2 0 "2player12" 0 0)
+   (0 0 0 0 0 "3player11")
+   (0 0 0 0 "1player21" 0)
+   (0 0 "1player22" 0 0 0)
+   (0 0 0 0 0 0))
+  ("build" "player11" ("WEST" "PUT"))
+  ("height" "player11" ("WEST" "PUT"))
+  ("neighbor" "player12" ("EAST" "SOUTH"))
+  ("neighbor" "player11" ("EAST" "PUT"))
+  ("occupy" "player12" ("EAST" "SOUTH"))
+  ("occupy" "player21" ("EAST" "NORTH"))
+  ("height" "player21" ("EAST" "NORTH")))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/1-in.json)
+(testing board-tests/2-in.json board-tests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((3 2 1 0 0 1)
+   (0 "2player12" 0 0 0 0)
+   (2 "1player21" 0 0 0 "3player11")
+   (0 0 0 0 0 0)
+   (0 0 "1player22")
+   (0 0 0 0 0 0))
+  ("neighbor" "player22" ("EAST" "PUT"))
+  ("build" "player22" ("EAST" "PUT"))
+  ("height" "player22" ("EAST" "PUT"))
+  ("build" "player12" ("PUT" "NORTH"))
+  ("height" "player12" ("PUT" "NORTH")))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/2-in.json)
+(testing board-tests/3-in.json board-tests/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((3 2 1 0 0 1)
+   (0 "2player12" 0 0 0 0)
+   (2 0 0 0 0 "3player11")
+   ("1player21" 0 0 0 0 0)
+   ("1player22" 0 0 0 0 0)
+   (0 0 0 0 0 0))
+  ("move" "player11" ("WEST" "PUT"))
+  ("height" "player11" ("EAST" "PUT"))
+  ("neighbor" "player22" ("WEST" "PUT"))
+  ("move" "player22" ("WEST" "PUT"))
+  ("occupy" "player21" ("PUT" "SOUTH")))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/3-in.json)
+(testing board-tests/4-in.json board-tests/4-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((3 2 1 0 0 1)
+   (0 "2player12" "3player11" 0 0 0)
+   (2 "1player21" 0 0 0 0)
+   (0 0 0 0 0 0)
+   (0 0 "1player22" 0 0 0)
+   (0 0 0 0 0 0))
+  ("occupy" "player21" ("PUT" "NORTH"))
+  ("move" "player21" ("PUT" "NORTH"))
+  ("height" "player11" ("WEST" "PUT"))
+  ("move" "player12" ("PUT" "NORTH")))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/4-in.json)
+(testing board-tests/5-in.json board-tests/5-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((3 2 1 0 0 1)
+   (0 "2player12" "3player11" 0 0 0)
+   (2 "1player21" 0 0 0 0)
+   (0 0 0 0 0 0)
+   (0 0 "1player22" 0 0 0)
+   (0 0 0 0 0 0))
+  ("build" "player12" ("PUT" "NORTH"))
+  ("height" "player12" ("PUT" "NORTH"))
+  ("build" "player12" ("PUT" "NORTH"))
+  ("height" "player12" ("PUT" "NORTH"))
+  ("move" "player12" ("PUT" "NORTH"))
+  ("move" "player21" ("PUT" "NORTH"))
+  ("height" "player21" ("PUT" "NORTH"))
+  ("build" "player21" ("PUT" "NORTH"))
+  ("height" "player21" ("PUT" "NORTH")))
+(*** expected)
+'(() 3 () 4 () () 4 4)
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/5-in.json)
+(tested ../../../18SwDev/Code/6/xboard successfully on 0 cases out of 5)
+

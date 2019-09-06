@@ -1,0 +1,16 @@
+Commit: 224b57597426b46bc8811991f4470eb7023d8e2f
+Score: 4/5
+Grader: Alex Knauth
+
+The purpose statements / docstrings on your methods mostly look good, but
+you're missing a purpose statement for the client as a whole. This could be a
+comment at the top of the file or a docstring on the main SpreadClient class.
+
+The purpose / docstring for `parse_json` leaves out an important part of what
+it does. Yes, it parses JSON input, but after parsing it also dispatches on
+which type of command the JSON represents.
+
+The `evaluate` method is called when the user puts in an "at request". The
+client should print the value in that cell, but it shouldn't necessarily print
+"Value of 3, 4 in my-sheet is: 5"; only "5". Also, it doesn't print "false" to
+indicate a circularity.

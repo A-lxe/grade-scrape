@@ -1,0 +1,13 @@
+Commit: 4948c0f41cd51b226ff9830c7934b13525db8235
+Score: 7/13
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) TESTME does not exist.
+
+2) Test or worked examples for following methods/functions not found,
+	build
+	move
+	height of a field/square whatever
+	is a field occupied by a player
+	somehow find neighboring squares

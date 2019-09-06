@@ -1,0 +1,7 @@
+Commit: 74c036b492092a533204acb658db15c2900992b9
+Score: 18/20
+Grader: Raghavendra Venkatesh
+
+...comments...
+JSON test for following scenario not found
+	an action request is rejected because the worker and/or building is placed on the same spot

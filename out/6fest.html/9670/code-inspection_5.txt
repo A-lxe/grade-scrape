@@ -1,0 +1,13 @@
+Commit: b5f00d2134778e98bfc1ad13959f86d262dbb25b
+Score: 1/13
+Grader: Alex Knauth
+
+You should have a README file in the 6/ directory, not just in the Santorini directory, and it should describe both how the source code is organized and how to run the test harness. You should also have a TESTME file that describes how to run the tests, including unit tests.
+
+You seem to be doing a lot of JSON parsing manually within xboard, for example removing `[]` brackets and splitting on `,` commas yourself, rather than delegating to a JSON library. This kind of thing makes your code very hard to read and will make it hard to maintain. You should find a JSON library that allows you to read and write JSON values, as a JSON-tree-like data structure, not as strings.
+
+After this I should not see things like `string.split(",")`, or `string.contains("\"")`, or `string.split("\\[")`, or `scanner.useDelimiter(",")`, or `string.replace("[", "")` anywhere in your code. And definitely no manual JSON parsing or String parsing within the logic of your code.
+
+You should not be representing so many things as Strings to be parsed later.
+
+You don't have unit tests or examples for any board methods except one that's just manual JSON parsing. All but that one of your JUnit tests are empty.

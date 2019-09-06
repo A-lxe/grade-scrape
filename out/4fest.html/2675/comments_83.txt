@@ -1,0 +1,10 @@
+Commit: d94f6c44364fbcb568397154f147aa4c0d5363f7
+Score: 9/10
+Grader: Kanika Rana
+
+************************************************************
+1. Refree component is expected.
+
+
+
+

@@ -1,0 +1,4 @@
+(running /course/cs4500f18/ta/github/2355/10/xobserve)
+25
+(ran /course/cs4500f18/ta/github/2355/10/xobserve successfully ((plain fast with-newline plain-unicode)) and received 25 JSON values)
+

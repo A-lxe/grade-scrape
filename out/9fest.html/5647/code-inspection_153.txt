@@ -1,0 +1,10 @@
+Commit: 58e0f3d4e828b76c9350271926c12a7ff36f331e
+Score: 57/79
+Grader: Kanika Rana
+
+...comments...
+1. Placement action missing in Observer.py(-4)
+2. Turn action missing in Observer.py(-4)
+3. erroneous behaviour not observed in Observer.py(-4)
+4. Unit test for series of games missing (-5)
+5. Unit test for taking a turn missing (-5)

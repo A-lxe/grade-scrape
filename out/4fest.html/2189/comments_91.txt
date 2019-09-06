@@ -1,0 +1,9 @@
+Commit: 23bc1ae3710ec3d415981269a48c251aef9da2a0
+Score: 7/10
+Grader: Raghavendra Venkatesh
+
+...comments...
+1)Following components are not mentioned:
+    * buildings
+
+2) Part 2 does not describe about stages of implementation. You should describe about how you  proceed implementing the software using bottom up approach.i.e from building a prototype to a full-fledged system.

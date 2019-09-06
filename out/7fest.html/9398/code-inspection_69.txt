@@ -1,0 +1,8 @@
+Commit: dbab5ed3e942aaf009d1153bbf383c7424a6d6b7
+Score: 16/20
+Grader: Kanika Rana
+
+...comments...
+1. Readme should be included in all folder. Cannot find readme in 7/
+2. No test condition in json tests to check worker and/or building is placed on the same spot ("staying put").
+3. Purpose Statement should be more meaningful when checking for valid moves/build.

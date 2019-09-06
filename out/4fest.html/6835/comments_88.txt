@@ -1,0 +1,8 @@
+Commit: d54a1bc5b0db272ac5a6cf34e9874b655a99f0d4
+Score: 8/10
+Grader: Raghavendra Venkatesh
+
+...comments...
+1 ) File not placed as per the requirement.
+2 ) Following components are not mentioned:
+        * tournament manager

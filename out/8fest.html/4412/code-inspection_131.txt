@@ -1,0 +1,29 @@
+Commit: ce8e5711c625ed46cc923df7d075a744204e3b0d
+Score: 7/30
+Grader: Alex Knauth
+
+The Referee needs some way to "run a game," possibly with another method. You
+say in the purpose statement for the file: "Referee admin component that
+manages the game", but I don't see any method declaration for running or
+managing a whole game.
+
+It would be cleaner if the Referee and Strategy interfaces dealt with some type
+for "the actions that a player can take on a turn", which is a combination of a
+move and a build, instead of dealing with Moves and Builds separately.
+
+I don't see anything in the Strategy interface that provides "choice of worker
+placement" or "choice of action on turn" functionality. If you have a type that
+represents "the actions that a player can take on turn", the choice-of-action
+method should return that type.
+
+If you want, an implementation of this choice-of-action method can
+**internally** use alphabeta pruning or whatever you want, but the interface
+shouldn't care how the actions are chosen. The interface should just return the
+final suggested turn/actions.
+
+I can't find any Unit tests for the Strategy, for either worker-placement,
+choice-of-action, or can-stay-alive functionality. You have the
+strategy-tests/*-{in,out}.json files as _integration_ tests for the system as a
+whole, but you're missing unit tests that would test specific methods and
+components by themselves.
+

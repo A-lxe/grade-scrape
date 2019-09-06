@@ -1,0 +1,12 @@
+Commit: 11ca63878e9648e967a39948a75a2b58aaf14e5b
+Score: 65/70
+Grader: Kanika Rana
+
+...comments...
+1. Referee interface should be in design instead. (-1
+2. Unit tests not found for observer. (-3)
+3. using numeric constants in function of referee at line 171. (-1)
+
+Suggestion:
+Think about the situation when the player breaks rule in the last game of your best of n games.
+

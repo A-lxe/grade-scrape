@@ -1,0 +1,7 @@
+Commit: 47d619d09cd085e84f2287e2f1e4584ae5b7aed6
+Score: 1/5
+Grader: Kanika Rana
+
+************************************************************
+1. Purpose Statements of functions are missing.
+2. Source Code not provided at the correct location.

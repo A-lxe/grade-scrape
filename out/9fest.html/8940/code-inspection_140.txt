@@ -1,0 +1,21 @@
+Commit: 11e78dfd586213c00250c4d64a4bbf037a1133e0
+Score: 41/79
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+No purpose statement or description about observer
+The observer does not have methods to observer following event
+	a placement action
+	a turn action, and
+	any erroneous behavior by a player
+
+Unit tests for referee not found
+
+Method to place the first two initial workers not found.
+Unit test for play_turn method of player not found
+
+
+Bonus awarded:
+a player that breaks a placement rule
+a player that breaks a rule taking its turn

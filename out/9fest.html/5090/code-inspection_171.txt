@@ -1,0 +1,9 @@
+Commit: 911181d14352faf1288eb212a879864c5112cec8
+Score: 68/79
+Grader: Kanika Rana
+
+...comments...
+1. No Player directory/module (-5)
+2. No Admin directory/module(-5)
+3. purporse statements for runGame missing (-2)
+4. Bonus for illegal placement handling(+1)

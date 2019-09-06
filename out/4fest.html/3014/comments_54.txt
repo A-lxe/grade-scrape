@@ -1,0 +1,9 @@
+Commit: 3b6ee04976c64826fec4a00322866420c63ae4af
+Score: 6/10
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) Description about following components missing 
+referee 
+tournament manager: For dealing with arbitrary number of players.
+2) Part 2 does not describe about stages of implementation. You should describe about how you  proceed implementing the software using bottom up approach.i.e from building a prototype to a full-fledged system.

@@ -1,0 +1,15 @@
+Commit: 493a65d331ec017dbd0346f7c2a89ba16872f012
+Score: 6/13
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) README does not tell about where to start reading the code base.
+
+2) TESTME does not exist.
+
+3) Test or worked examples for following methods/functions not found,
+	build
+	move
+	height of a field/square whatever
+	is a field occupied by a player
+	somehow find neighboring squares

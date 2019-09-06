@@ -1,0 +1,15 @@
+Commit: 5280c4795a1813af3a0525e740655a44a9392bf3
+Score: 19.5/20
+Grader: Alex Knauth
+
+Your TESTME script runs your integration tests, the tests for the whole system
+in n-{in,out}.json, but it doesn't run any Unit tests, the tests for single
+methods and single components by themselves.
+
+The unit tests you do have look good; the TESTME should run them. This could be
+as simple as having the TESTME run the Santorini/Test/allTests script that you
+already have (possibly using pushd/popd since it's dependent on relative
+paths).
+
+Your purpose statements in the RuleChecker look good.
+

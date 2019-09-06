@@ -1,0 +1,7 @@
+Commit: 35f42a24b8952c11c1de1836ccf18d1536bd3965
+Score: 0/5
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) Source file not found for client in Aux folder. 
+2) No purpose statements written for methods of test classes.

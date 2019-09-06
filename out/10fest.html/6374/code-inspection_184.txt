@@ -1,0 +1,12 @@
+Commit: 1260b152df81ecab5da9e77bff4972e2c9a7e72b
+Score: 59/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+
+observer implementation not  in the Observer directory.
+
+Observer does not have method to observe misbehavior by one of the players.
+Unit tests for observer not found.
+

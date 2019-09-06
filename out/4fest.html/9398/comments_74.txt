@@ -1,0 +1,7 @@
+Commit: abc2c1664e0deddf3faaa495d6cce868d21ca46f
+Score: 9/10
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) Following components missing from software:
+player interface

@@ -1,0 +1,10 @@
+Commit: 548cb04de8b8a6b1407b92fc59b1724d220ab521
+Score: 24/30
+Grader: Kanika Rana
+
+...comments...
+1. Definition of GameState is expected - the referee interface should specify all terms in the signatures defined.(-1)
+2. Unit test is expected of both kind of outcomes of stayAlive. (-5)
+
+
+Well done, good structure.

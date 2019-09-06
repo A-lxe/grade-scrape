@@ -1,0 +1,15 @@
+Commit: 28a3bad78cebb769497db7be3c8a499c05c639e8
+Score: 45/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+strategy, tree generator should be placed in PLAYER folder.
+Player interface should be place in COMMON folder.
+
+Tournament manager design not found.
+
+Should provide more explanation in purpose statement about what are you observing 
+Through update method. 
+No unit test cases found for observer methods
+

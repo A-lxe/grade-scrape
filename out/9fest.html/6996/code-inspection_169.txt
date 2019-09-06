@@ -1,0 +1,11 @@
+Commit: 9e5bdb0bd5fb94f3970122c9e59eae08f3eb2d37
+Score: 61/79
+Grader: Raghavendra Venkatesh
+
+...comments...
+player implementation not placed into the Player directory
+referee implementation not placed into the Admin directory
+
+The observer has no methods to observe,
+     a placement action
+     any erroneous behavior by a player

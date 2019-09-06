@@ -1,0 +1,10 @@
+Commit: 063cadeacfe74523f21bbb62f31ed639be22927f
+Score: 12/30
+Grader: Kanika Rana
+
+...comments...
+1. Expecting a function to specify a run a game method in Design/referee. (-3)
+2. Pupose statements expected in Santorini/Player/strategy_interface.py (-5).
+3. Unit tests for depth>3 was expected for tree Strategy. (-5)
+4. Unit tests for stayAlive in both situations (true/false) was expected for tree Strategy. (-5)
+

@@ -1,0 +1,16 @@
+Commit: 9729874fa8d8e12a68048585f6e9e3ea31e745ea
+Score: 12/20
+Grader: Alex Knauth
+
+Your TESTME file runs your integration tests, the tests for the whole system in
+n-{in,out}.json, but it doesn't run any Unit tests, the tests for single
+methods and single components by themselves.
+
+I can't find any Unit tests anywhere, and your README and Testme files don't
+guide me to them.
+
+The n-out.json files should contain valid JSON strings, such as `"yes"` and
+`"no"`. You currently have versions without the quotes (`yes` and `no`), which
+are not valid JSON strings. You can use the `serde_json::Value::String`
+constructor to create a valid JSON string.
+

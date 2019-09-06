@@ -1,0 +1,11 @@
+Commit: 3e9f712b7405488784246d8f665ae5ced83c2a00
+Score: 18/20
+Grader: Raghavendra Venkatesh
+
+...comments...
+JSON test for following scenario not found
+    an action request is rejected because the worker and/or building is placed on the same
+spot
+
+Suggestions:
+ Document/comment the the scenarios you are testing using unit test cases

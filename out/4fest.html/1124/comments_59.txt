@@ -1,0 +1,10 @@
+Commit: 4181767c141e1b071381d3095f0c8dc6a3242ca7
+Score: 8/10
+Grader: Alex Knauth
+
+On the second page you specify fields and things like that for your classes. Those are usually not necessary (unless those fields are meant to be part of the Interface). Instead you should concentrate more on the Methods and Interfaces. Only things that an outside user would need to know about, and not internal implementation details.
+
+Your plan should outline at least two phases:
+ 1. A prototype with minimal functionality, and 
+ 2. A full-fledged system that supports running automated tournaments.
+

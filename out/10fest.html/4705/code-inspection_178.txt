@@ -1,0 +1,10 @@
+Commit: a01eda2e22cba0aeddbab18d2326008b7b743dd0
+Score: 69/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+Player interface not placed in common folder
+
+Suggestion:
+Please give meaningful message when committing to git instead of changes and stuff

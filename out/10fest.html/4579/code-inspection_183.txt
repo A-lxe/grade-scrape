@@ -1,0 +1,15 @@
+Commit: cb1cf5e3c7c8d04380d60d8cd7a4553ac99b9cba
+Score: 42/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+observer implementation not  in the Observer directory
+
+Does not specify what to do with player who cheated in current game
+Does not specify how to handle past games which were won by the player who cheated in current game
+
+No unit tests found for observer methods
+
+Literal constant 6 used in board.py 
+Constant 3,4,6 used in rule checker
+

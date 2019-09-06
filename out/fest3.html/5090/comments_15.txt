@@ -1,0 +1,9 @@
+Commit: a66138a4c6367ec27d60f547da93291cc216bb06
+Score: 3/5
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) Purpose statement for client missing.
+2) Purpose statement missing for private methods.
+2) Unnecessary comments in the source code.
+3) Source code missing for IInputFormatter and JsonInputFormatter.

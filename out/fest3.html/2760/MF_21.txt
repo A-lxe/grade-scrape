@@ -1,0 +1,5 @@
+/home/types/4500/github/mism-mada/3/3: /lib64/libstdc++.so.6: version `CXXABI_1.3.9' not found (required by /home/types/4500/github/mism-mada/3/3)
+/home/types/4500/github/mism-mada/3/3: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by /home/types/4500/github/mism-mada/3/3)
+'(no connection after 10 tries)
+(testing 3)
+(testing ../../../18SwDev/Code/2/Tests/1-in.json ../../../18SwDev/Code/2/Tests/1-out.json)

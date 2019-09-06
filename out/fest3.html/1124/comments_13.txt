@@ -1,0 +1,14 @@
+Commit: 45a5e72325ab1c98c8895b13188f5ca58ebadc11
+Score: 0/5
+Grader: Alex Knauth
+
+There are a lot of places where your "purpose statements" say one thing (with a
+TODO), and your function does something else. Even then most of them are vague
+and don't specify anything other than the "would-be" return type of the method.
+You're also missing a purpose statement for the client as a whole.
+
+You don't use any classes or methods from your Server spec. For example, the
+server spec you sent to Codemanistan deals with Formula objects and
+SpreadsheetValue objects, while your client code only has JF-trees. It never
+converts those JF trees into Formula objects. It also doesn't deal with the
+SpreadsheetValue objects that would be returned from those formulas.

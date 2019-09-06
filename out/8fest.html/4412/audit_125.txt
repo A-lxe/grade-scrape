@@ -1,0 +1,108 @@
+(testing /course/cs4500f18/ta/github/4412/8/strategy-tests-0/1-in.json /course/cs4500f18/ta/github/4412/8/strategy-tests-0/1-out.json)
+main: ill-formed board specification given: '(("2playerone1" 3 "0playerone2") ("1playertwo1" 4 "2playerone2"))
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:418:15: parse-loop36
+   /home/samc/sw-dev/18SwDev/Code/8/xstrategy:49:0: main
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("playerone"
+  (("2playerone1" 3 "0playerone2") ("1playertwo1" 4 "2playerone2"))
+  1
+  ("move" "playerone1" ("EAST" "PUT")))
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /course/cs4500f18/ta/github/4412/8/strategy-tests-0/1-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+(testing /course/cs4500f18/ta/github/4412/8/strategy-tests-1/2-in.json /course/cs4500f18/ta/github/4412/8/strategy-tests-1/2-out.json)
+main: ill-formed board specification given: '((0 4 4 4 4 4) (4 4 "2playerone1" 4 4 4) (4 0 "0playerone2" 4 4 4) (4 4 4 4 4 4) ("0playertwo1" "0playertwo" 0 0 0 0) (0 0 0 0 0 0))
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:418:15: parse-loop36
+   /home/samc/sw-dev/18SwDev/Code/8/xstrategy:49:0: main
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+(/course/cs4500f18/ta/github/4412/8/strategy-tests-1/2-out.json is not a JSON file)
+---------------------------------
+(*** score 0)
+(*** on)
+'("playerone"
+  ((0 4 4 4 4 4)
+   (4 4 "2playerone1" 4 4 4)
+   (4 0 "0playerone2" 4 4 4)
+   (4 4 4 4 4 4)
+   ("0playertwo1" "0playertwo" 0 0 0 0)
+   (0 0 0 0 0 0))
+  3
+  ("move" "playerone1" ("WEST" "SOUTH"))
+  ("+build" ("PUT" "SOUTH")))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /course/cs4500f18/ta/github/4412/8/strategy-tests-1/2-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+(testing /course/cs4500f18/ta/github/4412/8/strategy-tests-2/3-in.json /course/cs4500f18/ta/github/4412/8/strategy-tests-2/3-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+(/course/cs4500f18/ta/github/4412/8/strategy-tests-2/3-out.json is not a JSON file)
+---------------------------------
+(*** score 0)
+(*** on)
+'("playerone"
+  ((0 0 0 0 0 0)
+   ("0playerone1" 0 0 0 0 0)
+   (0 0 0 0 0 0)
+   ("0playerone2" 0 0 0 0 0)
+   ("0playertwo1" 0 0 0 0 0)
+   ("0playertwo2" 0 0 0 0 0))
+  4
+  ("move" "playerone1" ("EAST" "PUT"))
+  ("+build" ("WEST" "PUT")))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ("yes")))
+(FAILED /course/cs4500f18/ta/github/4412/8/strategy-tests-2/3-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+(testing /course/cs4500f18/ta/github/4412/8/strategy-tests-3/4-in.json /course/cs4500f18/ta/github/4412/8/strategy-tests-3/4-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+(/course/cs4500f18/ta/github/4412/8/strategy-tests-3/4-out.json is not a JSON file)
+---------------------------------
+(*** score 0)
+(*** on)
+'("playerone"
+  ((0 "0playerone1" 0)
+   (0 "0playerone2" 0)
+   ("2playertwo1" 3 3)
+   ("0playertwo2" 0 0))
+  2
+  ("move" "playerone1" ("EAST" "SOUTH"))
+  ("+build" ("WEST" "NORTH")))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ("no")))
+(FAILED /course/cs4500f18/ta/github/4412/8/strategy-tests-3/4-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+(testing /course/cs4500f18/ta/github/4412/8/strategy-tests-4/5-in.json /course/cs4500f18/ta/github/4412/8/strategy-tests-4/5-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+(/course/cs4500f18/ta/github/4412/8/strategy-tests-4/5-out.json is not a JSON file)
+---------------------------------
+(*** score 0)
+(*** on)
+'("playertwo"
+  ((0 "0playerone1" 0)
+   (0 "0playerone2" 0)
+   ("2playertwo1" 3 3)
+   ("0playertwo2" 0 0))
+  2
+  ("move" "playerone1" ("EAST" "SOUTH"))
+  ("+build" ("WEST" "NORTH")))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ("no")))
+(FAILED /course/cs4500f18/ta/github/4412/8/strategy-tests-4/5-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+

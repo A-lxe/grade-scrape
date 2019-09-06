@@ -1,0 +1,11 @@
+Commit: 9156f136e719b635080cc23eb6d3f1436ea6e643
+Score: 6/10
+Grader: Kanika Rana
+
+************************************************************
+1. Name expected to be plan.pdf
+2. Tournament manager expected.
+3. Multiplayer approach needs to be mentioned.
+
+
+

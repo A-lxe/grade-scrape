@@ -1,0 +1,18 @@
+Commit: 079b0c5f5a5fa293b224276fcb2434823e19d7c3
+Score: 59/79
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+The observer does not have methods to observer following event
+	a placement action
+	a turn action, and
+	any erroneous behavior by a player
+
+No unit test cases found for player
+
+Bonus:
+a player that breaks a placement rule
+a player that breaks a rule taking its turn
+
+

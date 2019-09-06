@@ -1,0 +1,27 @@
+Commit: 839e239e5ca59628e9463220e1e2ec4afce71c17
+Score: 63/70
+Grader: Alex Knauth
+
+You don't specify how the tournament manager or the run_tournament method
+connects with the players. It only takes a number as input and not a list
+of players or anything like that, and you don't have any method that takes
+players as input.
+
+Your tournament manager design says "If a player breaks or violates a rule, it 
+loses that match but remains in the tournament." This is okay for assignment 10, 
+but for assignment 11 players that break should be thrown out of the tournament.
+
+  --
+
+The observer should have a method to observe events where the Referee has 
+detected misbehavior by one of the players. This method should be separate
+from observations that the game has ended and the other player has won.
+
+Your Unit tests test against players that go into infinite loops, and those
+tests are good for testing observations that the other player "p2" wins. 
+However, there should also be observations that "p1" or "p3" misbehaved,
+separate from the game ending and the other player winning.
+
+  --
+
+Good that you used named constants like BOARD_SIZE and MAX_HEIGHT.

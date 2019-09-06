@@ -1,0 +1,9 @@
+Commit: c40ff0675d28223782e12993d70ed7bf89435416
+Score: 71/79
+Grader: Kanika Rana
+
+...comments...
+1. No action/method which observes erronous behaviour by a player(-4)
+2. bestOfNGames does not have appropriate documentation(-1)
+3. executeTurn() does not have appropriate documentation(-1)
+4. executeTurn() does not have appropriate signiture(-2)

@@ -1,0 +1,7 @@
+Commit: 4e07062724c8a14831b41898eeba52eecce4d358
+Score: 69/70
+Grader: Kanika Rana
+
+...comments...
+1. GameResult is undefined from signature of Observer. (-1)
+

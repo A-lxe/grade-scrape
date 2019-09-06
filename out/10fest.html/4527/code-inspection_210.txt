@@ -1,0 +1,13 @@
+Commit: 1e87595c8f533ff31475a67560ef01dc1f9304dc
+Score: 54/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+strategy and tree generator places in common folder instead of player.
+
+
+Does not specify what to do with player who cheated in current game.
+Does not specify how to handle games which were won by the player who cheated in current game.
+Does not specify how tournament manager reports the results.
+
+

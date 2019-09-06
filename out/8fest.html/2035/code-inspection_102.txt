@@ -1,0 +1,10 @@
+Commit: 690e22b0b5e0ae55a96ab21513d2eb2d9730a153
+Score: 22/30
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+does not  specify a "run a game" method
+
+Unit test cases for strategy missing for following scenarios,
+(1) cover several "depths" (searching beyond tree depth of 2 and 3)

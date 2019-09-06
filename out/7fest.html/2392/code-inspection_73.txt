@@ -1,0 +1,7 @@
+Commit: 0ab60f599101d2055e573dfac8d3c1f88f42c76f
+Score: 17/20
+Grader: Kanika Rana
+
+...comments...
+1. Purpose statements should be more descriptive of the validity checks.
+2. No unit tests found.

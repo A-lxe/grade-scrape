@@ -1,0 +1,29 @@
+Commit: 6fb4294e585b56dc91b7253ac9c709aedc325ab2
+Score: 66.5/70
+Grader: Alex Knauth
+
+Normal points: 66.5
+Bonus points: 
+
+In the TournamentManager design, you say "Broken players need not be handled
+specially, the referee will ensure they lose all of their matches." This is
+okay for assignment 10, but for assignment 11 broken players should be thrown
+out of the tournament.
+
+The TournamentResults data definition doesn't have an "interpretation" of
+what the String keys or those two Ints mean. You also don't specify which 
+functions a client should use to find the winners from the TournamentResults.
+
+Good job specifying something about breaking Ties! Even if the final design
+ends up not being exactly what you specified, it's good to be thinking of these 
+sorts of things.
+
+  --
+
+I can't find any Unit tests for Observer, StdoutObserver, JSObserver, or any of
+their associated methods or functions.
+
+  --
+
+Good that you use named constants like boardSize, and even a finite type for 
+Floors.

@@ -1,0 +1,9 @@
+Commit: 27585dd3bdd49f46892d6e6eaa83fa2cd2495d6a
+Score: 13/20
+Grader: Kanika Rana
+
+...comments...
+1. Readme should be present in every folder and updated to reflect changes with every submisssion to aid navigate the code.
+2. Does not check for adjacency in checking the validity of move.
+3. Documentation not consistent, not found on RuleChecker class and check build, check move methods.
+4. No test case in json tests to check worker and/or building is placed on the same spot ("staying put").

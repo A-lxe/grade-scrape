@@ -1,0 +1,7 @@
+Commit: 87b0ad7ee83c5d59a06d3cb8865ae3b200566f8e
+Score: 8/10
+Grader: Kanika Rana
+
+************************************************************
+1.Tournament Manager is expected.
+2. The design should include scaling up to a full fledged system.

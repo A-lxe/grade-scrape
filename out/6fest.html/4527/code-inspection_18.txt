@@ -1,0 +1,12 @@
+Commit: 87439330b775c2755f47d5caf3af70c1292f41f9
+Score: 8.5/13
+Grader: Alex Knauth
+
+The source code for `xboard` should be within the `6/` directory, not within the `src/main/java/Santorini/` directory. They can be in `6/Aux/src/` if you need to.
+
+You should have a separate README file for only project 6 in the `6/` directory, and also a separate TESTME file saying how to run the tests as well. The project-6-specific README should make it obvious where the source code is and how it is organized.
+
+You should have a method for finding the neighboring squares on the board. The closest thing you have is `eastWestLocate` and `northSouthLocate` in the `xboard.java`. However, those still require multiple method calls / multiple pieces of data / multiple lines of code to use these. Something similar to this should be possible with a single board method.
+
+Good examples, and good concise explanations next to those examples!
+

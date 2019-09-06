@@ -1,0 +1,9 @@
+Commit: 56125cb26f15b6adcd399550f935e90706ae9456
+Score: 68/70
+Grader: Kanika Rana
+
+...comments...
+1. Tournament manager should know what to do about the games a broken player has won before the current one in a tournament. (-2)
+
+
+Well Done.

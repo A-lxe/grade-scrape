@@ -1,0 +1,12 @@
+Commit: ef4ba5ac4080dd60aecfd4336cc4d46bcf1d0fb3
+Score: 4/10
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) File not placed as per the requirement.
+2) Following components are not mentioned:
+player interface
+workers
+buildings
+tournament manager
+3) Part 2 does not describe about stages of implementation. You should describe about how you  proceed implementing the software using bottom up approach.i.e from building a prototype to a full-fledged system.

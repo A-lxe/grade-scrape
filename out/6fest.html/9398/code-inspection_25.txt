@@ -1,0 +1,8 @@
+Commit: 0ffa73ffc97f504e805ec426df3206d429c1a409
+Score: 10/13
+Grader: Kanika Rana
+
+************************************************************
+1. Testme expected.
+2. Expected a unit test or worked out example of finding the neighboring squares.
+3. Suggestion - better to have unit cases.

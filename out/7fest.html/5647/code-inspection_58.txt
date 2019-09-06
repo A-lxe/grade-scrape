@@ -1,0 +1,8 @@
+Commit: 3c42a230e15acd7110e3ef59619f27a4987a8b8e
+Score: 13/20
+Grader: Kanika Rana
+
+...comments...
+1. Please include a Readme for each folders. There is no update to reflect the new class to check rulechecker and its placement.
+2. No unit test to check if worker can build as per the rules defined.
+3. No json test to check for condition when worker and/or building is placed on the same spot ("staying put").

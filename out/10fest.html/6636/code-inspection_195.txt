@@ -1,0 +1,9 @@
+Commit: df24be6d539f9087c053142717c49a84b061baf2
+Score: 59/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+Does not specify what to do with player who cheated in current game
+Does not specify how to handle games which were won by the player who cheated in current game
+ missing unit test for update_place_request of observer
+

@@ -1,0 +1,13 @@
+Commit: 18c305d899f95559e439ad0044a17abb470030a8
+Score: 4/5
+Grader: Alex Knauth
+
+The purpose statements / docstrings on your methods mostly look good, but
+you're missing a purpose statement for the client as a whole. This could be a
+comment at the top of the file.
+
+Where you use the methods from the server spec you sent to Codemanistan, you
+assume that you can pass in JF trees (Json-Formula trees), which does not match
+what you specified formulas to be in your spec (strings). Strings were a bad
+representation choice in the spec.
+

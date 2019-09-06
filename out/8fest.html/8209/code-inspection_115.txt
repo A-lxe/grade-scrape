@@ -1,0 +1,32 @@
+Commit: 8a3a97e6db0d10c96031bf9b928a7e7fc287aafa
+Score: 11/30
+Grader: Alex Knauth
+
+It was harder than normal to find the Referee interface specification. The
+README says that it exists, but doesn't direct someone where to look to find
+it. I eventually found it in Santorini/Common/GamePieces/src/Referee.java, but
+this was not obvious and the README doesn't help with navigating this.
+
+Your Referee purpose statements should specify how the Referee gets to know the
+players. You specify that it will "have access" to them, but not how. How do
+the players get passed in?
+
+The IStrategy doesn't have a method for placing workers in the start-up phase
+of the game. The nextMove method isn't very specific on what it returns (what a
+"move" is). Strings aren't very good for specifying structured data like this,
+and raw JSON isn't very good either unless you specify exactly what the
+structure of it is and what everything within it means. 
+
+You should have a proper structured data definition for what the "next move"
+could be. Or more accurately, what the whole "next turn" should be, for the
+choice-of-action functionality. A single turn involves a combination of a move
+and a build.
+
+You should not be representing so many things as Strings to be parsed later.
+
+You have unit tests for the `placeWorker` method, but not for the `nextMove`
+method, or choice-of-action method.
+
+There doesn't seem to be a strategy method for determining whether a player can
+stay alive or not from a given board, or any unit tests for it.
+

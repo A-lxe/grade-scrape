@@ -1,0 +1,7 @@
+Commit: 89bb90993f0311f82ccfae7c18a3b35bda1584b5
+Score: 3/5
+Grader: Kanika Rana
+
+************************************************************
+1. Description of the script's functionality is missing.
+2. Purpose statement for the exported function is missing (Aux/Source/lib/ColumnIndexConverter.js - line 22)

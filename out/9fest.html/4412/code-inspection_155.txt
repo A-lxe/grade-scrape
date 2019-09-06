@@ -1,0 +1,18 @@
+Commit: 4ec11fe432612f8264b3a7516d2161030419edde
+Score: 43/79
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+referee implementation not placed the Admin directory
+
+The observer does not have methods to observer following event
+	a placement action
+	any erroneous behavior by a player
+
+No purpose statement for methods in referee implementation
+No unit test cases found for referee
+
+Method to place the first two initial workers not found in Player.
+
+No unit test cases found for Player

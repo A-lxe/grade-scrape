@@ -1,0 +1,9 @@
+Commit: a58a1afd1178a2d151f843dc0e62b40f451eb74f
+Score: 12/20
+Grader: Kanika Rana
+
+...comments...
+1. Readme should be present in each folder and updated with every assignment to reflect cahnges and help navigate reading code.
+2. No test case in json tests to check worker and/or building is placed on the same spot ("staying put")
+
+Suggestions : While writing docs on classes, please include @param as well - that is the correct way of javadoc representations. Also some tools have javadoc generation, you might want to check it out to understand what i mean by the correct way.

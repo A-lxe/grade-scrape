@@ -1,0 +1,17 @@
+Commit: a4c00898a780cd026bca5263edca22898084b1f2
+Score: 53/79
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+The observer does not have methods to observer following event
+	a placement action
+	any erroneous behavior by a player
+
+No unit test cases implemented for referee.
+
+No Unit tests found for the player
+
+Bonus:
+a player that breaks a placement rule
+a player that breaks a rule taking its turn

@@ -1,0 +1,6 @@
+Commit: 51be63620326d2b7dc61f2e4b5c491dc9533476e
+Score: 4.5/5
+Grader: Kanika Rana
+
+************************************************************
+1. Description of the Client script functionality needs to be more descriptive.

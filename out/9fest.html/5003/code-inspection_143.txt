@@ -1,0 +1,17 @@
+Commit: be7d0560fc3bf867a11ed5179c4884248a2df642
+Score: 50/79
+Grader: Kanika Rana
+
+...comments...
+1. The observer interface should have a function to check any erroneous behavior by a player. (-4)
+2. Signature of the function to observe placment action is missing. (-2)
+3. Signature of the function to observe turn action is missing. (-2)
+4. Purpose statement for RunGame and RunTournament missing. (-2)
+5. Unit tests for Referee Implementation missing (-10)
+6. Unit test for Player implementation missing. (-10)
+
+Bonus:
+1. a player that raises an exception during the placement step(+1)
+----------------------
+Suggestions :
+Interface of Observer was expected, not just comments.

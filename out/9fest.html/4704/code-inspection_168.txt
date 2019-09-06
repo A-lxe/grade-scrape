@@ -1,0 +1,7 @@
+Commit: 27f51b8762e2cbe65c30e8a260b0e79aa4a10129
+Score: 71/79
+Grader: Kanika Rana
+
+...comments...
+1. The observer is expected to observe a placement action (-4).
+2. The observer is expected to observe any erroneous behavior by a player. (-4)

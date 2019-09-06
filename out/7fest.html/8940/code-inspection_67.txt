@@ -1,0 +1,8 @@
+Commit: b2f7e0c7398e1af088147353d21413d40cfe7b4f
+Score: 15/20
+Grader: Kanika Rana
+
+...comments...
+1. Purpose Statements should be more descriptive. Example - Verify the given movement of the Worker is not a very descriptive purpose statement as it does not give any more information than the name itself.
+2. Readme should be in all folders and help navigate the reading of code.
+3. No case in json tests to check for worker and/or building is placed on the same spot ("staying put").

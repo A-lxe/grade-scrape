@@ -1,0 +1,9 @@
+Commit: 870a5dac29146289352b2b6c529a27f73a52eceb
+Score: 60/70
+Grader: Kanika Rana
+
+...comments...
+1. Observer needs to be placed in Observer directory (-5)
+2. Strategy needs to be in Player directory (-1)
+3. Tree Generator needs to be in Player directory (-1)
+4. test cases not found for Observer(-3)

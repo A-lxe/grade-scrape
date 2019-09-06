@@ -1,0 +1,12 @@
+Commit: 6e1186312043732cfa46416d97b309f7810b81f3
+Score: 13/13
+Grader: Kanika Rana
+
+************************************************************
+Good job!
+Suggestion: testme.txt should be a separate text file in Santorini/ (not inside readme)
+
+
+
+
+

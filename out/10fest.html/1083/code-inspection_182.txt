@@ -1,0 +1,11 @@
+Commit: 0ad460a7658cf1a68abb71b0e6d3f5837f5f6ac1
+Score: 59/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+Does not specify how to past handle games which were won by the player who cheated in current game. 
+Literal constant 5 used in ViewModelBoard.
+Literal constant 3 used in rule engine.
+
+

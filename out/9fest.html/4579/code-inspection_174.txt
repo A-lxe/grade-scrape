@@ -1,0 +1,18 @@
+Commit: 1f56ae5b274670cda5c8c17c1a4801ba975020cc
+Score: 37/79
+Grader: Alex Knauth
+
+It would be cleaner if the Referee, Strategy, and Player interfaces dealt with some 
+type for "the actions that a player can take on a turn", which is a combination of a 
+move and a build, instead of dealing with Moves and Builds separately.
+
+Where is the Observer design? The README doesn't say, and it's not in the
+Design folder.
+
+The Referee should have a method for running an entire game, and a method for 
+running an entire series of games.
+
+You should have a player method for a player taking a turn. If you have a type
+for "the actions that a player can take on a turn", this method should return
+that type. This would be a replacement for the currently separate `get_move`
+and `get_build` methods.

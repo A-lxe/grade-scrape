@@ -1,0 +1,11 @@
+Commit: 49de87f2e055cd8ab895a865175bd542fc6b8da0
+Score: 7/10
+Grader: Kanika Rana
+
+************************************************************
+1. Tournament component is expected.
+2. Approach for multiple player in tournament is expected.
+
+
+
+

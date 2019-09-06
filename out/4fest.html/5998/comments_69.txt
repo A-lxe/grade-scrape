@@ -1,0 +1,9 @@
+Commit: 7ac1882bd4c58ba195d475d3136de6487b63bb50
+Score: 9/10
+Grader: Kanika Rana
+
+************************************************************
+1. No component to identify board
+
+
+

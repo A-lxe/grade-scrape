@@ -1,0 +1,9 @@
+Commit: d3bb7a1ef083679b1651cafae5c3535a5ec3f50b
+Score: 65/70
+Grader: Alex Knauth
+
+The observer should be in Santorini/Observer, not somewhere in Santorini/Admin.
+This is because observers can be implemented by people who are not the Admin /
+don't have access to the Admin code.
+
+Good that you use named constants for things like DEFAULT_ROWS and DEFAULT_COLUMNS.

@@ -1,0 +1,13 @@
+Commit: 98752014bffa4ed3977763782ef3a8a422cc1f3b
+Score: 6/13
+Grader: Kanika Rana
+
+************************************************************
+1. Readme.txt expected in Santorini/
+2. Testme.txt expected in Santorini/
+3. Does not check if field occupied by a player.
+4. does not find neighboring cells.
+5. purpose statements expected.
+
+
+

@@ -1,0 +1,2 @@
+file '/course/cs4500f18/ta/github/3014/8/xstrategy' is not executable
+

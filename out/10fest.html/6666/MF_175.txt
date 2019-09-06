@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/course/cs4500f18/ta/github/6666/10/xobserve", line 6, in <module>
+    Referee = SourceFileLoader('Referee', '../Santorini/Admin/Referee.py').load_module()
+  File "<frozen importlib._bootstrap>", line 539, in _check_name_wrapper
+  File "<frozen importlib._bootstrap>", line 1614, in load_module
+  File "<frozen importlib._bootstrap>", line 596, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 1220, in load
+  File "<frozen importlib._bootstrap>", line 1200, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 1129, in _exec
+  File "<frozen importlib._bootstrap>", line 1467, in exec_module
+  File "<frozen importlib._bootstrap>", line 1571, in get_code
+  File "<frozen importlib._bootstrap>", line 1623, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '../Santorini/Admin/Referee.py'
+(running /course/cs4500f18/ta/github/6666/10/xobserve)
+0
+(ran /course/cs4500f18/ta/github/6666/10/xobserve successfully ((plain fast with-newline plain-unicode)) and received 0 JSON values)
+

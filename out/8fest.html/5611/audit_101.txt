@@ -1,0 +1,61 @@
+(testing /course/cs4500f18/ta/github/5611/8/strategy-tests-0/1-in.json /course/cs4500f18/ta/github/5611/8/strategy-tests-0/1-out.json)
+match: no matching clause for #f
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/runtime.rkt:24:0: match:error
+   /home/samc/sw-dev/18SwDev/Code/Harness/xmain:158:10: for-loop
+   /home/samc/sw-dev/18SwDev/Code/Harness/xmain:158:10: for-loop
+   /home/samc/sw-dev/18SwDev/Code/Harness/xmain:158:10: for-loop
+   /home/samc/sw-dev/18SwDev/Code/Harness/xmain:158:10: for-loop
+   /home/samc/sw-dev/18SwDev/Code/Harness/xmain:154:6: for-loop
+   /home/samc/sw-dev/18SwDev/Code/Harness/xmain:139:0: work-horse
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+(/course/cs4500f18/ta/github/5611/8/strategy-tests-0/1-in.json is not a JSON file)
+(testing /course/cs4500f18/ta/github/5611/8/strategy-tests-1/2-in.json /course/cs4500f18/ta/github/5611/8/strategy-tests-1/2-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+(PASSED /course/cs4500f18/ta/github/5611/8/strategy-tests-1/2-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 1 cases out of 1)
+(testing /course/cs4500f18/ta/github/5611/8/strategy-tests-2/3-in.json /course/cs4500f18/ta/github/5611/8/strategy-tests-2/3-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("one"
+  ((0 0 "0two1" 1 2 3)
+   (0 0 0 0 0 0)
+   (0 0 0 0 0 0)
+   (0 0 0 0 4 4)
+   (0 0 0 0 4 "0one2")
+   ("0one1" 0 0 0 4 "0two2"))
+  4)
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ("yes")))
+(FAILED /course/cs4500f18/ta/github/5611/8/strategy-tests-2/3-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+(testing /course/cs4500f18/ta/github/5611/8/strategy-tests-3/4-in.json /course/cs4500f18/ta/github/5611/8/strategy-tests-3/4-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+(PASSED /course/cs4500f18/ta/github/5611/8/strategy-tests-3/4-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 1 cases out of 1)
+(testing /course/cs4500f18/ta/github/5611/8/strategy-tests-4/5-in.json /course/cs4500f18/ta/github/5611/8/strategy-tests-4/5-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("one"
+  (("0one2" 4 "2two2" 2 "0one1" 0)
+   (4 4 0 0 0 0)
+   (0 0 0 0 0 0)
+   (0 0 0 0 0 0)
+   (0 0 0 0 4 4)
+   (0 0 0 0 4 "0two1"))
+  0
+  ("move" "one1" ("PUT" "SOUTH"))
+  ("+build" ("WEST" "NORTH")))
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ("yes")))
+(FAILED /course/cs4500f18/ta/github/5611/8/strategy-tests-4/5-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+

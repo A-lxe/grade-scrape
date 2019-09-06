@@ -1,0 +1,12 @@
+Commit: 0308360b9cd12b603ea3163bcac7f11a1253e59a
+Score: 12/20
+Grader: Alex Knauth
+
+The RuleChecker should be able to validate moves and builds *without* modifying
+the gameState to actually attempt the moves, builds, or turns.
+
+I can't find any Unit tests for the RuleChecker by itself, and your README and
+Testme files don't guide me to them. Your integration tests (for the whole
+xrules system) in rules-tests/n-{in,out}.json look good, but those are not a
+substitute for Unit tests on individual RuleChecker methods.
+

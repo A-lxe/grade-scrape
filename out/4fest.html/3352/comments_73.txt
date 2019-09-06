@@ -1,0 +1,10 @@
+Commit: a82eee07a6f21a24a038eebbab7928e2a85208ee
+Score: 9/10
+Grader: Alex Knauth
+
+Details like which IDE you use is not important for these Design / plan documents.
+
+Your plan should clearly outline the two phases:
+ 1. A prototype with minimal functionality, and 
+ 2. A full-fledged system that supports running automated tournaments.
+You briefly mentioned these two phases at the very end; make it clearer and show the plans for the prototype first before you describe the details of how you'll build full system.

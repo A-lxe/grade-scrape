@@ -1,0 +1,10 @@
+Commit: 3a8ce2e58989fe87e304bb2f874b0369906c0dc0
+Score: 12/13
+Grader: Alex Knauth
+
+The xtest file should be called xboard (you likely named your file before the assignment was updated to specify xboard).
+
+Consider turning some of the things in TestBorad.py into actual unit tests of those methods.
+
+You should have a board method for finding the neighboring squares on the board. The closest thing you have is `getPosition` in the `xtest.py`. Something similar to that should be part of the board for finding neighboring squares, and it should have unit tests associated with it.
+

@@ -1,0 +1,11 @@
+Commit: f3b593c85ed1c0519bbb9ee2d4cb9bb0a6d5925f
+Score: 5/10
+Grader: Raghavendra Venkatesh
+
+...comments...
+1 ) File not placed as per the requirement
+2 )Following components are not mentioned:
+    * player interface
+    * board
+    * workers
+    * buildings

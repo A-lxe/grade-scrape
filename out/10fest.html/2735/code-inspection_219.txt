@@ -1,0 +1,14 @@
+Commit: fd79e3300be89722ca9cc918ca90c8cf10279346
+Score: 52/70
+Grader: Kanika Rana
+
+...comments...
+1. The Tournament manger interface was expected in Design folder. (-5)
+2. Tournament manager is expected to know what to do with players that break
+   the rules/diverge/misbehave specifically, it must say what to do with the
+   current game (-5) and the games this player has won before the current one (-5)
+3. getResults returns value of only one game and the given game is not passed
+   as param as mentioned in decsription. (-2)
+4. No test case of get_winner. (-1)
+
+

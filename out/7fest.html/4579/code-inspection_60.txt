@@ -1,0 +1,10 @@
+Commit: 68168e15b8ea569b7f09f0fb66184b60bdceeab0
+Score: 17/20
+Grader: Kanika Rana
+
+...comments...
+1. Update Readme of /Santorini as well.
+2. The JSON test do not check the condition where worker/building is placed on the same spot("staying put").
+
+Suggestion - Please change the comment in Santorini/Common/RuleChecker.py on line 89 - changes player step to MOVE instead of BUILD
+

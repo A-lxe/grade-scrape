@@ -1,0 +1,14 @@
+Commit: e9b2fba7a64bdb8e54760be79bf2662b9f47ec33
+Score: 2/5
+Grader: Alex Knauth
+
+There is no purpose statement for the main method or the file as a whole. The
+purpose statements that do exist are vague.
+
+There are also discrepancies between the spec you sent to Codemanistan vs. what
+you assumed and used "from" it. Your Client code assumes the Codemanistan code
+takes names of spreadsheets as inputs, while your spec specifies a Spreadsheet
+class meaning spreadsheet objects would be inputs. Your Client code also
+assumes the Codemanistan code takes JFs (Json-Formulas) as inputs, while your
+spec specifies a Formula class.
+

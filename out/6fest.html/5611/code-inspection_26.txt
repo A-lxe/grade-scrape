@@ -1,0 +1,11 @@
+Commit: dbff088e5318148956545c534535c63a5e1a4b2c
+Score: 9/13
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+3) Unit Test or worked examples for following methods/functions not found,
+	build
+	move
+	height of a field/square whatever
+	is a field occupied by a player

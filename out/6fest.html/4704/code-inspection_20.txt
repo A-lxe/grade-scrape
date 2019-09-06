@@ -1,0 +1,8 @@
+Commit: 5bd829c81671f2ba04740ebfeebf022283a46812
+Score: 12/13
+Grader: Kanika Rana
+
+************************************************************
+1. Testme.txt expected in Santorini/
+
+

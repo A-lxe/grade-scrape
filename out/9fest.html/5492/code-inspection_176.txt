@@ -1,0 +1,27 @@
+Commit: 0b96f84873f48f316beac84d565c9bdde0fad4dc
+Score: 64/79
+Grader: Alex Knauth
+
+Normal points: 63
+Bonus points:  +1
+
+The observer should be able to observe Turn events, or all the actions 
+that a player can make on a turn. It's unclear whether `record_move` does 
+that, and your docstring / purpose-statement doesn't specify. Does it 
+record only "move" actions, or does it record "turn" actions that might 
+be a combination of a move and a build?
+
+The observer should also be able to observe when the Referee detects
+"erroneous behavior" by a player.
+
+I can't find any Unit tests for the Player or any of its methods.
+
+(+1) To test the Referee, you tried to simulate a player taking forever
+by giving it a `LookAheadNStrategy(30)`. You commented that
+
+> NOTE: This is somewhat dependent on strategy implementation and 
+> constants, as it is a time test. If this fails in the future it may be 
+> due to time, but this is sufficient for now.
+
+A better way would be to define a Mock player class which intentionally
+goes into an infinite loop, just for the purposes of testing the Referee.

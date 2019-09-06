@@ -1,0 +1,12 @@
+Commit: 985e130f0825fa73179c8640138818fe3456ba06
+Score: 11/13
+Grader: Kanika Rana
+
+************************************************************
+1. testme.txt expected in Santorini/
+2. Does not find neighboring squares - found in interface but not in implementation.
+
+
+
+
+

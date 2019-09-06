@@ -1,0 +1,8 @@
+Commit: 64c2cdc448c64894aee7bcc1d004a005816ed6c4
+Score: 8/10
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) File not placed as per the requirement.
+2) Following components are not mentioned:
+player interface

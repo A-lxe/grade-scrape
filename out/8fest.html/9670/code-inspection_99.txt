@@ -1,0 +1,7 @@
+Commit: cf7b31ec808f7eefd4ab627dbcb89a73a38c547e
+Score: 14/30
+Grader: Kanika Rana
+
+...comments...
+1. The Name of the Strategy class is expected to be Strategy instead of Node. (-1)
+2. No Unit tests found. (-15)

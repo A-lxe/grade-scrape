@@ -1,0 +1,7 @@
+Commit: d4294b43ec7281b6fd1b751e1dc6b84906690272
+Score: 2/5
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) Purpose statement missing for the client.
+2) Purpose statement missing for methods of JavaClassLoader.java

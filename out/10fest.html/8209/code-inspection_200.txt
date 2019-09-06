@@ -1,0 +1,39 @@
+Commit: 46f10a9edf441883197d43bb17f1fd3b7dcc1364
+Score: 50/70
+Grader: Alex Knauth
+
+The Player and Strategy implementations should be in Santorini/Player, not 
+Santorini/Common.
+
+You should also clean up your Common directory. It includes duplicates for
+some things like Observer. You should be able to delete those duplicated things
+and have your code refer to each one from its proper place, like referring to
+the observer in the Observer directory only and not Common.
+
+  --
+
+For the TournamentManager design, you should be designing an Interface. A
+class with fields and private methods specified is unnecessary and 
+restrictive.
+
+You don't specify how the TournamentManager reports the result of the 
+tournament to its caller or the players. A *private* method's return result 
+does not count; it should be in the Interface. Also, you don't specify how
+the TournamentManager will handle ties between multiple players.
+
+  --
+
+Your IObserver interface is empty, and your Observer class only deals with appending
+strings instead of consuming structured data such as Boards and Actions.
+
+You should have a method that consumes objects of the Board interface, a method
+that consumes the set of actions a player can take on a turn (such as MoveBuild),
+and a method that consumes some sort of error message for when the Referee detects
+a player misbehaving.
+
+Your ObserverTests should also deal with more than just appending strings.
+
+  --
+
+Good that you use named constants for BOARD_X, BOARD_Y, WINNING_HEIGHT, and 
+MAX_BUILDING_HEIGHT.

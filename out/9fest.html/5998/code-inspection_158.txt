@@ -1,0 +1,9 @@
+Commit: 3785b9fc1b87397129245f19d95e8f5d4962452b
+Score: 71/79
+Grader: Kanika Rana
+
+...comments...
+1. No player implmentation in Player director(-5)
+2. No placement action in observer(-4)
+3. No method to handle 'rule-breking' or erronous behavior by a player(-4)
+4. Bonus for implmenenting test case for for turn(+5)

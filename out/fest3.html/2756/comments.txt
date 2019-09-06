@@ -1,0 +1,7 @@
+Commit: 3591bcd9ca6254d66fc29108f52d75fe9438f4d1
+Score: 2/5
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) Description missing from client file. Should describe what is the purpose of the script.
+2) Purpose statement missing for a private method.

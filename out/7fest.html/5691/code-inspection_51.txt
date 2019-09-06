@@ -1,0 +1,7 @@
+Commit: 02b43a96ee5f30ce4e30ad2dee6f3b17ce6331f4
+Score: 17/20
+Grader: Kanika Rana
+
+...comments...
+1. Readme should be present in every folder and updated to reflect changes,to aid navigation of code.
+2. No Test cxase in json test to check worker and/or building is placed on the same spot ("staying put").

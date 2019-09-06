@@ -1,0 +1,7 @@
+Commit: fe21e2694a627c351c24ae9d9ea8f0304c548b2a
+Score: 16/20
+Grader: Kanika Rana
+
+...comments...
+1. Purpose statements are expected at RuleChecker.java
+2. No test case in json tests to check the worker and/or building is placed on the same spot ("staying put") 

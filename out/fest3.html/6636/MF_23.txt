@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "Aux/server.py", line 29, in <module>
+  File "Aux/server.py", line 13, in <module>
+        data = echo_json.process(lines)
+sock.bind(server_address)
+  File "/home/types/4500/github/jale-laro/3/Aux/echo_json.py", line 36, in process
+  File "/usr/lib64/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+    if working_json.isnumeric() and not c.isnumeric():
+AttributeError: 'str' object has no attribute 'isnumeric'
+'(no connection after 10 tries)
+(testing 3)
+(testing ../../../18SwDev/Code/2/Tests/1-in.json ../../../18SwDev/Code/2/Tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((1 2) #hasheq((a . 1)))
+(*** expected)
+'((1 (1 2)) (0 #hasheq((a . 1))))
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED ../../../18SwDev/Code/2/Tests/1-in.json)
+(testing ../../../18SwDev/Code/2/Tests/2-in.json ../../../18SwDev/Code/2/Tests/2-out.json)

@@ -1,0 +1,12 @@
+Commit: f7ac83e4b3c5b7797cb7a4d3cc6a8f3b5adc06a1
+Score: 50/70
+Grader: Kanika Rana
+
+...comments...
+1. play_turn should not be a function of player, but in common folder. (-1)
+2. The design for tournament manager expects to address adding N players, found only adding one player. (-2)
+3. The design for tournament manager expects to address what to do with players that break the rules/diverge/misbehave. (-14)
+4. N0 unit tests for observer functions. (-3)
+
+--------------------------------------------------------------------------------------------------------------------------------
+

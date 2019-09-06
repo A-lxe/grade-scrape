@@ -1,0 +1,6 @@
+Commit: 7dafaef5431753098c8a26f97fe836c356e10ea0
+Score: 12/13
+Grader: Alex Knauth
+
+You describe your Internal Unit Tests in the README, but you should describe how to run them (and the other tests) as well, in a TESTME file.
+

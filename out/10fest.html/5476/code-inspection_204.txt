@@ -1,0 +1,6 @@
+Commit: b8c6546e86ff76da6f5216d47788619f102d00e0
+Score: 66/70
+Grader: Kanika Rana
+
+...comments...
+1. Observer expects to have a method to consume the board, found only positions instead. (-4)

@@ -1,0 +1,7 @@
+Commit: 98b21ad960fd55e6b238585ccdf638523d3c3726
+Score: 66/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+Literal constant 2 used in referee

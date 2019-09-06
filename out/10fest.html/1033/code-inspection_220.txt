@@ -1,0 +1,12 @@
+Commit: 8d32b87edf2337b7c2cfb4436438c6a15315333d
+Score: 60/70
+Grader: Kanika Rana
+
+...comments...
+1. purpose statements missing for error and not found in Interface either. (-1)
+2. Unit tests not found for Observer (-3)
+3. Numeric constant used in rule_checker at line 112 and xobserve at line 23. (-4)
+4. Numeric constant used in rule_checker at line 129 and 162. (-2)
+
+Suggestions:
+Think about what will happen if the broken player breaks the rule in the last game and its effect on the opponent players of the broken players.

@@ -1,0 +1,18 @@
+Commit: 0d2fff7e6b2706cf81a531f449ceeae7453e61b5
+Score: 43/79
+Grader: Kanika Rana
+
+...comments...
+1. Function to observe placement action is expected in observer. (-4)
+2. Function to observe turn action is expected in observer. (-4)
+3. Function to observe any erroneous behavior by a player is expected in observer(-4)
+4. Unit tests of playBestOfNGames and playGame missing. (-10)
+5. purpose statements missing for getPlaceWorker and getTurn. (-2)
+6. Signature of getTurn and getPlaceWorker should be more descriptive. [Int b is not descriptive] (-2)
+7. Unit tests not found for placing workers and taking turn. (-10)
+
+
+----------------------
+Suggestions :
+The interface should make no assumptions about the implementation of the observer.
+

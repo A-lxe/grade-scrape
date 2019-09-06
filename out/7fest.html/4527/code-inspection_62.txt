@@ -1,0 +1,7 @@
+Commit: aff9a36f3532e412f2606129aa14a6691d26bfcc
+Score: 17/20
+Grader: Kanika Rana
+
+...comments...
+1. Readme should be included in all folders.
+2. No test cases in json tests to check worker and/or building is placed on the same spot ("staying put").

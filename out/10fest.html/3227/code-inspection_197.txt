@@ -1,0 +1,8 @@
+Commit: e6c70496ff1a42c5095af0631834fb001d2d5955
+Score: 67/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+strategy, tree generator should be placed in PLAYER folder.
+Player interface should be place in COMMON folder.

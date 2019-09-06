@@ -1,0 +1,7 @@
+Commit: fe5d3b07b442e129f4132e618e80995519be06fe
+Score: 0/5
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) No purpose statements written for client.
+2) Cloud not find complete source code.

@@ -1,0 +1,12 @@
+[16414] Failed to execute script xobserve
+Traceback (most recent call last):
+  File "Santorini/xobserve.py", line 3, in <module>
+  File "/usr/local/lib/python3.5/dist-packages/PyInstaller/loader/pyimod03_importers.py", line 631, in exec_module
+  File "Santorini/santorini/admin/referee.py", line 6, in <module>
+  File "/usr/local/lib/python3.5/dist-packages/PyInstaller/loader/pyimod03_importers.py", line 631, in exec_module
+  File "Santorini/santorini/common/rulechecker.py", line 6, in <module>
+ImportError: No module named 'santorini.common.pieces'
+(running /course/cs4500f18/ta/github/8940/10/xobserve)
+0
+(ran /course/cs4500f18/ta/github/8940/10/xobserve successfully ((plain fast with-newline plain-unicode)) and received 0 JSON values)
+

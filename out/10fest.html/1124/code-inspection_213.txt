@@ -1,0 +1,11 @@
+Commit: 4ef3672b327a545696b2f6c4b044265c623002a2
+Score: 56/70
+Grader: Kanika Rana
+
+...comments...
+1. Numeric constants used in ViewModelBoard at line 72,73.(-2)
+2. Numeric constants used in StandardSantoriniRulesEngine at line 191.(-2)
+3. Tournament manager is expected to know what to do with players that break
+   the rules/diverge/misbehave specifically, it must say what to do with the
+   current game [-5] and the games this player has won before the current one [-5]
+

@@ -1,0 +1,12 @@
+Commit: acf1148bf88d914d4030dadb84eb3cb04188f151
+Score: 10/13
+Grader: Kanika Rana
+
+************************************************************
+1. testme.txt expected in Santorini/
+2. Does not check for neighboring squares for valid move.
+
+
+
+
+

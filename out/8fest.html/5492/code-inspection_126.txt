@@ -1,0 +1,8 @@
+Commit: 0a343806f0a60dc9cc0a11c568cf0ea960e2c190
+Score: 28/30
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+Unit test cases for strategy missing for following scenarios,
+(a) Unit test case for next move not found

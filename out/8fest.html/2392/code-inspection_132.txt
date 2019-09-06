@@ -1,0 +1,12 @@
+Commit: 212b446250e082345633e7bc7992d904f4d92ce8
+Score: 8/30
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+Interface for referee not found.
+
+Unit test cases for strategy missing for following scenarios,
+(a) Unit test case for get move not found
+(b) cover several "depths" (searching beyond tree depth of 2 and 3)
+(c) look for both outcomes can stay alive

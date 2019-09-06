@@ -1,0 +1,10 @@
+Commit: 12fae5abab41a02fca6984813f85f10f0403f7d6
+Score: 62/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+Does not specify how to handle games which were won by the player who cheated in current game  
+No unit tests found for observer methods
+
+

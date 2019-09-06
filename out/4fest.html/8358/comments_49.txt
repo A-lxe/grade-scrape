@@ -1,0 +1,8 @@
+Commit: 3c9d88d9962d401785dd9a6620b1f68b0045a91b
+Score: 7/10
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) Description about following components missing 
+player interface
+2) Does not describe implementation stages clearly on how software is developed in stages. Demo should be working prototype during development. But demo is mentioned at the end which is after complete implementation.

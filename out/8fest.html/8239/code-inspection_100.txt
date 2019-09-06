@@ -1,0 +1,17 @@
+Commit: f650094c63f80e149141de7c67e0b0f22ceffe45
+Score: 11/30
+Grader: Alex Knauth
+
+The Referee needs some way to "run a game", possibly with another method.
+
+The docstring "Defines a Referee interface" is not a good docstring for the
+Referee interface. What is the purpose of the Referee? The referee is supposed
+to start a game and supervise the game until the end. It should be closer to a
+controller than a validator.
+
+I can't find any unit tests for the Strategy or any of its methods. You have
+the strategy-tests/*-{in,out}.json files as _integration_ tests for the system
+as a whole, but you're missing unit tests that would test specific methods and
+components by themselves, like the `decide_place`, `decide_move`, and
+`decide_build` methods of Strategy.
+

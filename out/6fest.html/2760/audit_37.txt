@@ -1,0 +1,67 @@
+(testing ../../../18SwDev/Code/6/xboard)
+(testing board-tests/1-in.json board-tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("0matt1" 0 0 0 0 "0michael1")
+   (0 0 0 0 0 0)
+   (0 0 0 0 0 0)
+   (0 0 0 0 0 0)
+   (0 0 0 0 0 0)
+   ("0matt2" 0 0 0 0 "0michael2"))
+  ("move" "michael1" ("PUT" "SOUTH"))
+  ("build" "michael1" ("PUT" "NORTH"))
+  ("move" "michael1" ("EAST" "PUT"))
+  ("move" "michael1" ("EAST" "SOUTH"))
+  ("move" "michael1" ("EAST" "NORTH"))
+  ("move" "michael1" ("WEST" "NORTH"))
+  ("move" "michael1" ("WEST" "SOUTH"))
+  ("move" "michael1" ("WEST" "PUT"))
+  ("height" "michael1" ("PUT" "NORTH")))
+(*** expected)
+'(() () () () () () () () 1)
+(*** but received)
+'(((pretty fast with-newline plain-unicode)
+   (()
+    ()
+    ("okay for now, but not for rule checking"
+     ("move" "michael1" ("EAST" "PUT")))
+    ("okay for now, but not for rule checking"
+     ("move" "michael1" ("EAST" "SOUTH")))
+    ("okay for now, but not for rule checking"
+     ("move" "michael1" ("EAST" "NORTH")))
+    ("okay for now, but not for rule checking"
+     ("move" "michael1" ("WEST" "NORTH")))
+    ("okay for now, but not for rule checking"
+     ("move" "michael1" ("WEST" "SOUTH")))
+    ("okay for now, but not for rule checking"
+     ("move" "michael1" ("WEST" "PUT")))
+    ("invalid input" ("height" "michael1" ("PUT" "NORTH")))
+    "height-of: contract violation\n  expected: board?\n  given: #t\n  in: the b argument of\n      (->i\n       ((b board?) (t worker?))\n       ((e-w (or/c 0 1 -1)) (n-s (or/c -1 1 0)))\n       #:pre/name\n       (b t e-w n-s)\n       \"on board\"\n       (or (unsupplied-arg? e-w)\n           (stay-on-board? b t e-w n-s))\n       (r natural-number/c))\n  contract from: \n      <pkgs>/Santorini/Code/Common/board.rkt\n  blaming: /home/types/4500/18SwDev/Code/6/xboard\n   (assuming the contract is correct)\n  at: <pkgs>/Santorini/Code/Common/board.rkt:58.3")))
+(FAILED board-tests/1-in.json)
+(testing board-tests/2-in.json board-tests/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((0 0 0 0 "0matt1" "0michael1")
+   (0 0 0 0 "0matt2" "0michael2")
+   (0 0 0 0 0 0)
+   (0 0 0 0 0 0)
+   (0 0 0 0 0 0)
+   (0 0 0 0 0 0))
+  ("neighbors" "michael1" ("PUT" "NORTH"))
+  ("neighbors" "matt1" ("PUT" "NORTH"))
+  ("occupied?" "michael2" ("EAST" "PUT"))
+  ("occupied?" "matt2" ("PUT" "NORTH")))
+(*** expected)
+'("no" "yes" "no" "yes")
+(*** but received)
+'(((pretty fast with-newline plain-unicode)
+   ("no"
+    "no"
+    ("okay for now, but not for rule checking"
+     ("occupied?" "michael2" ("EAST" "PUT")))
+    "yes")))
+(FAILED board-tests/2-in.json)
+(tested ../../../18SwDev/Code/6/xboard successfully on 0 cases out of 2)
+

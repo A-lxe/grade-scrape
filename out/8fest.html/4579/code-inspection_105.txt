@@ -1,0 +1,12 @@
+Commit: 93f07bcc2d74d72232bb5510314f77bbfb0c856d
+Score: 14/30
+Grader: Kanika Rana
+
+...comments...
+1. Expecting interface to specify a run a game method. (-3)
+2. Expecting  the referee interface to specify how the referee gets to know the players. (-3)
+3. No test cases found to check the implementation of diagnol placement, farthest strategy and canStaylive. (-10). (you got some marks for the function itself)
+
+Suggestions:
+1. Please consider the name of files in the folder - Santorini/Player as test, when they are not test classes.
+

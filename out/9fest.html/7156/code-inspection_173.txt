@@ -1,0 +1,12 @@
+Commit: e361e205652b8aafc72ee3b6d26d3dd10559e126
+Score: 68/79
+Grader: Kanika Rana
+
+...comments...
+1. runBestOfN has no documentation (-1)
+2. runBestofN has no signature(-2)
+3. placeWorker has no documentation (-1)
+4. placeWorker has no signature(-2)
+5. Take a turn action method missing in Player(-9)
+6. Bonus for invalid placement test(+2)
+7. Bonus for invalid move(+2)

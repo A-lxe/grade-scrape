@@ -1,0 +1,13 @@
+Commit: 6464318960f5662720a33d3ea33b3da74adbac12
+Score: 56/79
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+The observer does not have methods to observer following event
+	a placement action
+	any erroneous behavior by a player
+
+No unit test case for bestOfN method of referee
+
+No unit test cases found for player

@@ -1,0 +1,11 @@
+Commit: 6c8c4433efb4de83c73885efb4cc28edded86397
+Score: 3/10
+Grader: Kanika Rana
+
+************************************************************
+1.Components are expected as part of deliverable for part2 as mentioned in description- 
+Part 2 describes how you should proceed about implementing these pieces. 
+Keep in mind that you wish to have "demo" software soon so that a potential client can admire fully working prototypes.
+
+
+

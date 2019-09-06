@@ -1,0 +1,9 @@
+Commit: 4371ab11092d4ab9315b97dd9fb95c94f010ddef
+Score: 17/20
+Grader: Kanika Rana
+
+...comments...
+1. Readme should be present in every folder and reflect changes with every
+   assignment to aid navigation of code.
+2. No condition in json tests to check worker and/or building is placed on the
+   same spot ("staying put").

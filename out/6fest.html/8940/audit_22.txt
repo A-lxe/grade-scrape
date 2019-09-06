@@ -1,0 +1,28 @@
+main: ill-formed board specification given: '(("1ian1" 0 1 2 0 "2huang1") (1 1 1 1 1 1) (1 1 1 2 "0hy2" 1) (0 0 0 0 "1ko2" 0) (1 1 1 1 1 1) (1 1 1 1 1 1))
+  context...:
+   parse-loop10
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+(testing ../../../18SwDev/Code/6/xboard)
+(testing board-tests/1-in.json board-tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("1ian1" 0 1 2 0 "2huang1")
+   (1 1 1 1 1 1)
+   (1 1 1 2 "0hy2" 1)
+   (0 0 0 0 "1ko2" 0)
+   (1 1 1 1 1 1)
+   (1 1 1 1 1 1))
+  ("neighbors" "ian1" ("WEST" "NORTH"))
+  ("neighbors" "ian1" ("EAST" "SOUTH"))
+  ("occupied?" "ian1" ("EAST" "SOUTH"))
+  ("occupied?" "hy2" ("PUT" "SOUTH"))
+  ("height" "ian1" ("EAST" "SOUTH"))
+  ("height" "huang1" ("PUT" "SOUTH")))
+(*** expected)
+'("no" "yes" "no" "yes" 1 1)
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/1-in.json)
+(tested ../../../18SwDev/Code/6/xboard successfully on 0 cases out of 1)
+

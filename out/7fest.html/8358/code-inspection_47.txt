@@ -1,0 +1,17 @@
+Commit: 7867c2480616af90d750640722fc579c3830248c
+Score: 10/20
+Grader: Alex Knauth
+
+Your Testme.sh file runs the integration tests (n-{in,out}.json, for the whole
+system), but it doesn't run any Unit tests, tests for single methods or single
+components.
+
+I can't find any Unit tests anywhere, and your README and Testme files don't
+guide me to them.
+
+The purpose statements in your RuleChecker look good.
+
+None of your tests check that it's illegal to build on a square with a worker
+or too-tall building. All of the negative tests seem to be only be checking
+out-of-bounds.
+

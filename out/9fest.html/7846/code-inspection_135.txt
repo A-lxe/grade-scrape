@@ -1,0 +1,15 @@
+Commit: 50fe587658117c1907c91a06dcec55be04f4491b
+Score: 58/79
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+The observer does not have methods to observer following event
+	a placement action
+	a turn action, and
+	any erroneous behavior by a player
+
+No unit test cases for referee found
+
+Bonus:
+a player that raises an exception while taking a turn 

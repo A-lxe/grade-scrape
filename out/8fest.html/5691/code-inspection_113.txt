@@ -1,0 +1,9 @@
+Commit: 5ed673a96f4565650c337e586f3bb0bc576a3117
+Score: 15/30
+Grader: Kanika Rana
+
+...comments...
+1. Expecting referee interface to specify how the ref gets to know the players. (-3)
+2. Cannot find tests to check the Diagnolplacement and Cartesian Placement strategies.(-5)
+3. Cannot find tests to check the Tree implementation or depths>3. (-5)
+4. Cannot find tests to check the stayAlive when result is false. (-2)

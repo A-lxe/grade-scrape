@@ -1,0 +1,91 @@
+(testing /course/cs4500f18/ta/github/8940/8/strategy-tests-0/1-in.json /course/cs4500f18/ta/github/8940/8/strategy-tests-0/1-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+(PASSED /course/cs4500f18/ta/github/8940/8/strategy-tests-0/1-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 1 cases out of 1)
+(testing /course/cs4500f18/ta/github/8940/8/strategy-tests-1/2-in.json /course/cs4500f18/ta/github/8940/8/strategy-tests-1/2-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+(PASSED /course/cs4500f18/ta/github/8940/8/strategy-tests-1/2-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 1 cases out of 1)
+(testing /course/cs4500f18/ta/github/8940/8/strategy-tests-2/3-in.json /course/cs4500f18/ta/github/8940/8/strategy-tests-2/3-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+(PASSED /course/cs4500f18/ta/github/8940/8/strategy-tests-2/3-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 1 cases out of 1)
+(testing /course/cs4500f18/ta/github/8940/8/strategy-tests-3/4-in.json /course/cs4500f18/ta/github/8940/8/strategy-tests-3/4-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("hy"
+  (("0ian1" 4)
+   (4 4)
+   (0)
+   (0 0 0 0 "0hy2")
+   (0 0 0 0 4 4)
+   ("1hy1" 0 3 0 4 "2ian2"))
+  3)
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ("yes")))
+(FAILED /course/cs4500f18/ta/github/8940/8/strategy-tests-3/4-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+(testing /course/cs4500f18/ta/github/8940/8/strategy-tests-4/5-in.json /course/cs4500f18/ta/github/8940/8/strategy-tests-4/5-out.json)
+move: contract violation;
+ shorter than 4 stories
+      b: [["3ian1" 4    ]
+ [4     4    ]
+ []
+ [0     0     0     0     "0hy2"]
+ [0     0     0     0     4     4    ]
+ ["1hy1" 0     3     0     4     "2ian2"]]
+
+      t: (worker "ian1")
+      e-w: 0
+      n-s: 1
+  in: (->i
+       ((b board?)
+        (t (b) (and/c worker? (on-board? b)))
+        (e-w (or/c 0 1 -1))
+        (n-s (or/c -1 1 0)))
+       #:pre/name
+       (b t e-w n-s)
+       "remains on board"
+       (stay-on-board? b t e-w n-s)
+       #:pre/name
+       (b t e-w n-s)
+       "shorter than 4 stories"
+       (< (height-of b t e-w n-s) MAX-HEIGHT)
+       (r board?))
+  contract from: 
+      <pkgs>/Santorini/Code/Common/board.rkt
+  blaming: <pkgs>/Santorini/Code/Player/move-generating.rkt
+   (assuming the contract is correct)
+  at: <pkgs>/Santorini/Code/Common/board.rkt:74.3
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/contract/private/blame.rkt:159:0: raise-blame-error16
+   ...ode/Common/board.rkt:77:3
+   /home/samc/sw-dev/Santorini/Code/Player/move-generating.rkt:60:6: for-loop
+   /home/samc/sw-dev/Santorini/Code/Player/move-generating.rkt:59:4: for-loop
+   /home/samc/sw-dev/Santorini/Code/Player/move-generating.rkt:56:0: generate
+   /home/samc/sw-dev/Santorini/Code/Player/strategy.rkt:45:4: dead? method in strategy%
+   ...higher-order.rkt:340:33
+   /home/samc/sw-dev/18SwDev/Code/8/xstrategy:49:0: main
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("ian"
+  (("3ian1" 4)
+   (4 4)
+   (0)
+   (0 0 0 0 "0hy2")
+   (0 0 0 0 4 4)
+   ("1hy1" 0 3 0 4 "2ian2"))
+  2)
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /course/cs4500f18/ta/github/8940/8/strategy-tests-4/5-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+

@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/course/cs4500f18/ta/github/2189/10/xobserve", line 12, in <module>
+    from Santorini.Common import referee
+  File "/course/cs4500f18/ta/github/2189/10/../Santorini/Common/referee.py", line 8, in <module>
+    from Santorini.Common import rulechecker
+  File "/course/cs4500f18/ta/github/2189/10/../Santorini/Common/rulechecker.py", line 11, in <module>
+    from Santorini.Common.pieces import Building, Direction
+  File "/course/cs4500f18/ta/github/2189/10/../Santorini/Common/pieces.py", line 249
+    raise OverflowError(f"Cannot build over {self.MAX_HEIGHT}")
+                                                             ^
+SyntaxError: invalid syntax
+(running /course/cs4500f18/ta/github/2189/10/xobserve)
+0
+(ran /course/cs4500f18/ta/github/2189/10/xobserve successfully ((plain fast with-newline plain-unicode)) and received 0 JSON values)
+

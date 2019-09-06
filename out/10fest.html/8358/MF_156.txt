@@ -1,0 +1,5 @@
+Error: Invalid or corrupt jarfile ../Santorini/Lib/target/Lib-1.0-SNAPSHOT.jar
+(running /course/cs4500f18/ta/github/8358/10/xobserve)
+0
+(ran /course/cs4500f18/ta/github/8358/10/xobserve successfully ((plain fast with-newline plain-unicode)) and received 0 JSON values)
+

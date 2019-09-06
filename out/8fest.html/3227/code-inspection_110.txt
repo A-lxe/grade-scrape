@@ -1,0 +1,8 @@
+Commit: e2baddd9f095ef53e7b219c81cd08e658bbba306
+Score: 19/30
+Grader: Kanika Rana
+
+...comments...
+1. Pupose statements expected in referee interface and its function. (-1).
+2. Strategy expects a unit test ase to check for depths>3. (-5).
+3. Cannnot find tests for diagonal and cartesian placement. (-5)

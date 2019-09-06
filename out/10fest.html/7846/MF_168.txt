@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/course/cs4500f18/ta/github/7846/10/xobserve", line 7, in <module>
+    from Santorini.Common.pieces import Board, Worker, Direction
+  File "/course/cs4500f18/ta/github/7846/10/../Santorini/Common/pieces.py", line 227
+    raise OverflowError(f"Cannot build over {self.MAX_HEIGHT}")
+                                                             ^
+SyntaxError: invalid syntax
+(running /course/cs4500f18/ta/github/7846/10/xobserve)
+0
+(ran /course/cs4500f18/ta/github/7846/10/xobserve successfully ((plain fast with-newline plain-unicode)) and received 0 JSON values)
+

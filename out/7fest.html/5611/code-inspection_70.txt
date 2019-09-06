@@ -1,0 +1,6 @@
+Commit: f15c9f3fb90624b3f73ac5784e171d15cb2392e9
+Score: 18/20
+Grader: Kanika Rana
+
+...comments...
+1. No test case in json tests to check worker and/or building is placed on the same spot ("staying put").

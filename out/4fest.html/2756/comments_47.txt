@@ -1,0 +1,9 @@
+Commit: d6d71cf494d4c293e8f785490a06e7a496f397fa
+Score: 6/10
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) Following components are not mentioned:
+Player interface
+tournament manager
+2) Part 2 does not describe about stages of implementation. You should describe about how you  proceed implementing the software using bottom up approach.i.e from building a prototype to a full-fledged system.

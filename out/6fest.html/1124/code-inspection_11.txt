@@ -1,0 +1,12 @@
+Commit: 143f0d9c990aa2c7c28bb92de32470c6ecf92df8
+Score: 10/13
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) TESTME does not exist.
+
+2) Following functions/methods not found,
+	somehow find neighboring squares
+
+3) Test or worked examples for following methods/functions not found,
+	somehow find neighboring squares

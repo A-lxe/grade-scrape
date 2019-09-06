@@ -1,0 +1,10 @@
+Commit: 9ed8eb5e20cb1329b23caa4db25d356970d69739
+Score: 12/20
+Grader: Raghavendra Venkatesh
+
+...comments...
+No readme found inside folder 7 or Santorini. As per the requirement below you should add a readme to every folder.
+http://www.ccis.northeastern.edu/home/matthias/4500-f18/readme.html
+
+JSON test for following scenario not found
+	an action request is rejected because the worker and/or building is placed on the same spot

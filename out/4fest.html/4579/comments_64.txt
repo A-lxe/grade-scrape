@@ -1,0 +1,14 @@
+Commit: d4e91c87dd2bfa0a28b82ac4e9c296b76cc8e485
+Score: 5/10
+Grader: Alex Knauth
+
+None of the entities in your plan act as a "referee" to determine whether player's moves are valid (the players can't be trusted to validate themselves).
+
+Your plan doesn't specify how tournaments will be run between automated players.
+
+You specify a class for players, there should also be an interface through which different AI players would make decisions about which moves they want to play.
+
+Your plan should include at least two phases:
+ 1. A prototype with minimal functionality, and 
+ 2. A full-fledged system that supports running automated tournaments between AI players.
+

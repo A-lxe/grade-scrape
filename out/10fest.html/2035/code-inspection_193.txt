@@ -1,0 +1,14 @@
+Commit: d57b01f5be15a9ec31868b9af9219607bd8a6df7
+Score: 62/70
+Grader: Alex Knauth
+
+The player implementation should be in Santorini/Player, not Santorini/Common.
+
+The result of a tournament could be a tie between multiple users.
+
+I can't find tests for the `ReceiveTurn` or `ReceiveBoard` observer methods. 
+
+The observer should be able to observe events where the Referee has detected
+misbehavior by one of the players.
+
+Good that you use named constants like MaxBuildingHeight and NormalBoardSize.

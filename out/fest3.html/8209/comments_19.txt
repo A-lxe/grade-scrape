@@ -1,0 +1,23 @@
+Commit: 0e3a4af65318eb47974aeb12d80dcd6757f59759
+Score: 5/5
+Grader: Alex Knauth
+
+The purpose statements on your methods and on the class as a whole mostly look
+good.
+
+The purpose statement for `checkValidLine` leaves out an important part of what
+it does. It doesn't just check that it's of type array, it also determines what
+type of command the JSON represents, and checks that it's a valid command
+according to that.
+
+The `generateSpreadSheets` method is a bit long, and does multiple "jobs." It
+might benefit from being split into multiple smaller methods, similar to how
+you split some of the functionality of `checkValidLine` into
+`isProperSheetRequest`, `isProperSetRequest`, and `isProperAtRequest`.
+
+Be careful about the difference between "x and y" vs "row and column", because
+the order is switched. X corresponds to column-number and y corresponds to
+row-number. When you call addCell in the "set" case or getValueAt in the "at"
+case, x is in `node.get(2)` but you call it row, and y is in `node.get(3)` but
+you call it col.
+

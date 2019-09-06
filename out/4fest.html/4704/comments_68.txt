@@ -1,0 +1,13 @@
+Commit: 24288c8d66b0d0411392bcd6ea0b0a04b44b7266
+Score: 5/10
+Grader: Kanika Rana
+
+************************************************************
+1.No component to identify Building
+2. No component to identify worker
+3. no component to identify referee
+4. no component to identify Player
+5. no component to identify board
+
+
+

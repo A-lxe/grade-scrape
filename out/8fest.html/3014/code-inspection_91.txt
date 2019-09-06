@@ -1,0 +1,30 @@
+Commit: ee7d5f1aa1bc8ecf6bf8cd8b3631f48d115dba91
+Score: 13/30
+Grader: Alex Knauth
+
+The Referee needs some way to "run a game," possibly with another method. The
+referee should be able to start running a game and supervise the game until the
+end.
+
+The IStrategy interface should not have separate methods for
+`diagonalPlacement` and `farthestPlacement`. Instead, the interface should have
+one method for placing a worker, and there should be two *implementations* of
+the strategy that implement that one method differently.
+
+Also, the strategy methods should *not* mutate the board state; they should
+return *recommended* actions without actually executing them. That way the
+rule-checker can verify that the strategy's suggested actions are valid. This
+means the strategy methods should not return void. Instead they should return
+some type that represents the actions that a player can take on a turn.
+
+Currently two behaviors of the IStrategy, "choose an action to take on a turn"
+and "can stay alive for this many rounds" are bundled into the same method
+`willIStayAlive`. These should be separate methods. The choice-of-action method
+There should be a separate IStrategy method to implement the choice-of-action
+should return some type (not void) that represents the actions that a player
+can take on a turn, and the can-stay-alive method should return a boolean.
+
+You have Unit tests for placing workers on a board in the start-up phase, but
+you don't have any Unit tests for the choice-of-action functionality, or for
+the can-stay-alive functionality.
+

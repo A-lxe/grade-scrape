@@ -1,0 +1,24 @@
+Commit: 6026f0bdf434d269fbcc512e7b262badb943c440
+Score: 9/20
+Grader: Alex Knauth
+
+You only have a README for the Design sub-directory of Santorini. You should
+have a README for Assignment 7 (in the `7/` directory) as well. This README
+isn't updated for Assignment 7 either.
+
+You don't have any unit tests for the RuleChecker or any of its methods. You
+have the rules-tests/*-{in,out}.json files as _integration_ tests for the
+system as a whole, but you're missing unit tests that would test specific
+methods and components by themselves.
+
+Your README for the assignment should also describe where the unit tests are,
+the TESTME file should show how to easily run the unit tests.
+
+For your first integration test, 1-{in,out}.json, it looks like that sequence
+of move and build should be illegal (because you'd be building on top of the
+worker "a2"), but your expected-output says "yes" anyway.
+
+For your third integration test, 3-{in,out}.json, it looks like this should be
+legal, but your expected output says "no". It's possible you're interpreting
+what "SOUTH" means differently.
+

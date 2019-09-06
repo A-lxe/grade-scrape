@@ -1,0 +1,15 @@
+Commit: 499c66d4fa791d2df6bf07c6178448d82d7fc1c2
+Score: 63/70
+Grader: Alex Knauth
+
+The observer implementation should be in a new Observer directory, not in Common.
+
+Your docstring for the AbstractTournamentManager says that it "returns the list 
+of players that got the most total wins". This belongs in the docstring for 
+run_tournament.
+
+Your test for test_played_turn doesn't seem to be testing the output. It says
+expected ["Board:\n"], but it doesn't actually expect the specific board that you 
+passed in.
+
+Good that you use named constants for things like BOARD_SIZE and MAX_HEIGHT.

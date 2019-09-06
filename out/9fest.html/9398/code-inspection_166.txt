@@ -1,0 +1,12 @@
+Commit: 3165fba7581cd1552a934744348c7fb3ffaef16d
+Score: 70/79
+Grader: Kanika Rana
+
+...comments...
+1. Method to observe any erroneous behavior by a player is expected in Observer. (-4)
+2. Signature of functions should have descriptive variables. (-2)
+3. Test cases of play-game missing in referee. (-5)
+
+Bonus:
+1. a player that raises an exception while taking a turn(+2)
+

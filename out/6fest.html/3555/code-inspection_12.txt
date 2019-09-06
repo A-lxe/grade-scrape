@@ -1,0 +1,13 @@
+Commit: 5acbf262f8993eabdb610222839bf18713be44f2
+Score: 11/13
+Grader: Alex Knauth
+
+You should have a README file in the `6/` directory, not just in the Santorini directory, as well as a TESTME file that describes how to run the unit tests. You describe this in the README in the Santorini directory, but each assignment should have its own version as well, for running the unit tests for that assignment specifically.
+
+You should have a method for finding the neighboring squares on the board. The closest thing you have is `processDirectionChange` in `SantoriniJsonProcessor.java`. There should be a board method that finds neighboring squares, and it should have unit tests associated with it.
+
+Your code is slightly harder to understand than it could be, partially because of the transition between I/O and JSONNodes went through more layers than I expected, and partially because the names of the files (SantoriniBoardTestHarness, SantoriniJsonClient, SantoriniJsonProcessor) don't draw a clear distinction between JSON-specific code and Santorini-specific code. 
+
+Both could be solved by separating some of the JSON-specific code into a separate module or class (one that doesn't need anything to do with Santorini) or by trying to find a better JSON library, whichever one seems easier to you.
+
+It's good that you have unit tests for some of your board methods. However, you should also have unit tests for a method like `processDirectionChange`.

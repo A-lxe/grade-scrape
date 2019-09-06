@@ -1,0 +1,42 @@
+main: ill-formed board specification given: '(("1dana1" "1" "2" "3noah2") ("3dana2" 3 "4noah1" 4))
+  context...:
+   parse-loop22
+   /home/types/4500/18SwDev/Code/6/xboard:46:0: main
+(testing ../../../18SwDev/Code/6/xboard)
+(testing board-tests/1-in.json board-tests/1-out.json)
+(PASSED board-tests/1-in.json)
+(testing board-tests/2-in.json board-tests/2-out.json)
+(PASSED board-tests/2-in.json)
+(testing board-tests/3-in.json board-tests/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("1dana1" "2dana2" "1noah1" "2noah2"))
+  ("build" "noah1" ("SOUTH" "PUT"))
+  ("occupied?" "noah1" ("EAST" "PUT")))
+(*** expected)
+'(() "yes")
+(*** but received)
+'(((pretty fast with-newline plain-unicode)
+   (("invalid input" ("build" "noah1" ("SOUTH" "PUT")))
+    "error: contract violation\n  expected: (or/c string? symbol?)\n  given: #<procedure:string->e-w>\n  argument position: 1st\n  other arguments...:\n   \"EAST or WEST or PUT expected, given ~e\"\n   \"SOUTH\""
+    ("okay for now, but not for rule checking"
+     ("occupied?" "noah1" ("EAST" "PUT"))))))
+(FAILED board-tests/3-in.json)
+(testing board-tests/4-in.json board-tests/4-out.json)
+(PASSED board-tests/4-in.json)
+(testing board-tests/5-in.json board-tests/5-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("1dana1" "1" "2" "3noah2") ("3dana2" 3 "4noah1" 4))
+  ("height" "dana2" ("EAST" "PUT"))
+  ("move" "dana2" ("EAST" "PUT"))
+  ("height" "dana2" ("PUT" "PUT")))
+(*** expected)
+'(3 () 3)
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED board-tests/5-in.json)
+(tested ../../../18SwDev/Code/6/xboard successfully on 3 cases out of 5)
+

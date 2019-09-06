@@ -1,0 +1,6 @@
+Commit: cab2200020a151cb22a1936ca6cf7f480d57763d
+Score: 17/20
+Grader: Raghavendra Venkatesh
+
+...comments...
+No Readme found in folder 7

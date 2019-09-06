@@ -1,0 +1,11 @@
+Commit: 17e3a914fadf74a9c680d86d7790c9cac0a33ebb
+Score: 19/30
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+Missing method which determines best move for next turn
+Missing unit test cases for following scenarios in strategy unit test case:
+(a) Missing test case for method determines best move for next turn
+(b) cover several "depths" (searching beyond tree depth of 2 and 3) 
+(c) Missing checking for test for scenario where player won't survive

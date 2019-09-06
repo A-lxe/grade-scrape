@@ -1,0 +1,9 @@
+Commit: c94bd2524f648a7502cae22a701ea34ff80544f2
+Score: 10/13
+Grader: Alex Knauth
+
+You should have a README file in the `6/` directory, not just in the Santorini directory, as well as a TESTME file that describes how to run the unit tests. You describe this in the README in the Santorini directory instead. You should have one for each assignment that describes how to run the tests for that assignment specifically.
+
+You should have a board method for finding the neighboring squares on the board. The closest thing you have is `inputToNewPosition` in xboard.java. Something similar to that should be part of the board for finding neighboring squares.
+
+Instead of having a constructor that takes no arguments, and then setter methods that later fill in the fields, consider initializing some of those fields in the constructor. Your "initialize empty and set each field later" style, makes the tests longer than they need to be, particularly for the Worker class.

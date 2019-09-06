@@ -1,0 +1,12 @@
+Commit: 43e9607a72dfa45a93212591e04122fb661526c9
+Score: 17/30
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+does not specify a "run a game" method
+
+IMPLEMENTATION 
+Unit test cases for strategy on following scenarios missing,
+(1) cover several "depths" (searching beyond tree depth of 2 and 3) and 
+(2) two outcomes for can stay alive functionality

@@ -1,0 +1,9 @@
+Commit: fd66e9879297bfc18eb8a2c54001a4efaf6008bf
+Score: 22/30
+Grader: Raghavendra Venkatesh
+
+...comments...
+design does not specify how the ref gets to know the players
+
+Unit test cases for strategy missing for following scenarios,
+(a) cover several "depths" (searching beyond tree depth of 2 and 3) 

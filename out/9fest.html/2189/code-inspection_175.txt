@@ -1,0 +1,10 @@
+Commit: 1ae1fe0c7c757fb3340f19d20596e7fb34995fe8
+Score: 70/79
+Grader: Raghavendra Venkatesh
+
+...comments...
+referee not placed into the Admin directory
+
+The observer does not have methods to observer following event
+	any erroneous behavior by a player
+

@@ -1,0 +1,21 @@
+Commit: d7ab2eb05dc8bd274fbc3e7a5016d8d844c41110
+Score: 26/30
+Grader: Alex Knauth
+
+The purpose statements in your IStrategy interface look good. 
+
+The interface should not have separate methods for `placeWorkerInDiagonal` and
+`placeWorkerFarFromOthers`. Instead, the interface should have one method for
+`placeWorker`, and there should be two *implementations* of the strategy that
+implement that one method differently.
+
+The unit tests in SantoriniTests should be put in a sub-directory of Santorini,
+possibly in Santorini/Tests or Santorini/UnitTests.
+
+You have unit tests for calculating all possible turns, determining
+survivability, determining winnability, and placing workers in the start-up
+phase, but you're missing unit tests for the choice-of-action functionality
+produced by the `nextTurn` method. If you're worried about "randomness" or
+"arbitrariness" in choosing from multiple valid options, you can still test
+properties of the ITurn produced.
+

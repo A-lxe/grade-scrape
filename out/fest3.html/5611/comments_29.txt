@@ -1,0 +1,25 @@
+Commit: bfedbab9863bf248c714444f639863a171a55337
+Score: 4/5
+Grader: Alex Knauth
+
+The purpose statements on your methods mostly look good, except that the
+purpose statement for the Main class / the client as a whole doesn't mention
+spreadsheets.
+
+There seems to be some slight discrepancies between your Server spec and how
+you use things "from" it. In `convertJF` where you construct formulas, your
+client code just calls `new Constant()` or `new Addition()`, with no arguments.
+Your spec doesn't specify exactly what arguments the constructors take, but it
+doesn't specify setter-methods either, so most people would assume that the
+`Constant` constructor for example takes a single value and stores it, and that
+the `Addition` constructor takes the two formulas and stores them. 
+
+You should also call `convertJF` recursively on the sub-trees in the
+Multiplication and Addition cases, since those classes store Formulas and not
+JF-trees.
+
+Your `doAt` method uses the `sheet.get` method to get the formula for a cell,
+which is a correct use of your Server spec. However, you never call the
+`evaluate` method on that formula, and instead treat it as if it were already
+the "value".
+

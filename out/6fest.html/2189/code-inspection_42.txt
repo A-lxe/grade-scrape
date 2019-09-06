@@ -1,0 +1,22 @@
+Commit: 6d9b2d9ee9f59c9615d79dc3fa7075a185ff8723
+Score: 0/13
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) Single readme for whole project not found 
+
+2) TESTME does not exist.
+
+3) Following functions/methods not found,
+	build
+	move
+	height of a field/square whatever
+	is a field occupied by a player
+	somehow find neighboring squares
+
+4) Test or worked examples for following methods/functions not found,
+	build
+	move
+	height of a field/square whatever
+	is a field occupied by a player
+	somehow find neighboring squares

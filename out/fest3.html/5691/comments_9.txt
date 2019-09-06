@@ -1,0 +1,6 @@
+Commit: d092c889648ee5788ec891fce6a2a20a77af1ae0
+Score: 0/5
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) No purpose statements written for client or its methods

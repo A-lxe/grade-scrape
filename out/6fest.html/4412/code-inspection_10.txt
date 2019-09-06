@@ -1,0 +1,20 @@
+Commit: 1f14ee5658c2fba67dd7f5603291d3dc43e23107
+Score: 3/13
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) README does not tell about where to start reading the code base.
+
+2) TESTME does not exist.
+
+4) Following functions/methods not found,
+	height of a field/square whatever
+	is a field occupied by a player
+	somehow find neighboring squares
+
+5) Unit tests or worked examples for following methods/functions not found,
+	build
+	move
+	height of a field/square whatever
+	is a field occupied by a player
+	somehow find neighboring squares

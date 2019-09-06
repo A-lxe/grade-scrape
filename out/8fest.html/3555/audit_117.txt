@@ -1,0 +1,87 @@
+(testing /course/cs4500f18/ta/github/3555/8/strategy-tests-0/1-in.json /course/cs4500f18/ta/github/3555/8/strategy-tests-0/1-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+(PASSED /course/cs4500f18/ta/github/3555/8/strategy-tests-0/1-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 1 cases out of 1)
+(testing /course/cs4500f18/ta/github/3555/8/strategy-tests-1/2-in.json /course/cs4500f18/ta/github/3555/8/strategy-tests-1/2-out.json)
+main: valid move+build specification expected, given (list [["0one1" "0one2"]
+ [4     3    ]
+ ["0two1" "0two2"]]
+ (worker "one1") 1 1 -1 0)
+  context...:
+   /home/samc/sw-dev/18SwDev/Code/8/xstrategy:49:0: main
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("one"
+  (("0one1" "0one2") (4 3) ("0two1" "0two2"))
+  1
+  ("move" "one1" ("EAST" "SOUTH"))
+  ("+build" ("WEST" "PUT")))
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /course/cs4500f18/ta/github/3555/8/strategy-tests-1/2-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+(testing /course/cs4500f18/ta/github/3555/8/strategy-tests-2/3-in.json /course/cs4500f18/ta/github/3555/8/strategy-tests-2/3-out.json)
+main: ill-formed board specification given: '((4 4 4) (4 "1one1" 4) (4 2 4) (4 4 4))
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:418:15: parse-loop48
+   /home/samc/sw-dev/18SwDev/Code/8/xstrategy:49:0: main
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("one"
+  ((4 4 4) (4 "1one1" 4) (4 2 4) (4 4 4))
+  2
+  ("move" "one1" ("PUT" "SOUTH"))
+  ("+build" ("PUT" "NORTH")))
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /course/cs4500f18/ta/github/3555/8/strategy-tests-2/3-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+(testing /course/cs4500f18/ta/github/3555/8/strategy-tests-3/4-in.json /course/cs4500f18/ta/github/3555/8/strategy-tests-3/4-out.json)
+main: ill-formed board specification given: '((4 4 4) (4 "1one1" 4) (4 2 4))
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:418:15: parse-loop48
+   /home/samc/sw-dev/18SwDev/Code/8/xstrategy:49:0: main
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("one"
+  ((4 4 4) (4 "1one1" 4) (4 2 4))
+  4
+  ("move" "one1" ("PUT" "SOUTH"))
+  ("+build" ("PUT" "NORTH")))
+(*** expected)
+'("yes")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /course/cs4500f18/ta/github/3555/8/strategy-tests-3/4-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+(testing /course/cs4500f18/ta/github/3555/8/strategy-tests-4/5-in.json /course/cs4500f18/ta/github/3555/8/strategy-tests-4/5-out.json)
+main: ill-formed board specification given: '((4 4 4) (4 "1one1" 4) (4 2 4) (4 2 4) (4 2 4) (4 "1two1" 4))
+  context...:
+   /proj/racket/plt-released/recent/collects/racket/match/compiler.rkt:418:15: parse-loop48
+   /home/samc/sw-dev/18SwDev/Code/8/xstrategy:49:0: main
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("one"
+  ((4 4 4) (4 "1one1" 4) (4 2 4) (4 2 4) (4 2 4) (4 "1two1" 4))
+  4
+  ("move" "one1" ("PUT" "SOUTH"))
+  ("+build" ("PUT" "NORTH")))
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /course/cs4500f18/ta/github/3555/8/strategy-tests-4/5-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+

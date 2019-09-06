@@ -1,0 +1,6 @@
+Commit: 4f4f3ef0782eb5c99af6375db295b406cfdab5c3
+Score: 4/5
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) Description missing from client file. Should describe what is the purpose of the script.

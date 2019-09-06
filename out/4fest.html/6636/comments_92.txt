@@ -1,0 +1,6 @@
+Commit: 9306860890bf894b7d6440e7660672d1a8bc2a7f
+Score: 9/10
+Grader: Alex Knauth
+
+You don't specify a good player-interface through which players can make decisions about which moves to make. You say that they communicate through "well-formed" JSON values, but never define that term, and that's not good enough to specify the interface.
+

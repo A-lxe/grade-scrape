@@ -1,0 +1,12 @@
+Commit: b68e6eda396ed83523a05dd1882496f8b6aefd3a
+Score: 71/79
+Grader: Kanika Rana
+
+...comments...
+1. Observer needs a placement action(-4)
+2. Observer needs a turn action(-4)
+3. Observer needs an action to overlook any erroneous behaviour by player(-4)
+4. Turn method/action does not have required signiture(-2)
+5. Bonus for infinite loop for a player test(+2)
+6. Bonus for rule breaking player test(+2)
+7. Bonus for placement step exception(+2)

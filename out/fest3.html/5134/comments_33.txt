@@ -1,0 +1,7 @@
+Commit: 173ce12e25444c02bd559a4ebf645a2c80c9f126
+Score: 1/5
+Grader: Kanika Rana
+
+************************************************************
+1. Description of the Client script functionality is expected.
+2. Purpose statement for functions is expected.

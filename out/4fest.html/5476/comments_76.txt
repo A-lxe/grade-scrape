@@ -1,0 +1,13 @@
+Commit: 01270660700f8b7bf3f67397a7bf874e0c6f681a
+Score: 5/10
+Grader: Alex Knauth
+
+A player "knowing only its name" does not allow for players to make decisions about which moves to make next, as we would need for running automated tournaments between different AI players. Your plan seems to assume that all players will be human-controlled.
+
+There should be a player-interface through which different AI players would make decisions about which moves they want to play.
+
+Your plan should clearly outline the two phases:
+ 1. A prototype with minimal functionality, and 
+ 2. A full-fledged system that supports running automated tournaments between AI players.
+You briefly mentioned the second phase at the very end, but you didn't describe it in any more detail. Make that clearer, and in particular, show a separation between the players (client side) that can make decisions about moves, and referees (server side) that govern whether those moves are valid.
+

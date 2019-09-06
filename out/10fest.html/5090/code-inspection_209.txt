@@ -1,0 +1,10 @@
+Commit: 6543fdddff7c0f7828901d159763d19c330c7ed9
+Score: 61/70
+Grader: Kanika Rana
+
+...comments...
+1. Referee should be in Admin folder (-1)
+2. Player, strategy, tree generator should be in Player directory. (-3)
+3. The Observer needs a method to consume board, found only Square. (-2)
+4. Unit tests not found of observer, test in TextObserverTest test referee not observer. (-3)
+

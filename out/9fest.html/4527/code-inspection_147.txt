@@ -1,0 +1,18 @@
+Commit: 7b3cd6b6f97d8b791d6530f4bbd86942fe72ca45
+Score: 38/79
+Grader: Raghavendra Venkatesh
+
+...comments...
+No purpose statement or description found for observer
+
+The observer does not have methods to observer following event
+	a placement action
+	a turn action, and
+	any erroneous behavior by a player
+
+No purpose statement found for seriesWinner
+Unit test cases not found for referee
+
+Method to place the first two initial workers not found for player.
+
+Unit test cases not found for the player

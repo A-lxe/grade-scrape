@@ -1,0 +1,9 @@
+Commit: c6fedacc25fe94f5d8270c9f57053a41fe6be6f4
+Score: 7/30
+Grader: Kanika Rana
+
+...comments...
+1. An interface of Referee was expected. (-2)
+2. Referee does not specify a "run a game" method (-3)
+3. referee design does not specify how the ref gets to know the players (-3)
+4. No unit tests found. (-15)

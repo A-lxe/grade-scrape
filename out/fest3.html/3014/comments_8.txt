@@ -1,0 +1,6 @@
+Commit: 3a999ae786af5b8c4f2244da8855fda891044f13
+Score: 0/5
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) Could not locate client src folder as there is no Aux/Auxiliary folder.

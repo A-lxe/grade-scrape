@@ -1,0 +1,22 @@
+Commit: 86e9fc8e35abf58d6c3c4844088692c8e6b840a4
+Score: 62/79
+Grader: Alex Knauth
+
+Normal points: 60
+Bonus points:  +2
+
+The observers should be observing *events*, not just the board state, winner,
+or turn-number. The `get_last_played_turn` method is _almost_ correct. However,
+an observer doesn't have to "request" to view the board or see the last action.
+The Referee calls its methods when events happen, with the *input data* that's 
+relevant for those events. You can think of each of these methods as a kind of 
+callback. The Referee will call the observer back when something happens. The 
+method for observing Turn actions, for example, should take a Turn action as an 
+input.
+
+You should also have methods for observing worker-placement actions and
+observing "erroneous behavior" by a player.
+
+I can't find any unit tests for the Player or its methods.
+
+(+2) Bonus points for testing your Referee against an "infinite loop" player!

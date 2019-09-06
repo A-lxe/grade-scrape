@@ -1,0 +1,19 @@
+Commit: 812b04f6d422791ea081314805c47a2d0f8099e6
+Score: 5/13
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) TESTME does not exist.
+
+2) TESTME does not have instructions on how run test cases
+
+3) Following functions/methods not found,
+	is a field occupied by a player
+	somehow find neighboring squares
+
+4) Test or worked examples for following methods/functions not found,
+	build
+	move
+	height of a field/square whatever
+	is a field occupied by a player
+	somehow find neighboring squares

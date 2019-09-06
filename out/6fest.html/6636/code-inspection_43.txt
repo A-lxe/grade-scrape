@@ -1,0 +1,16 @@
+Commit: 08f2dd17dfa3afb24c8707288be5140317951595
+Score: 7/13
+Grader: Alex Knauth
+
+You should split out the `Test Me` section of the README into a separate TESTME file.
+
+Consider turning the "fake tests" in test_board.txt into real unit tests.
+
+You should have a method for finding the neighboring squares on the board. The closest thing you have is `move` and `build` in the `admin.py`, which both take directions as an arguments and both raise NotImplementedErrors. You should be determining which neighboring square is in that direction, probably using some sort of helper method, and calling a board method using that square.
+
+You should have a method for determining whether a square is occupied by a player. You call an `a.is_occupied` method (where a is an Admin) in xboard, but Admin has no is_occupied method. It's possible you meant for `get_cell` in board.py to fill this role, but that seems to conflict with getting building heights.
+
+You should have a method for determining the height of the building on a square. The closest thing you have seems to be `get_cell` in board.py, but it just says "either a number or a string" and doesn't specify that it gives you either the building height or whether it's occupied. You should have two separate methods, one for getting building heights, and another for determining whether its occupied with a worker. This also means that the data definition for the `grid` field needs to be more complex to handle both pieces of information.
+
+When you say things like "either a number on a string", that is merely a type, similar to the Signature step in the Design Recipe. However, the Purpose step asks for something more. Does it return the height of a building? Or does it return the name of a worker? Just "number or string" is not enough to specify _meaning_ like that.
+

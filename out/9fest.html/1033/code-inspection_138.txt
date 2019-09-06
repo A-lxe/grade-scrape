@@ -1,0 +1,9 @@
+Commit: 305125781fd87396bf50dfff095491a88e10ceb0
+Score: 67/79
+Grader: Kanika Rana
+
+...comments...
+1. Observer missing any erroneous behavior(illegal moves) by a player (-4)
+2. Unit tests for player (initial worker position and turn) not found(-10)
+3. Bonus for handling illegal placement (+1)
+4. Bonus for handling illegal turn(+1)

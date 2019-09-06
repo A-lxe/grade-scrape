@@ -1,0 +1,13 @@
+Commit: 5b6b845309537f1cb62b0c91dd23b45597d1783a
+Score: 23/30
+Grader: Kanika Rana
+
+...comments...
+1. Referee is expected to specify a "run a game" method. (-3)
+2. The referee interface does not define GameState. All terms in the signatures are expected to be defined. (-1)
+3. No unit tests found for checking the tree depth>3. (-3)
+
+Suggestions:
+Please think about your design again.
+
+----------------------

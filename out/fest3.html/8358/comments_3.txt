@@ -1,0 +1,7 @@
+Commit: 49e60139c612b1a541f36710cf03af86f49b1899
+Score: 0/5
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) Description missing from client file.
+2) Purpose statement missing for  4 out of 4 public methods across files during spot check

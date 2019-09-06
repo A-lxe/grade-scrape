@@ -1,0 +1,22 @@
+Commit: 49407e3e715230901b3aa27e0f754b02b44b2546
+Score: 19/30
+Grader: Alex Knauth
+
+It would be cleaner if the Referee and Strategy interfaces dealt with some type
+for "the actions that a player can take on a turn", which is a combination of a
+move and a build, instead of dealing with Moves and Builds separately.
+
+The Strategy interface has a method for placing workers during the start-up
+phase of the game, but it doesn't have method for the choice-of-action
+functionality during the main phase of the game. This choice-of-action method
+should return some type representing "the actions that player can take on a
+turn".
+
+You have Unit tests for placing workers during the start-up phase, but you
+don't have any Unit tests for the choice-of-action functionality in the main
+phase. If you're worried about "randomness" or "arbitrariness" in choosing from
+multiple valid options, you can still test properties of the turns/actions
+produces.
+
+Your Unit tests for notLoseAfterRounds should test with depths greater than 3.
+

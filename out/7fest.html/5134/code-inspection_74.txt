@@ -1,0 +1,9 @@
+Commit: 59745996638c10ad60ef1db09d7d635be1ebb53e
+Score: 19/20
+Grader: Alex Knauth
+
+Your TESTME file runs your integration tests, the tests for the whole system in
+n-{in,out}.json, but it doesn't run any Unit tests, the tests for single
+methods and single components by themselves.
+
+The unit tests you do have look good; the TESTME should run them.

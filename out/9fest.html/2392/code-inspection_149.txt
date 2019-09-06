@@ -1,0 +1,15 @@
+Commit: 08131334b9fe6feb81e6a5ac61063cad9591c42c
+Score: 52/79
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+The observer does not have methods to observer following event
+	a placement action
+	a turn action, and
+	any erroneous behavior by a player
+
+Unit test case for run_n_games not present
+
+No Unit test cases found for player implementaion
+

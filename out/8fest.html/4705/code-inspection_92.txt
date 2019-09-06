@@ -1,0 +1,10 @@
+Commit: f23fa6640a5dc61ad107c86f69cde9557b1eaa8b
+Score: 18/30
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+Unit test cases for strategy missing for following scenarios,
+(a) Unit test case for decision function not found
+(b) cover several "depths" (searching beyond tree depth of 2 and 3)
+(c) look for both outcomes can stay alive

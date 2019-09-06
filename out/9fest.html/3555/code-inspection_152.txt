@@ -1,0 +1,19 @@
+Commit: 78470d738d1324cb0eecc3172260d8d5a378e011
+Score: 65/79
+Grader: Alex Knauth
+
+You are absolutely allowed to create interfaces for existing classes, or even 
+change classes in other ways. You are also allowed to add Enums or other 
+datatypes that might make the codebase cleaner, and allowed to refactor 
+method names so that they are more readable. Each change should be 
+incremental, but you _can_ change the given code base.
+
+The observers (spectators) should be observing *events*, not just the board 
+state. This includes worker-placement events, player-turn-action events, and 
+events for when the Referee detects "erroneous behavior" by a player. This should 
+feel like each observer method acting as an event callback.
+
+Your RefereeTests should not be commented out. It's better to have failing
+unit tests than to have commented-out tests.
+
+Your PlayerAiImplTests should not be commented out either.

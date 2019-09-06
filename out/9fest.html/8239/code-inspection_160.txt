@@ -1,0 +1,31 @@
+Commit: 0058d35193a8fef8cca6e0f04806f934ab92e79a
+Score: 40/79
+Grader: Alex Knauth
+
+It would be cleaner if the Referee, Strategy, and Player interfaces dealt with some 
+type for "the actions that a player can take on a turn", which is a combination of a 
+move and a build, instead of dealing with Moves and Builds separately.
+
+The observers should be observing *actions*, not just the board state and
+players. There should be methods for observing Turn actions, Worker 
+placement actions, and also for observing "erroneous behavior" by a 
+player. The method for observing Turn actions, for example, should take a 
+Turn action as an argument. An observer doesn't have to "request" to view 
+the board or see the last action. The Referee calls its methods when 
+events happen, with the input data that's relevant for those events.
+You can think of each of these methods as a kind of callback. The Referee will
+call the observer back when something happens.
+
+The Referee should not be giving players access to a mutable reference to its board.
+I can't find any unit tests for the Referee or any of its methods. Your README.txt
+file doesn't direct me to them either.
+
+You appear to have a Player interface, but no implementation for it. All of your
+player methods are stubs/dummy-headers that do nothing more than `pass`.
+
+The Player should not rely on mutating the GameState directly to perform actions.
+Instead, you should have a type representing the actions that a player can do in
+a turn, and have the choice-of-action methods return that type. Your method 
+signatures don't indicate this.
+
+I can't find any unit tests for the Player or any of its methods.

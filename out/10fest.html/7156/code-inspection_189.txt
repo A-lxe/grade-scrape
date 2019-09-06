@@ -1,0 +1,18 @@
+Commit: 79c5d6029fb3d99b91ecabe34e5098f362e2ecc8
+Score: 47/70
+Grader: Raghavendra Venkatesh
+
+...comments...
+observer implementation not  in the Observer directory
+
+Player interface should be places in player directory
+
+Does not specify how to handle games which were won by the player who cheated in current game 
+
+Missing purpose statement and unit tests for observer methods
+
+
+Literal constants used in 
+TermWorkerCantMoveToNonSecondFloor 
+TermWorkerCantMoveToNonSecondFloor
+

@@ -1,0 +1,7 @@
+Commit: a82920993e9586cb60743a45c784dbfbbeb84296
+Score: 12/13
+Grader: Kanika Rana
+
+************************************************************
+1. Testme.txt should be a separate file from readme.
+

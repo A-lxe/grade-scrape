@@ -1,0 +1,9 @@
+Commit: 82ff8beeeb0da469a2f0333d4eaca83796ee8ac7
+Score: 67/79
+Grader: Raghavendra Venkatesh
+
+...comments...
+The observer does not have methods to observer following event
+	a placement action
+	a turn action, and
+	any erroneous behavior by a player

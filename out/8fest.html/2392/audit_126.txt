@@ -1,0 +1,13 @@
+(testing /course/cs4500f18/ta/github/2392/8/strategy-tests-0/1-in.json /course/cs4500f18/ta/github/2392/8/strategy-tests-0/1-out.json)
+(testing /home/samc/sw-dev/18SwDev/Code/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("one" (("0one1" "1one2" 3 "2two1") (0 "2two2" 3)) 2)
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ("yes")))
+(FAILED /course/cs4500f18/ta/github/2392/8/strategy-tests-0/1-in.json)
+(tested /home/samc/sw-dev/18SwDev/Code/8/xstrategy successfully on 0 cases out of 1)
+

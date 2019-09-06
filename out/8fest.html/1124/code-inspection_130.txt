@@ -1,0 +1,7 @@
+Commit: 51c06bd7332c0eb587d9599348b7a20fc52f21e8
+Score: 27/30
+Grader: Kanika Rana
+
+...comments...
+1. Referee interface Expects the terms in the signatures defined or cross-referenced - Comparator<T> turnOrderComparator, List<Player<T>> players. (-3)
+

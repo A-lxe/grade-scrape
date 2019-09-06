@@ -1,0 +1,6 @@
+Commit: 4159211a412fa8babdaea9281aaf39ed044318a0
+Score: 4/5
+Grader: Kanika Rana
+
+************************************************************
+1. description of client script is missing.

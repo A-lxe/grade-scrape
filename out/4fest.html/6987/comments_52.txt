@@ -1,0 +1,6 @@
+Commit: c8953ac4d58a22db34f3c8fa88b80778efa1fa45
+Score: 4/10
+Grader: Kanika Rana
+
+************************************************************
+1.Software Components parts are expect as deliverable of part2 of this task.

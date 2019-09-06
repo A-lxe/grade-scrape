@@ -1,0 +1,9 @@
+Commit: 592364a6d6a12efc8bb10d1d21a9e4b65fa4659f
+Score: 15/20
+Grader: Raghavendra Venkatesh
+
+...comments...
+No Readme found for the folder 7
+
+JSON test for following scenario not found
+	an action request is rejected because the worker and/or building is placed on the same spot

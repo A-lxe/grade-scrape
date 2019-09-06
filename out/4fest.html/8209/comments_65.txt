@@ -1,0 +1,8 @@
+Commit: d195f2de07b99a7646b7805f52c88f1761cfb591
+Score: 8/10
+Grader: Alex Knauth
+
+Your plan should outline at least two phases:
+ 1. A prototype with minimal functionality, and 
+ 2. A full-fledged system that supports running automated tournaments.
+

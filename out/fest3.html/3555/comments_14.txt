@@ -1,0 +1,6 @@
+Commit: 1e845033a5033cbe574219f92ef64bbae9752108
+Score: 3/5
+Grader: Raghavendra Venkatesh
+
+...comments...
+1) Provided purpose statements does not clearly explain the purpose of the client and its methods.

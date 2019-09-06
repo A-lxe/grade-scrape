@@ -1,0 +1,7 @@
+Commit: 94dc4153bb90850a96d79a1d6f5eb99a6d04f9f8
+Score: 65/70
+Grader: Kanika Rana
+
+...comments...
+1. "data" in signature of methods of observer is not defined. (-3)
+2. Numeric constant used in Obsever at line 110. (-2)

@@ -1,0 +1,21 @@
+(testing ../../../18SwDev/Code/6/xboard)
+(board-tests/1-out.json is not a JSON file)
+(testing board-tests/1-in.json board-tests/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'(((1 2 3 "1will1" 0 0) ("0will2" 0 0 1 1 0) (0 0 0 "0joe1" "0joe2" 0))
+  ("move" "will1" ("EAST" "SOUTH"))
+  ("build" "will1" ("EAST" "SOUTH"))
+  ("neighbors" "will1" ("WEST" "PUT"))
+  ("neighbors" "will2" ("WEST" "PUT"))
+  ("occupied?" "joe1" ("EAST" "PUT"))
+  ("occupied?" "joe2" ("EAST" "PUT"))
+  ("height" "will2" ("PUT" "NORTH")))
+(*** expected)
+#f
+(*** but received)
+'(((pretty fast with-newline plain-unicode) (() () "yes" "no" "yes" "no" 1)))
+(FAILED board-tests/1-in.json)
+(tested ../../../18SwDev/Code/6/xboard successfully on 0 cases out of 1)
+

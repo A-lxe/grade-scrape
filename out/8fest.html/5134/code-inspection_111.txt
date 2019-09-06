@@ -1,0 +1,7 @@
+Commit: 3fe8178d3b853dbad6cf4f523a775307fa651dbd
+Score: 25/30
+Grader: Raghavendra Venkatesh
+
+...comments...
+Unit test cases for strategy missing for following scenarios,
+(a) cover several "depths" (searching beyond tree depth of 2 and 3)

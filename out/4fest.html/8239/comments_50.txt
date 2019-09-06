@@ -1,0 +1,7 @@
+Commit: f92267034ce86f28669b1d3ab56644456f9ad319
+Score: 7/10
+Grader: Kanika Rana
+
+************************************************************
+1. Tournament Manager is not defined.
+2. Building plan strategy from a player and ref to full fledged system is not included in the plan.

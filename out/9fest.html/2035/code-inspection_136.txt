@@ -1,0 +1,19 @@
+Commit: 938c7fb0438959f3377055a48752c32288a52db3
+Score: 34/79
+Grader: Raghavendra Venkatesh
+
+...comments...
+
+Player implementation not placed in player folder
+
+The observer missing methods to observe following events
+   a placement action
+   a turn action, and
+   any erroneous behavior by a player (see Implementation Task)
+
+No Unit tests found for referee
+
+Following methods missing for player:
+  place the first two initial workers
+  take a turn (accept board, return action request)
+

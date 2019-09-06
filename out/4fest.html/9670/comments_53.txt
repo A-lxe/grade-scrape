@@ -1,0 +1,7 @@
+Commit: 4d24c187eeaec4cae6ded19a7b21b78be1a38a89
+Score: 9/10
+Grader: Kanika Rana
+
+************************************************************
+1.Referee details expected to judge the next move is valid or not.
+2. Good job, well written.

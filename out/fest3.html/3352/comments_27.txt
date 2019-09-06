@@ -1,0 +1,22 @@
+Commit: 897e3fb03312e1fb43a45859725bf4a4872572e7
+Score: 4/5
+Grader: Alex Knauth
+
+The purpose statements on your functions mostly look good, but you're missing a
+purpose statement for the client as a whole. This could be a comment at the top
+of the file. Also the words "Helper function for" in a purpose statement are
+unnecessary.
+
+The main event handler is pretty long (it takes up more than a full page of
+text, you can't see the whole thing without scrolling), and does multiple
+"jobs," so it could be split into multiple smaller functions.
+
+The parseJF function is necessary to convert JF-trees into the strings that you
+specified in the spec you sent to Codemanistan. However, it doesn't convert
+combinations of addition and multiplication properly.
+
+For example `parseJF([3, "+", [4, "*", 5]])` and `parseJF([[3, "+", 4], "*",
+5])` both produce the string "3+4+5". The server will not be able to
+distinguish between many formulas which should be different. Strings were not
+the best representation choice in your spec.
+

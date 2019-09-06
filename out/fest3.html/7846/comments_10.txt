@@ -1,0 +1,14 @@
+Commit: 30b24ec957feb5b4cd6952e34947266b6b3bde64
+Score: 0/5
+Grader: Alex Knauth
+
+You don't have purpose statements or docstrings for any of your functions, or
+for the main file as a whole. You should give a simple (one-line) description
+of what each function does, it's "job" to do.
+
+You don't use any functions / methods from your server spec. In addition, the
+server spec you sent to Codemanistan deals with spreadsheet objects (with
+either dictionaries-of-dictionaries or 2D lists) and formula objects, while the
+commands you're dealing with in your client only provide spreadsheet names and
+JF trees.
+

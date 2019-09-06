@@ -1,0 +1,85 @@
+(testing /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/1-in.json /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/1-out.json)
+[101287] Failed to execute script xstrategy
+Traceback (most recent call last):
+  File "xstrategy.py", line 3, in <module>
+ImportError: No module named 'splitstream'
+(testing /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/2-in.json /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/2-out.json)
+[101289] Failed to execute script xstrategy
+Traceback (most recent call last):
+  File "xstrategy.py", line 3, in <module>
+ImportError: No module named 'splitstream'
+(testing /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/3-in.json /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/3-out.json)
+[101291] Failed to execute script xstrategy
+Traceback (most recent call last):
+  File "xstrategy.py", line 3, in <module>
+ImportError: No module named 'splitstream'
+(testing /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/4-in.json /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/4-out.json)
+[101293] Failed to execute script xstrategy
+Traceback (most recent call last):
+  File "xstrategy.py", line 3, in <module>
+ImportError: No module named 'splitstream'
+(testing /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/5-in.json /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/5-out.json)
+[101295] Failed to execute script xstrategy
+Traceback (most recent call last):
+  File "xstrategy.py", line 3, in <module>
+ImportError: No module named 'splitstream'
+(testing /course/cs4500f18/ta/github/8940/8/xstrategy)
+---------------------------------
+(*** score 0)
+(*** on)
+'("a"
+  (("0a1" "1a2" 3 "2b1") (0 "2b2" 3))
+  2
+  ("move" "a2" ("WEST" "SOUTH"))
+  ("+build" ("PUT" "SOUTH")))
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/1-in.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'("a" (("2a1" "0a2" "1b1" "2b2") (0 3 1 3)) 1 ("move" "a1" ("EAST" "SOUTH")))
+(*** expected)
+'("yes")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/2-in.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'("a"
+  (("2a1" "1a2" "1b1" "2b2") (2 2))
+  1
+  ("move" "a1" ("EAST" "SOUTH"))
+  ("+build" ("WEST" "NORTH")))
+(*** expected)
+'("yes")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/3-in.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'("a" (("1a1" "2a2" "2b1") (4 4 "2b2") (0 0 3)) 0)
+(*** expected)
+'("no")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/4-in.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'("a"
+  (("0a2" "0a1" 4) ("0b2" "0b1") (4 0 4))
+  3
+  ("move" "a1" ("EAST" "SOUTH"))
+  ("+build" ("WEST" "NORTH")))
+(*** expected)
+'("yes")
+(*** but received)
+'(((pretty fast with-newline plain-unicode) ()))
+(FAILED /home/samc/sw-dev/18SwDev/Code/8/strategy-tests/5-in.json)
+(tested /course/cs4500f18/ta/github/8940/8/xstrategy successfully on 0 cases out of 5)
+

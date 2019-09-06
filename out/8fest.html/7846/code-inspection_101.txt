@@ -1,0 +1,8 @@
+Commit: 4026b94d30f330fbde2bacba2b47e58cddea9efa
+Score: 29/30
+Grader: Kanika Rana
+
+...comments...
+1. Purpose statement on interface to be meaninful- Santorini/Design/referee.py (-1)
+
+Well done.

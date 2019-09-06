@@ -1,0 +1,7 @@
+Commit: b19c116c54b25377fbea4de4cf9feabc287bbdc6
+Score: 11/13
+Grader: Alex Knauth
+
+You don't have a TESTME file that describes how to run the tests, and your README doesn't specify this either.
+
+You should have either unit tests or worked examples for individual board methods. You do have 4 "integration" tests for the whole board system in board-tests/{*-in.json,*-out.json}, but a unit test should show one component or one method by itself.

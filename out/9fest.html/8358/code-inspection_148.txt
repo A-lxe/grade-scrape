@@ -1,0 +1,11 @@
+Commit: 1d1e0d1e13b99d2bab1eb5d09d0ee66edb8a37f5
+Score: 50/79
+Grader: Kanika Rana
+
+...comments...
+1. RefereeObserver should have comprehensive purpose statement on the top.(-1)
+2. Missing method for placement action() in observer/refree(-4)
+3. Missing method to handle erroneous behavior of player in observer/refree(-4)
+4. Unit tests for playing of two players and n games(-10)
+5. Unit tests for Placing initial works and taking a turn missing (-10)
+

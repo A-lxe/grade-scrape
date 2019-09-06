@@ -1,0 +1,10 @@
+Commit: 0016891743c14bae3acd4a906a86af319a38f79f
+Score: 12/13
+Grader: Kanika Rana
+
+************************************************************
+1. Does not find neighboring cells for isValid.
+Suggestion - testme should be a separate text file (not inside readme).
+
+
+
